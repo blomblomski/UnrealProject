@@ -1,0 +1,1462 @@
+﻿Log file open, 04/06/18 22:36:27
+LogInit:Display: Running engine for game: handin
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-130719471) SRandInit(-130719471).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.088800
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.06-21.36.27:976][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.06-21.36.27:976][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.06-21.36.27:994][  0]LogInit: Computer: OFFICE
+[2018.04.06-21.36.27:994][  0]LogInit: User: kevin
+[2018.04.06-21.36.27:994][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.06-21.36.27:994][  0]LogInit: High frequency timer resolution =3.415985 MHz
+[2018.04.06-21.36.27:994][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.04.06-21.36.27:994][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.06-21.36.27:994][  0]LogMemory: Process Physical Memory: 276.32 MB used, 276.32 MB peak
+[2018.04.06-21.36.27:994][  0]LogMemory: Process Virtual Memory: 260.95 MB used, 260.95 MB peak
+[2018.04.06-21.36.27:994][  0]LogMemory: Physical Memory: 4507.34 MB used,  11811.34 MB free, 16318.69 MB total
+[2018.04.06-21.36.27:994][  0]LogMemory: Virtual Memory: 676.92 MB used,  11811.34 MB free, 134217728.00 MB total
+[2018.04.06-21.36.28:057][  0]LogInit: Using OS detected language (en-GB).
+[2018.04.06-21.36.28:057][  0]LogInit: Using OS detected locale (en-GB).
+[2018.04.06-21.36.28:060][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.04.06-21.36.28:861][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.06-21.36.28:919][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
+[2018.04.06-21.36.28:919][  0]LogD3D11RHI:       11132/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.04.06-21.36.28:920][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.06-21.36.28:920][  0]LogD3D11RHI:       0/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.06-21.36.28:920][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.06-21.36.28:925][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.06-21.36.28:925][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.06-21.36.28:925][  0]LogWindows: EnumDisplayDevices:
+[2018.04.06-21.36.28:925][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
+[2018.04.06-21.36.28:925][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
+[2018.04.06-21.36.28:925][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2018.04.06-21.36.28:925][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2018.04.06-21.36.28:925][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.06-21.36.28:925][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
+[2018.04.06-21.36.28:925][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.06-21.36.28:925][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.06-21.36.28:925][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.04.06-21.36.28:953][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.06-21.36.28:963][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.04.06-21.36.29:053][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (../../../../../../Users/kevin/Desktop/handin/Intermediate/Shaders/WorkingDirectory/8212/).
+[2018.04.06-21.36.29:053][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kevin/AppData/Local/Temp/UnrealShaderWorkingDir/D6CFA51B4F4CED5529E3B38D08AC9D1E/'.
+[2018.04.06-21.36.29:053][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.04.06-21.36.29:989][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.06-21.36.30:031][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.04.06-21.36.30:072][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.06-21.36.30:116][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.04.06-21.36.30:158][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.04.06-21.36.30:200][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.06-21.36.30:241][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.06-21.36.30:283][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.06-21.36.30:321][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.04.06-21.36.30:361][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.04.06-21.36.30:401][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.06-21.36.30:444][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.06-21.36.30:489][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.06-21.36.30:532][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.06-21.36.30:578][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.06-21.36.30:668][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.06-21.36.30:668][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.06-21.36.30:700][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.04.06-21.36.30:785][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.04.06-21.36.30:812][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.04.06-21.36.30:856][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.06-21.36.30:902][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.06-21.36.30:946][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.06-21.36.30:989][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.04.06-21.36.30:989][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.04.06-21.36.31:417][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.04.06-21.36.31:490][  0]LogDerivedDataCache: Loaded boot cache 0.07s 90MB C:/Users/kevin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.04.06-21.36.31:490][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/kevin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.04.06-21.36.31:490][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/kevin/Desktop/handin/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.06-21.36.31:490][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.06-21.36.31:490][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/kevin/Desktop/handin/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.06-21.36.31:490][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.06-21.36.31:506][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.06-21.36.31:518][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kevin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.06-21.36.31:526][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.06-21.36.31:527][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.06-21.36.31:527][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.06-21.36.31:527][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.06-21.36.31:791][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.06-21.36.31:846][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.04.06-21.36.31:982][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.06-21.36.32:018][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.06-21.36.32:058][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.06-21.36.32:058][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.04.06-21.36.32:058][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.04.06-21.36.32:514][  0]LogNetVersion: handin , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2351120416)
+[2018.04.06-21.36.32:572][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
+[2018.04.06-21.36.32:636][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.043758 seconds
+[2018.04.06-21.36.32:642][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.04.06-21.36.32:642][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.04.06-21.36.32:642][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.06-21.36.32:698][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.06-21.36.34:737][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.06-21.36.34:773][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.06-21.36.35:243][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.06-21.36.35:573][  0]SourceControl: Info Source control is disabled
+[2018.04.06-21.36.35:574][  0]SourceControl: Info Source control is disabled
+[2018.04.06-21.36.35:613][  0]SourceControl: Info Source control is disabled
+[2018.04.06-21.36.35:651][  0]SourceControl: Info Source control is disabled
+[2018.04.06-21.36.36:238][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.06-21.36.36:743][  0]LogEngine: Initializing Engine...
+[2018.04.06-21.36.36:744][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.06-21.36.36:908][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.06-21.36.36:908][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.06-21.36.37:031][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.06-21.36.37:039][  0]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.06-21.36.37:054][  0]LogInit: FAudioDevice initialized.
+[2018.04.06-21.36.37:101][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/kevin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.04.06-21.36.37:109][  0]LogInit: Texture streaming: Enabled
+[2018.04.06-21.36.37:190][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.06-21.36.37:369][  0]LogInit: Transaction tracking system initialized
+[2018.04.06-21.36.37:624][  0]BlueprintLog: New page: Editor Load
+[2018.04.06-21.36.38:427][  0]LocalizationService: Info Localization service is disabled
+[2018.04.06-21.36.38:986][  0]LogConsoleResponse:Display: 
+[2018.04.06-21.36.39:114][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.06-21.36.39:114][  0]LogCook:Display: Mobile HDR setting 1
+[2018.04.06-21.36.39:920][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Desktop/handin/Content/' took 0.02s
+[2018.04.06-21.36.39:959][  0]SourceControl: Info Source control is disabled
+[2018.04.06-21.36.39:959][  0]Cmd: MAP LOAD FILE="../../../../../../Users/kevin/Desktop/handin/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.06-21.36.39:959][  0]LightingResults: New page: Lighting Build
+[2018.04.06-21.36.39:994][  0]MapCheck: New page: Map Check
+[2018.04.06-21.36.39:994][  0]LightingResults: New page: Lighting Build
+[2018.04.06-21.36.42:586][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.04.06-21.36.43:279][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.06-21.36.43:298][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.06-21.36.43:350][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.59ms to complete.
+[2018.04.06-21.36.43:350][  0]LogFileHelpers: Loading map 'Minimal_Default' took 3.391
+[2018.04.06-21.36.43:578][  0]LogCollectionManager: Loaded 0 collections in 0.001429 seconds
+[2018.04.06-21.36.43:668][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Desktop/handin/Saved/Collections/' took 0.01s
+[2018.04.06-21.36.43:668][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Desktop/handin/Content/Developers/kevin/Collections/' took 0.01s
+[2018.04.06-21.36.43:668][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Desktop/handin/Content/Collections/' took 0.01s
+[2018.04.06-21.36.43:668][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.04.06-21.36.43:678][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2329 classes and 491 folders.
+[2018.04.06-21.36.43:737][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.04.06-21.36.44:056][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.04.06-21.36.44:101][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.04.06-21.36.44:199][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.04.06-21.36.44:215][  0]LogSlate: Took 0.000378 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.06-21.36.44:219][  0]LogSlate: Took 0.000428 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.06-21.36.44:239][  0]LogSlate: Took 0.008010 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.06-21.36.44:392][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2018.04.06-21.36.44:546][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.04.06-21.36.44:606][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.04.06-21.36.44:606][  0]LogLoad: (Engine Initialization) Total time: 18.16 seconds
+[2018.04.06-21.36.44:606][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.09 seconds
+[2018.04.06-21.36.44:606][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.04.06-21.36.44:615][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.04.06-21.36.44:615][  0]LogOcInput: OculusInput pre-init called
+[2018.04.06-21.36.44:615][  0]LogHMD: Starting GearVRController plugin
+[2018.04.06-21.36.44:631][  0]LogAssetRegistry: Asset discovery search completed in 12.0815 seconds
+[2018.04.06-21.36.44:633][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.04.06-21.36.44:633][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2018.04.06-21.36.44:637][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.06-21.36.44:699][  0]LogSlate: Took 0.005376 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.06-22.04.52:447][  4]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.06-22.04.52:473][  4]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/kevin/Downloads/Electra/Electra__3dsMax.fbx)
+[2018.04.06-22.04.52:518][  4]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.04.06-22.04.52:518][  4]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.04.06-22.04.52:518][  4]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.04.06-22.04.52:518][  4]LogFbx: ItemName: NodeAttribute, ItemCount : 75
+[2018.04.06-22.04.52:518][  4]LogFbx: ItemName: Model, ItemCount : 84
+[2018.04.06-22.04.52:518][  4]LogFbx: ItemName: Geometry, ItemCount : 9
+[2018.04.06-22.04.52:518][  4]LogFbx: ItemName: Material, ItemCount : 2
+[2018.04.06-22.04.52:518][  4]LogFbx: ItemName: Texture, ItemCount : 2
+[2018.04.06-22.04.52:518][  4]LogFbx: ItemName: AnimationCurveNode, ItemCount : 57
+[2018.04.06-22.04.52:518][  4]LogFbx: ItemName: Pose, ItemCount : 9
+[2018.04.06-22.04.52:518][  4]LogFbx: ItemName: Deformer, ItemCount : 78
+[2018.04.06-22.04.52:518][  4]LogFbx: ItemName: Video, ItemCount : 3
+[2018.04.06-22.04.52:528][  4]LogFbx: Loading FBX Scene from ../../../../../../Users/kevin/Downloads/Electra/Electra__3dsMax.fbx
+[2018.04.06-22.04.52:605][  4]LogFbx: FBX Scene Loaded Succesfully
+[2018.04.06-22.04.56:170][  4]LogFbx: Loading FBX Scene from ../../../../../../Users/kevin/Downloads/Electra/Electra__3dsMax.fbx
+[2018.04.06-22.04.56:236][  4]LogFbx: FBX Scene Loaded Succesfully
+[2018.04.06-22.04.56:243][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:243][  4]LogFbx: Dumping Node START [h_TeethDown] 
+[2018.04.06-22.04.56:243][  4]LogFbx: 	Total Deformer Count 395838336.
+[2018.04.06-22.04.56:243][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.56:243][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:243][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.56:243][  4]LogFbx: 		[Node Attribute Child 1] h_TeethDown (Type Mesh).
+[2018.04.06-22.04.56:243][  4]LogFbx: Dumping Node END [h_TeethDown]
+[2018.04.06-22.04.56:243][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:243][  4]LogFbx: Dumping Node START [h_TeethUp] 
+[2018.04.06-22.04.56:243][  4]LogFbx: 	Total Deformer Count 395838336.
+[2018.04.06-22.04.56:243][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.56:243][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:243][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.56:243][  4]LogFbx: 		[Node Attribute Child 1] h_TeethUp (Type Mesh).
+[2018.04.06-22.04.56:243][  4]LogFbx: Dumping Node END [h_TeethUp]
+[2018.04.06-22.04.56:243][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:243][  4]LogFbx: Dumping Node START [h_L_gland] 
+[2018.04.06-22.04.56:243][  4]LogFbx: 	Total Deformer Count 395838336.
+[2018.04.06-22.04.56:243][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.56:243][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:243][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.56:243][  4]LogFbx: 		[Node Attribute Child 1] h_L_gland (Type Mesh).
+[2018.04.06-22.04.56:243][  4]LogFbx: Dumping Node END [h_L_gland]
+[2018.04.06-22.04.56:243][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:243][  4]LogFbx: Dumping Node START [h_L_eye] 
+[2018.04.06-22.04.56:243][  4]LogFbx: 	Total Deformer Count -1150806640.
+[2018.04.06-22.04.56:243][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.56:243][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:243][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.56:243][  4]LogFbx: 		[Node Attribute Child 1] h_L_eye (Type Mesh).
+[2018.04.06-22.04.56:243][  4]LogFbx: Dumping Node END [h_L_eye]
+[2018.04.06-22.04.56:243][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:243][  4]LogFbx: Dumping Node START [h_L_trans] 
+[2018.04.06-22.04.56:243][  4]LogFbx: 	Total Deformer Count 395838336.
+[2018.04.06-22.04.56:243][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.56:243][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:243][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.56:243][  4]LogFbx: 		[Node Attribute Child 1] h_L_trans (Type Mesh).
+[2018.04.06-22.04.56:243][  4]LogFbx: Dumping Node END [h_L_trans]
+[2018.04.06-22.04.56:243][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:243][  4]LogFbx: Dumping Node START [h_R_gland] 
+[2018.04.06-22.04.56:243][  4]LogFbx: 	Total Deformer Count 395838336.
+[2018.04.06-22.04.56:244][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.56:244][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:244][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.56:244][  4]LogFbx: 		[Node Attribute Child 1] h_R_gland (Type Mesh).
+[2018.04.06-22.04.56:244][  4]LogFbx: Dumping Node END [h_R_gland]
+[2018.04.06-22.04.56:244][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:244][  4]LogFbx: Dumping Node START [h_R_eye] 
+[2018.04.06-22.04.56:244][  4]LogFbx: 	Total Deformer Count -1150806640.
+[2018.04.06-22.04.56:244][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.56:244][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:244][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.56:244][  4]LogFbx: 		[Node Attribute Child 1] h_R_eye (Type Mesh).
+[2018.04.06-22.04.56:244][  4]LogFbx: Dumping Node END [h_R_eye]
+[2018.04.06-22.04.56:244][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:244][  4]LogFbx: Dumping Node START [h_R_trans] 
+[2018.04.06-22.04.56:244][  4]LogFbx: 	Total Deformer Count 395838336.
+[2018.04.06-22.04.56:244][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.56:244][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:244][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.56:244][  4]LogFbx: 		[Node Attribute Child 1] h_R_trans (Type Mesh).
+[2018.04.06-22.04.56:244][  4]LogFbx: Dumping Node END [h_R_trans]
+[2018.04.06-22.04.56:244][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:244][  4]LogFbx: Dumping Node START [H_DDS_HighRes] 
+[2018.04.06-22.04.56:244][  4]LogFbx: 	Total Deformer Count 465380480.
+[2018.04.06-22.04.56:244][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.56:244][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:244][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.56:244][  4]LogFbx: 		[Node Attribute Child 1] H_DDS_HighRes (Type Mesh).
+[2018.04.06-22.04.56:244][  4]LogFbx: Dumping Node END [H_DDS_HighRes]
+[2018.04.06-22.04.56:245][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:245][  4]LogFbx: Dumping Node START [h_TeethDown] 
+[2018.04.06-22.04.56:245][  4]LogFbx: 	Total Deformer Count 395838336.
+[2018.04.06-22.04.56:245][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.56:245][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:245][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.56:245][  4]LogFbx: 		[Node Attribute Child 1] h_TeethDown (Type Mesh).
+[2018.04.06-22.04.56:245][  4]LogFbx: Dumping Node END [h_TeethDown]
+[2018.04.06-22.04.56:245][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:245][  4]LogFbx: Dumping Node START [h_TeethUp] 
+[2018.04.06-22.04.56:245][  4]LogFbx: 	Total Deformer Count 395838336.
+[2018.04.06-22.04.56:245][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.56:245][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:245][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.56:245][  4]LogFbx: 		[Node Attribute Child 1] h_TeethUp (Type Mesh).
+[2018.04.06-22.04.56:245][  4]LogFbx: Dumping Node END [h_TeethUp]
+[2018.04.06-22.04.56:245][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:245][  4]LogFbx: Dumping Node START [h_L_gland] 
+[2018.04.06-22.04.56:245][  4]LogFbx: 	Total Deformer Count 395838336.
+[2018.04.06-22.04.56:245][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.56:245][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:245][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.56:245][  4]LogFbx: 		[Node Attribute Child 1] h_L_gland (Type Mesh).
+[2018.04.06-22.04.56:245][  4]LogFbx: Dumping Node END [h_L_gland]
+[2018.04.06-22.04.56:245][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:245][  4]LogFbx: Dumping Node START [h_L_eye] 
+[2018.04.06-22.04.56:245][  4]LogFbx: 	Total Deformer Count -1150810560.
+[2018.04.06-22.04.56:245][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.56:245][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:245][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.56:245][  4]LogFbx: 		[Node Attribute Child 1] h_L_eye (Type Mesh).
+[2018.04.06-22.04.56:245][  4]LogFbx: Dumping Node END [h_L_eye]
+[2018.04.06-22.04.56:245][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:245][  4]LogFbx: Dumping Node START [h_L_trans] 
+[2018.04.06-22.04.56:245][  4]LogFbx: 	Total Deformer Count 395838336.
+[2018.04.06-22.04.56:245][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.56:245][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:245][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.56:245][  4]LogFbx: 		[Node Attribute Child 1] h_L_trans (Type Mesh).
+[2018.04.06-22.04.56:245][  4]LogFbx: Dumping Node END [h_L_trans]
+[2018.04.06-22.04.56:245][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:245][  4]LogFbx: Dumping Node START [h_R_gland] 
+[2018.04.06-22.04.56:245][  4]LogFbx: 	Total Deformer Count 395838336.
+[2018.04.06-22.04.56:245][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.56:245][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:245][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.56:245][  4]LogFbx: 		[Node Attribute Child 1] h_R_gland (Type Mesh).
+[2018.04.06-22.04.56:245][  4]LogFbx: Dumping Node END [h_R_gland]
+[2018.04.06-22.04.56:245][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:245][  4]LogFbx: Dumping Node START [h_R_eye] 
+[2018.04.06-22.04.56:245][  4]LogFbx: 	Total Deformer Count -1150810560.
+[2018.04.06-22.04.56:245][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.56:245][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:245][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.56:245][  4]LogFbx: 		[Node Attribute Child 1] h_R_eye (Type Mesh).
+[2018.04.06-22.04.56:245][  4]LogFbx: Dumping Node END [h_R_eye]
+[2018.04.06-22.04.56:245][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:245][  4]LogFbx: Dumping Node START [h_R_trans] 
+[2018.04.06-22.04.56:245][  4]LogFbx: 	Total Deformer Count 395838336.
+[2018.04.06-22.04.56:245][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.56:245][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:245][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.56:245][  4]LogFbx: 		[Node Attribute Child 1] h_R_trans (Type Mesh).
+[2018.04.06-22.04.56:245][  4]LogFbx: Dumping Node END [h_R_trans]
+[2018.04.06-22.04.56:245][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:245][  4]LogFbx: Dumping Node START [H_DDS_HighRes] 
+[2018.04.06-22.04.56:245][  4]LogFbx: 	Total Deformer Count 465377840.
+[2018.04.06-22.04.56:245][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.56:245][  4]LogFbx: =================================================
+[2018.04.06-22.04.56:245][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.56:245][  4]LogFbx: 		[Node Attribute Child 1] H_DDS_HighRes (Type Mesh).
+[2018.04.06-22.04.56:245][  4]LogFbx: Dumping Node END [H_DDS_HighRes]
+[2018.04.06-22.04.56:247][  4]LogFbx: Valid bind pose for Pose (skcl) - h_TeethDown
+[2018.04.06-22.04.56:247][  4]LogFbx: Valid bind pose for Pose (skcl_Acc) - h_TeethDown
+[2018.04.06-22.04.56:247][  4]LogFbx: Valid bind pose for Pose (skcl_Acc1) - h_TeethDown
+[2018.04.06-22.04.56:247][  4]LogFbx: Valid bind pose for Pose (skcl_Acc2) - h_TeethDown
+[2018.04.06-22.04.56:247][  4]LogFbx: Valid bind pose for Pose (skcl_Acc3) - h_TeethDown
+[2018.04.06-22.04.56:247][  4]LogFbx: Valid bind pose for Pose (skcl_Acc16) - h_TeethDown
+[2018.04.06-22.04.56:247][  4]LogFbx: Valid bind pose for Pose (skcl_Acc17) - h_TeethDown
+[2018.04.06-22.04.56:247][  4]LogFbx: Valid bind pose for Pose (skcl_Acc22) - h_TeethDown
+[2018.04.06-22.04.56:247][  4]LogFbx: Valid bind pose for Pose (skcl_Acc23) - h_TeethDown
+[2018.04.06-22.04.56:340][  4]LogFbx:Warning: Bones digested - 70  Depth of hierarchy - 14
+[2018.04.06-22.04.57:477][  4]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.06-22.04.57:530][  4]LogSkeletalMesh: Section 0: 31885 vertices, 54 active bones
+[2018.04.06-22.04.57:530][  4]LogSkeletalMesh: Section 1: 482 vertices, 2 active bones
+[2018.04.06-22.04.57:778][  4]LogSkeletalMesh: Section 0: Material=0, 58724 triangles
+[2018.04.06-22.04.57:778][  4]LogSkeletalMesh: Section 1: Material=1, 920 triangles
+[2018.04.06-22.04.57:794][  4]LogLinker: Can't find file '/Game/MyContent/Character/Electra__3dsMax_Skeleton'
+[2018.04.06-22.04.57:794][  4]LogLinker: Can't find file '/Game/MyContent/Character/Electra__3dsMax_Skeleton'
+[2018.04.06-22.04.57:797][  4]LogLinker: Can't find file '/Game/MyContent/Character/Electra__3dsMax_PhysicsAsset'
+[2018.04.06-22.04.57:797][  4]LogLinker: Can't find file '/Game/MyContent/Character/Electra__3dsMax_PhysicsAsset'
+[2018.04.06-22.04.57:819][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:819][  4]LogFbx: Dumping Node START [h_TeethDown] 
+[2018.04.06-22.04.57:819][  4]LogFbx: 	Total Deformer Count 481935040.
+[2018.04.06-22.04.57:819][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.57:819][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:819][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.57:819][  4]LogFbx: 		[Node Attribute Child 1] h_TeethDown (Type Mesh).
+[2018.04.06-22.04.57:819][  4]LogFbx: Dumping Node END [h_TeethDown]
+[2018.04.06-22.04.57:819][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:819][  4]LogFbx: Dumping Node START [h_TeethUp] 
+[2018.04.06-22.04.57:819][  4]LogFbx: 	Total Deformer Count 481935040.
+[2018.04.06-22.04.57:819][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.57:819][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:819][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.57:819][  4]LogFbx: 		[Node Attribute Child 1] h_TeethUp (Type Mesh).
+[2018.04.06-22.04.57:819][  4]LogFbx: Dumping Node END [h_TeethUp]
+[2018.04.06-22.04.57:819][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:819][  4]LogFbx: Dumping Node START [h_L_gland] 
+[2018.04.06-22.04.57:819][  4]LogFbx: 	Total Deformer Count 481935040.
+[2018.04.06-22.04.57:819][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.57:819][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:819][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.57:819][  4]LogFbx: 		[Node Attribute Child 1] h_L_gland (Type Mesh).
+[2018.04.06-22.04.57:819][  4]LogFbx: Dumping Node END [h_L_gland]
+[2018.04.06-22.04.57:819][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:819][  4]LogFbx: Dumping Node START [h_L_eye] 
+[2018.04.06-22.04.57:819][  4]LogFbx: 	Total Deformer Count -1150808096.
+[2018.04.06-22.04.57:819][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.57:819][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:819][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.57:819][  4]LogFbx: 		[Node Attribute Child 1] h_L_eye (Type Mesh).
+[2018.04.06-22.04.57:819][  4]LogFbx: Dumping Node END [h_L_eye]
+[2018.04.06-22.04.57:819][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:819][  4]LogFbx: Dumping Node START [h_L_trans] 
+[2018.04.06-22.04.57:819][  4]LogFbx: 	Total Deformer Count 481935040.
+[2018.04.06-22.04.57:819][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.57:819][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:819][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.57:819][  4]LogFbx: 		[Node Attribute Child 1] h_L_trans (Type Mesh).
+[2018.04.06-22.04.57:819][  4]LogFbx: Dumping Node END [h_L_trans]
+[2018.04.06-22.04.57:819][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:819][  4]LogFbx: Dumping Node START [h_R_gland] 
+[2018.04.06-22.04.57:819][  4]LogFbx: 	Total Deformer Count 481935040.
+[2018.04.06-22.04.57:819][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.57:819][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:819][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.57:819][  4]LogFbx: 		[Node Attribute Child 1] h_R_gland (Type Mesh).
+[2018.04.06-22.04.57:819][  4]LogFbx: Dumping Node END [h_R_gland]
+[2018.04.06-22.04.57:819][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:819][  4]LogFbx: Dumping Node START [h_R_eye] 
+[2018.04.06-22.04.57:819][  4]LogFbx: 	Total Deformer Count -1150808096.
+[2018.04.06-22.04.57:819][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.57:819][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:819][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.57:819][  4]LogFbx: 		[Node Attribute Child 1] h_R_eye (Type Mesh).
+[2018.04.06-22.04.57:819][  4]LogFbx: Dumping Node END [h_R_eye]
+[2018.04.06-22.04.57:819][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:819][  4]LogFbx: Dumping Node START [h_R_trans] 
+[2018.04.06-22.04.57:819][  4]LogFbx: 	Total Deformer Count 481935040.
+[2018.04.06-22.04.57:819][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.57:819][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:819][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.57:819][  4]LogFbx: 		[Node Attribute Child 1] h_R_trans (Type Mesh).
+[2018.04.06-22.04.57:819][  4]LogFbx: Dumping Node END [h_R_trans]
+[2018.04.06-22.04.57:819][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:819][  4]LogFbx: Dumping Node START [H_DDS_HighRes] 
+[2018.04.06-22.04.57:819][  4]LogFbx: 	Total Deformer Count 486665616.
+[2018.04.06-22.04.57:819][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.57:819][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:819][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.57:819][  4]LogFbx: 		[Node Attribute Child 1] H_DDS_HighRes (Type Mesh).
+[2018.04.06-22.04.57:819][  4]LogFbx: Dumping Node END [H_DDS_HighRes]
+[2018.04.06-22.04.57:821][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:821][  4]LogFbx: Dumping Node START [h_TeethDown] 
+[2018.04.06-22.04.57:821][  4]LogFbx: 	Total Deformer Count 481935040.
+[2018.04.06-22.04.57:821][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.57:821][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:821][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.57:821][  4]LogFbx: 		[Node Attribute Child 1] h_TeethDown (Type Mesh).
+[2018.04.06-22.04.57:821][  4]LogFbx: Dumping Node END [h_TeethDown]
+[2018.04.06-22.04.57:821][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:821][  4]LogFbx: Dumping Node START [h_TeethUp] 
+[2018.04.06-22.04.57:821][  4]LogFbx: 	Total Deformer Count 481935040.
+[2018.04.06-22.04.57:821][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.57:821][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:821][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.57:821][  4]LogFbx: 		[Node Attribute Child 1] h_TeethUp (Type Mesh).
+[2018.04.06-22.04.57:821][  4]LogFbx: Dumping Node END [h_TeethUp]
+[2018.04.06-22.04.57:821][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:821][  4]LogFbx: Dumping Node START [h_L_gland] 
+[2018.04.06-22.04.57:821][  4]LogFbx: 	Total Deformer Count 481935040.
+[2018.04.06-22.04.57:821][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.57:821][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:821][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.57:821][  4]LogFbx: 		[Node Attribute Child 1] h_L_gland (Type Mesh).
+[2018.04.06-22.04.57:821][  4]LogFbx: Dumping Node END [h_L_gland]
+[2018.04.06-22.04.57:821][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:821][  4]LogFbx: Dumping Node START [h_L_eye] 
+[2018.04.06-22.04.57:821][  4]LogFbx: 	Total Deformer Count -1150806360.
+[2018.04.06-22.04.57:821][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.57:821][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:821][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.57:821][  4]LogFbx: 		[Node Attribute Child 1] h_L_eye (Type Mesh).
+[2018.04.06-22.04.57:821][  4]LogFbx: Dumping Node END [h_L_eye]
+[2018.04.06-22.04.57:821][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:821][  4]LogFbx: Dumping Node START [h_L_trans] 
+[2018.04.06-22.04.57:821][  4]LogFbx: 	Total Deformer Count 481935040.
+[2018.04.06-22.04.57:821][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.57:821][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:821][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.57:821][  4]LogFbx: 		[Node Attribute Child 1] h_L_trans (Type Mesh).
+[2018.04.06-22.04.57:821][  4]LogFbx: Dumping Node END [h_L_trans]
+[2018.04.06-22.04.57:821][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:821][  4]LogFbx: Dumping Node START [h_R_gland] 
+[2018.04.06-22.04.57:821][  4]LogFbx: 	Total Deformer Count 481935040.
+[2018.04.06-22.04.57:821][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.57:821][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:821][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.57:821][  4]LogFbx: 		[Node Attribute Child 1] h_R_gland (Type Mesh).
+[2018.04.06-22.04.57:821][  4]LogFbx: Dumping Node END [h_R_gland]
+[2018.04.06-22.04.57:821][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:821][  4]LogFbx: Dumping Node START [h_R_eye] 
+[2018.04.06-22.04.57:821][  4]LogFbx: 	Total Deformer Count -1150806360.
+[2018.04.06-22.04.57:821][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.57:821][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:821][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.57:821][  4]LogFbx: 		[Node Attribute Child 1] h_R_eye (Type Mesh).
+[2018.04.06-22.04.57:821][  4]LogFbx: Dumping Node END [h_R_eye]
+[2018.04.06-22.04.57:821][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:821][  4]LogFbx: Dumping Node START [h_R_trans] 
+[2018.04.06-22.04.57:821][  4]LogFbx: 	Total Deformer Count 481935040.
+[2018.04.06-22.04.57:821][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.57:821][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:821][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.57:821][  4]LogFbx: 		[Node Attribute Child 1] h_R_trans (Type Mesh).
+[2018.04.06-22.04.57:821][  4]LogFbx: Dumping Node END [h_R_trans]
+[2018.04.06-22.04.57:821][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:821][  4]LogFbx: Dumping Node START [H_DDS_HighRes] 
+[2018.04.06-22.04.57:821][  4]LogFbx: 	Total Deformer Count 486662976.
+[2018.04.06-22.04.57:821][  4]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.04.57:821][  4]LogFbx: =================================================
+[2018.04.06-22.04.57:821][  4]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.04.57:821][  4]LogFbx: 		[Node Attribute Child 1] H_DDS_HighRes (Type Mesh).
+[2018.04.06-22.04.57:821][  4]LogFbx: Dumping Node END [H_DDS_HighRes]
+[2018.04.06-22.04.57:821][  4]LogFbx: SortedLinks :(0) Fbx01
+[2018.04.06-22.04.57:821][  4]LogFbx: SortedLinks :(1) Fbx01_Footsteps
+[2018.04.06-22.04.57:821][  4]LogFbx: SortedLinks :(2) Fbx01_Pelvis
+[2018.04.06-22.04.57:821][  4]LogFbx: SortedLinks :(3) Fbx01_Spine
+[2018.04.06-22.04.57:821][  4]LogFbx: SortedLinks :(4) Fbx01_R_Thigh
+[2018.04.06-22.04.57:821][  4]LogFbx: SortedLinks :(5) Fbx01_R_Calf
+[2018.04.06-22.04.57:821][  4]LogFbx: SortedLinks :(6) Fbx01_R_Foot
+[2018.04.06-22.04.57:821][  4]LogFbx: SortedLinks :(7) Fbx01_R_Toe0
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(8) Fbx01_R_Toe0Nub
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(9) Fbx01_L_Thigh
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(10) Fbx01_L_Calf
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(11) Fbx01_L_Foot
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(12) Fbx01_L_Toe0
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(13) Fbx01_L_Toe0Nub
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(14) Fbx01_Spine1
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(15) Fbx01_Spine2
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(16) Fbx01_Neck
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(17) Fbx01_Neck1
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(18) Fbx01_Head
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(19) Fbx01_HeadNub
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(20) Fbx01_R_Eye
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(21) Fbx01_L_Eye
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(22) Fbx01_R_Clavicle
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(23) Fbx01_R_UpperArm
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(24) Fbx01_R_Forearm
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(25) Fbx01_R_Hand
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(26) Fbx01_R_Finger4
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(27) Fbx01_R_Finger41
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(28) Fbx01_R_Finger42
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(29) Fbx01_R_Finger4Nub
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(30) Fbx01_R_Finger3
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(31) Fbx01_R_Finger31
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(32) Fbx01_R_Finger32
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(33) Fbx01_R_Finger3Nub
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(34) Fbx01_R_Finger2
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(35) Fbx01_R_Finger21
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(36) Fbx01_R_Finger22
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(37) Fbx01_R_Finger2Nub
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(38) Fbx01_R_Finger1
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(39) Fbx01_R_Finger11
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(40) Fbx01_R_Finger12
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(41) Fbx01_R_Finger1Nub
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(42) Fbx01_R_Finger0
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(43) Fbx01_R_Finger01
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(44) Fbx01_R_Finger02
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(45) Fbx01_R_Finger0Nub
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(46) Fbx01_L_Clavicle
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(47) Fbx01_L_UpperArm
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(48) Fbx01_L_Forearm
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(49) Fbx01_L_Hand
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(50) Fbx01_L_Finger4
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(51) Fbx01_L_Finger41
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(52) Fbx01_L_Finger42
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(53) Fbx01_L_Finger4Nub
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(54) Fbx01_L_Finger3
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(55) Fbx01_L_Finger31
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(56) Fbx01_L_Finger32
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(57) Fbx01_L_Finger3Nub
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(58) Fbx01_L_Finger2
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(59) Fbx01_L_Finger21
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(60) Fbx01_L_Finger22
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(61) Fbx01_L_Finger2Nub
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(62) Fbx01_L_Finger1
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(63) Fbx01_L_Finger11
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(64) Fbx01_L_Finger12
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(65) Fbx01_L_Finger1Nub
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(66) Fbx01_L_Finger0
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(67) Fbx01_L_Finger01
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(68) Fbx01_L_Finger02
+[2018.04.06-22.04.57:822][  4]LogFbx: SortedLinks :(69) Fbx01_L_Finger0Nub
+[2018.04.06-22.04.57:823][  4]LogFbx: Parsing AnimStack Take 001
+[2018.04.06-22.04.57:825][  4]LogLinker: Can't find file '/Game/MyContent/Character/Electra__3dsMax_Anim'
+[2018.04.06-22.04.57:825][  4]LogLinker: Can't find file '/Game/MyContent/Character/Electra__3dsMax_Anim'
+[2018.04.06-22.04.58:321][  4]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyContent/Character/Electra__3dsMax_Anim.Electra__3dsMax_Anim
+[2018.04.06-22.04.58:337][  4]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.04.06-22.04.58:337][  4]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+Fbx01_Footsteps  
+Fbx01_R_Toe0Nub  
+Fbx01_L_Toe0Nub  
+Fbx01_HeadNub  
+Fbx01_R_Finger4Nub  
+Fbx01_R_Finger3Nub  
+Fbx01_R_Finger2Nub  
+Fbx01_R_Finger1Nub  
+Fbx01_R_Finger0Nub  
+Fbx01_L_Finger4Nub  
+Fbx01_L_Finger3Nub  
+Fbx01_L_Finger2Nub  
+Fbx01_L_Finger1Nub  
+Fbx01_L_Finger0Nub  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2018.04.06-22.05.23:049][114]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/kevin/Downloads/Electra/Electra_.fbx)
+[2018.04.06-22.05.23:069][114]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.04.06-22.05.23:069][114]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.04.06-22.05.23:069][114]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.04.06-22.05.23:069][114]LogFbx: ItemName: NodeAttribute, ItemCount : 80
+[2018.04.06-22.05.23:069][114]LogFbx: ItemName: Model, ItemCount : 89
+[2018.04.06-22.05.23:069][114]LogFbx: ItemName: Geometry, ItemCount : 9
+[2018.04.06-22.05.23:069][114]LogFbx: ItemName: Material, ItemCount : 2
+[2018.04.06-22.05.23:069][114]LogFbx: ItemName: Texture, ItemCount : 2
+[2018.04.06-22.05.23:069][114]LogFbx: ItemName: AnimationCurveNode, ItemCount : 60
+[2018.04.06-22.05.23:069][114]LogFbx: ItemName: Pose, ItemCount : 9
+[2018.04.06-22.05.23:069][114]LogFbx: ItemName: Deformer, ItemCount : 75
+[2018.04.06-22.05.23:069][114]LogFbx: ItemName: Character, ItemCount : 1
+[2018.04.06-22.05.23:069][114]LogFbx: ItemName: Video, ItemCount : 3
+[2018.04.06-22.05.23:073][114]LogFbx: Loading FBX Scene from ../../../../../../Users/kevin/Downloads/Electra/Electra_.fbx
+[2018.04.06-22.05.23:163][114]LogFbx: FBX Scene Loaded Succesfully
+[2018.04.06-22.05.25:889][114]LogFbx: Loading FBX Scene from ../../../../../../Users/kevin/Downloads/Electra/Electra_.fbx
+[2018.04.06-22.05.25:976][114]LogFbx: FBX Scene Loaded Succesfully
+[2018.04.06-22.05.25:981][114]LogFbx: =================================================
+[2018.04.06-22.05.25:981][114]LogFbx: Dumping Node START [h_TeethDown] 
+[2018.04.06-22.05.25:981][114]LogFbx: 	Total Deformer Count -939143488.
+[2018.04.06-22.05.25:981][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.25:981][114]LogFbx: =================================================
+[2018.04.06-22.05.25:981][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.25:981][114]LogFbx: 		[Node Attribute Child 1] h_TeethDown (Type Mesh).
+[2018.04.06-22.05.25:981][114]LogFbx: Dumping Node END [h_TeethDown]
+[2018.04.06-22.05.25:981][114]LogFbx: =================================================
+[2018.04.06-22.05.25:981][114]LogFbx: Dumping Node START [h_TeethUp] 
+[2018.04.06-22.05.25:981][114]LogFbx: 	Total Deformer Count -939143488.
+[2018.04.06-22.05.25:981][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.25:981][114]LogFbx: =================================================
+[2018.04.06-22.05.25:981][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.25:981][114]LogFbx: 		[Node Attribute Child 1] h_TeethUp (Type Mesh).
+[2018.04.06-22.05.25:981][114]LogFbx: Dumping Node END [h_TeethUp]
+[2018.04.06-22.05.25:981][114]LogFbx: =================================================
+[2018.04.06-22.05.25:981][114]LogFbx: Dumping Node START [h_L_gland] 
+[2018.04.06-22.05.25:981][114]LogFbx: 	Total Deformer Count -939143488.
+[2018.04.06-22.05.25:981][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.25:981][114]LogFbx: =================================================
+[2018.04.06-22.05.25:981][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.25:981][114]LogFbx: 		[Node Attribute Child 1] h_L_gland (Type Mesh).
+[2018.04.06-22.05.25:981][114]LogFbx: Dumping Node END [h_L_gland]
+[2018.04.06-22.05.25:981][114]LogFbx: =================================================
+[2018.04.06-22.05.25:981][114]LogFbx: Dumping Node START [h_L_eye] 
+[2018.04.06-22.05.25:981][114]LogFbx: 	Total Deformer Count 395830216.
+[2018.04.06-22.05.25:981][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.25:981][114]LogFbx: =================================================
+[2018.04.06-22.05.25:981][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.25:981][114]LogFbx: 		[Node Attribute Child 1] h_L_eye (Type Mesh).
+[2018.04.06-22.05.25:981][114]LogFbx: Dumping Node END [h_L_eye]
+[2018.04.06-22.05.25:981][114]LogFbx: =================================================
+[2018.04.06-22.05.25:981][114]LogFbx: Dumping Node START [h_L_trans] 
+[2018.04.06-22.05.25:981][114]LogFbx: 	Total Deformer Count -939143488.
+[2018.04.06-22.05.25:981][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.25:981][114]LogFbx: =================================================
+[2018.04.06-22.05.25:981][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.25:981][114]LogFbx: 		[Node Attribute Child 1] h_L_trans (Type Mesh).
+[2018.04.06-22.05.25:981][114]LogFbx: Dumping Node END [h_L_trans]
+[2018.04.06-22.05.25:981][114]LogFbx: =================================================
+[2018.04.06-22.05.25:981][114]LogFbx: Dumping Node START [h_R_gland] 
+[2018.04.06-22.05.25:981][114]LogFbx: 	Total Deformer Count -939143488.
+[2018.04.06-22.05.25:981][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.25:981][114]LogFbx: =================================================
+[2018.04.06-22.05.25:981][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.25:981][114]LogFbx: 		[Node Attribute Child 1] h_R_gland (Type Mesh).
+[2018.04.06-22.05.25:981][114]LogFbx: Dumping Node END [h_R_gland]
+[2018.04.06-22.05.25:981][114]LogFbx: =================================================
+[2018.04.06-22.05.25:981][114]LogFbx: Dumping Node START [h_R_eye] 
+[2018.04.06-22.05.25:981][114]LogFbx: 	Total Deformer Count 395830216.
+[2018.04.06-22.05.25:981][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.25:981][114]LogFbx: =================================================
+[2018.04.06-22.05.25:981][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.25:981][114]LogFbx: 		[Node Attribute Child 1] h_R_eye (Type Mesh).
+[2018.04.06-22.05.25:981][114]LogFbx: Dumping Node END [h_R_eye]
+[2018.04.06-22.05.25:981][114]LogFbx: =================================================
+[2018.04.06-22.05.25:981][114]LogFbx: Dumping Node START [h_R_trans] 
+[2018.04.06-22.05.25:981][114]LogFbx: 	Total Deformer Count -939143488.
+[2018.04.06-22.05.25:981][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.25:981][114]LogFbx: =================================================
+[2018.04.06-22.05.25:981][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.25:981][114]LogFbx: 		[Node Attribute Child 1] h_R_trans (Type Mesh).
+[2018.04.06-22.05.25:981][114]LogFbx: Dumping Node END [h_R_trans]
+[2018.04.06-22.05.25:981][114]LogFbx: =================================================
+[2018.04.06-22.05.25:981][114]LogFbx: Dumping Node START [H_DDS_HighRes] 
+[2018.04.06-22.05.25:981][114]LogFbx: 	Total Deformer Count 468616992.
+[2018.04.06-22.05.25:981][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.25:981][114]LogFbx: =================================================
+[2018.04.06-22.05.25:981][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.25:981][114]LogFbx: 		[Node Attribute Child 1] H_DDS_HighRes (Type Mesh).
+[2018.04.06-22.05.25:981][114]LogFbx: Dumping Node END [H_DDS_HighRes]
+[2018.04.06-22.05.25:982][114]LogFbx: =================================================
+[2018.04.06-22.05.25:982][114]LogFbx: Dumping Node START [h_TeethDown] 
+[2018.04.06-22.05.25:982][114]LogFbx: 	Total Deformer Count -939143488.
+[2018.04.06-22.05.25:982][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.25:982][114]LogFbx: =================================================
+[2018.04.06-22.05.25:982][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.25:982][114]LogFbx: 		[Node Attribute Child 1] h_TeethDown (Type Mesh).
+[2018.04.06-22.05.25:982][114]LogFbx: Dumping Node END [h_TeethDown]
+[2018.04.06-22.05.25:982][114]LogFbx: =================================================
+[2018.04.06-22.05.25:982][114]LogFbx: Dumping Node START [h_TeethUp] 
+[2018.04.06-22.05.25:982][114]LogFbx: 	Total Deformer Count -939143488.
+[2018.04.06-22.05.25:982][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.25:982][114]LogFbx: =================================================
+[2018.04.06-22.05.25:982][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.25:982][114]LogFbx: 		[Node Attribute Child 1] h_TeethUp (Type Mesh).
+[2018.04.06-22.05.25:982][114]LogFbx: Dumping Node END [h_TeethUp]
+[2018.04.06-22.05.25:982][114]LogFbx: =================================================
+[2018.04.06-22.05.25:982][114]LogFbx: Dumping Node START [h_L_gland] 
+[2018.04.06-22.05.25:982][114]LogFbx: 	Total Deformer Count -939143488.
+[2018.04.06-22.05.25:982][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.25:982][114]LogFbx: =================================================
+[2018.04.06-22.05.25:982][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.25:982][114]LogFbx: 		[Node Attribute Child 1] h_L_gland (Type Mesh).
+[2018.04.06-22.05.25:982][114]LogFbx: Dumping Node END [h_L_gland]
+[2018.04.06-22.05.25:982][114]LogFbx: =================================================
+[2018.04.06-22.05.25:982][114]LogFbx: Dumping Node START [h_L_eye] 
+[2018.04.06-22.05.25:982][114]LogFbx: 	Total Deformer Count 395837160.
+[2018.04.06-22.05.25:982][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.25:982][114]LogFbx: =================================================
+[2018.04.06-22.05.25:982][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.25:982][114]LogFbx: 		[Node Attribute Child 1] h_L_eye (Type Mesh).
+[2018.04.06-22.05.25:982][114]LogFbx: Dumping Node END [h_L_eye]
+[2018.04.06-22.05.25:982][114]LogFbx: =================================================
+[2018.04.06-22.05.25:982][114]LogFbx: Dumping Node START [h_L_trans] 
+[2018.04.06-22.05.25:982][114]LogFbx: 	Total Deformer Count -939143488.
+[2018.04.06-22.05.25:982][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.25:982][114]LogFbx: =================================================
+[2018.04.06-22.05.25:982][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.25:982][114]LogFbx: 		[Node Attribute Child 1] h_L_trans (Type Mesh).
+[2018.04.06-22.05.25:982][114]LogFbx: Dumping Node END [h_L_trans]
+[2018.04.06-22.05.25:982][114]LogFbx: =================================================
+[2018.04.06-22.05.25:982][114]LogFbx: Dumping Node START [h_R_gland] 
+[2018.04.06-22.05.25:982][114]LogFbx: 	Total Deformer Count -939143488.
+[2018.04.06-22.05.25:982][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.25:982][114]LogFbx: =================================================
+[2018.04.06-22.05.25:982][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.25:982][114]LogFbx: 		[Node Attribute Child 1] h_R_gland (Type Mesh).
+[2018.04.06-22.05.25:982][114]LogFbx: Dumping Node END [h_R_gland]
+[2018.04.06-22.05.25:982][114]LogFbx: =================================================
+[2018.04.06-22.05.25:982][114]LogFbx: Dumping Node START [h_R_eye] 
+[2018.04.06-22.05.25:982][114]LogFbx: 	Total Deformer Count 395837160.
+[2018.04.06-22.05.25:982][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.25:982][114]LogFbx: =================================================
+[2018.04.06-22.05.25:982][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.25:982][114]LogFbx: 		[Node Attribute Child 1] h_R_eye (Type Mesh).
+[2018.04.06-22.05.25:982][114]LogFbx: Dumping Node END [h_R_eye]
+[2018.04.06-22.05.25:982][114]LogFbx: =================================================
+[2018.04.06-22.05.25:982][114]LogFbx: Dumping Node START [h_R_trans] 
+[2018.04.06-22.05.25:982][114]LogFbx: 	Total Deformer Count -939143488.
+[2018.04.06-22.05.25:982][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.25:982][114]LogFbx: =================================================
+[2018.04.06-22.05.25:982][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.25:982][114]LogFbx: 		[Node Attribute Child 1] h_R_trans (Type Mesh).
+[2018.04.06-22.05.25:982][114]LogFbx: Dumping Node END [h_R_trans]
+[2018.04.06-22.05.25:982][114]LogFbx: =================================================
+[2018.04.06-22.05.25:982][114]LogFbx: Dumping Node START [H_DDS_HighRes] 
+[2018.04.06-22.05.25:982][114]LogFbx: 	Total Deformer Count 468621632.
+[2018.04.06-22.05.25:982][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.25:982][114]LogFbx: =================================================
+[2018.04.06-22.05.25:982][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.25:982][114]LogFbx: 		[Node Attribute Child 1] H_DDS_HighRes (Type Mesh).
+[2018.04.06-22.05.25:982][114]LogFbx: Dumping Node END [H_DDS_HighRes]
+[2018.04.06-22.05.25:984][114]LogFbx: Valid bind pose for Pose (skcl) - h_TeethDown
+[2018.04.06-22.05.25:984][114]LogFbx: Valid bind pose for Pose (skcl_Acc) - h_TeethDown
+[2018.04.06-22.05.25:984][114]LogFbx: Valid bind pose for Pose (skcl_Acc1) - h_TeethDown
+[2018.04.06-22.05.25:984][114]LogFbx: Valid bind pose for Pose (skcl_Acc2) - h_TeethDown
+[2018.04.06-22.05.25:984][114]LogFbx: Valid bind pose for Pose (skcl_Acc3) - h_TeethDown
+[2018.04.06-22.05.25:984][114]LogFbx: Valid bind pose for Pose (skcl_Acc16) - h_TeethDown
+[2018.04.06-22.05.25:984][114]LogFbx: Valid bind pose for Pose (skcl_Acc17) - h_TeethDown
+[2018.04.06-22.05.25:984][114]LogFbx: Valid bind pose for Pose (skcl_Acc22) - h_TeethDown
+[2018.04.06-22.05.25:984][114]LogFbx: Valid bind pose for Pose (skcl_Acc23) - h_TeethDown
+[2018.04.06-22.05.26:066][114]LogFbx:Warning: Bones digested - 75  Depth of hierarchy - 16
+[2018.04.06-22.05.27:172][114]LogSkeletalMesh: Section 0: 31885 vertices, 60 active bones
+[2018.04.06-22.05.27:172][114]LogSkeletalMesh: Section 1: 482 vertices, 2 active bones
+[2018.04.06-22.05.27:399][114]LogSkeletalMesh: Section 0: Material=0, 58724 triangles
+[2018.04.06-22.05.27:399][114]LogSkeletalMesh: Section 1: Material=1, 920 triangles
+[2018.04.06-22.05.27:413][114]LogLinker: Can't find file '/Game/MyContent/Character/Electra__Skeleton'
+[2018.04.06-22.05.27:413][114]LogLinker: Can't find file '/Game/MyContent/Character/Electra__Skeleton'
+[2018.04.06-22.05.27:415][114]LogLinker: Can't find file '/Game/MyContent/Character/Electra__PhysicsAsset'
+[2018.04.06-22.05.27:415][114]LogLinker: Can't find file '/Game/MyContent/Character/Electra__PhysicsAsset'
+[2018.04.06-22.05.27:428][114]LogFbx: =================================================
+[2018.04.06-22.05.27:428][114]LogFbx: Dumping Node START [h_TeethDown] 
+[2018.04.06-22.05.27:428][114]LogFbx: 	Total Deformer Count 496928832.
+[2018.04.06-22.05.27:428][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.27:428][114]LogFbx: =================================================
+[2018.04.06-22.05.27:428][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.27:428][114]LogFbx: 		[Node Attribute Child 1] h_TeethDown (Type Mesh).
+[2018.04.06-22.05.27:428][114]LogFbx: Dumping Node END [h_TeethDown]
+[2018.04.06-22.05.27:428][114]LogFbx: =================================================
+[2018.04.06-22.05.27:428][114]LogFbx: Dumping Node START [h_TeethUp] 
+[2018.04.06-22.05.27:428][114]LogFbx: 	Total Deformer Count 496928832.
+[2018.04.06-22.05.27:428][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.27:428][114]LogFbx: =================================================
+[2018.04.06-22.05.27:428][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.27:428][114]LogFbx: 		[Node Attribute Child 1] h_TeethUp (Type Mesh).
+[2018.04.06-22.05.27:428][114]LogFbx: Dumping Node END [h_TeethUp]
+[2018.04.06-22.05.27:428][114]LogFbx: =================================================
+[2018.04.06-22.05.27:428][114]LogFbx: Dumping Node START [h_L_gland] 
+[2018.04.06-22.05.27:428][114]LogFbx: 	Total Deformer Count 496928832.
+[2018.04.06-22.05.27:428][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.27:428][114]LogFbx: =================================================
+[2018.04.06-22.05.27:428][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.27:428][114]LogFbx: 		[Node Attribute Child 1] h_L_gland (Type Mesh).
+[2018.04.06-22.05.27:428][114]LogFbx: Dumping Node END [h_L_gland]
+[2018.04.06-22.05.27:428][114]LogFbx: =================================================
+[2018.04.06-22.05.27:428][114]LogFbx: Dumping Node START [h_L_eye] 
+[2018.04.06-22.05.27:428][114]LogFbx: 	Total Deformer Count 395832904.
+[2018.04.06-22.05.27:428][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.27:428][114]LogFbx: =================================================
+[2018.04.06-22.05.27:428][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.27:428][114]LogFbx: 		[Node Attribute Child 1] h_L_eye (Type Mesh).
+[2018.04.06-22.05.27:428][114]LogFbx: Dumping Node END [h_L_eye]
+[2018.04.06-22.05.27:428][114]LogFbx: =================================================
+[2018.04.06-22.05.27:428][114]LogFbx: Dumping Node START [h_L_trans] 
+[2018.04.06-22.05.27:428][114]LogFbx: 	Total Deformer Count 496928832.
+[2018.04.06-22.05.27:428][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.27:428][114]LogFbx: =================================================
+[2018.04.06-22.05.27:428][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.27:428][114]LogFbx: 		[Node Attribute Child 1] h_L_trans (Type Mesh).
+[2018.04.06-22.05.27:428][114]LogFbx: Dumping Node END [h_L_trans]
+[2018.04.06-22.05.27:428][114]LogFbx: =================================================
+[2018.04.06-22.05.27:428][114]LogFbx: Dumping Node START [h_R_gland] 
+[2018.04.06-22.05.27:428][114]LogFbx: 	Total Deformer Count 496928832.
+[2018.04.06-22.05.27:428][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.27:428][114]LogFbx: =================================================
+[2018.04.06-22.05.27:428][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.27:428][114]LogFbx: 		[Node Attribute Child 1] h_R_gland (Type Mesh).
+[2018.04.06-22.05.27:428][114]LogFbx: Dumping Node END [h_R_gland]
+[2018.04.06-22.05.27:428][114]LogFbx: =================================================
+[2018.04.06-22.05.27:428][114]LogFbx: Dumping Node START [h_R_eye] 
+[2018.04.06-22.05.27:428][114]LogFbx: 	Total Deformer Count 395832904.
+[2018.04.06-22.05.27:428][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.27:428][114]LogFbx: =================================================
+[2018.04.06-22.05.27:428][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.27:428][114]LogFbx: 		[Node Attribute Child 1] h_R_eye (Type Mesh).
+[2018.04.06-22.05.27:428][114]LogFbx: Dumping Node END [h_R_eye]
+[2018.04.06-22.05.27:428][114]LogFbx: =================================================
+[2018.04.06-22.05.27:428][114]LogFbx: Dumping Node START [h_R_trans] 
+[2018.04.06-22.05.27:428][114]LogFbx: 	Total Deformer Count 496928832.
+[2018.04.06-22.05.27:428][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.27:428][114]LogFbx: =================================================
+[2018.04.06-22.05.27:428][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.27:428][114]LogFbx: 		[Node Attribute Child 1] h_R_trans (Type Mesh).
+[2018.04.06-22.05.27:428][114]LogFbx: Dumping Node END [h_R_trans]
+[2018.04.06-22.05.27:428][114]LogFbx: =================================================
+[2018.04.06-22.05.27:428][114]LogFbx: Dumping Node START [H_DDS_HighRes] 
+[2018.04.06-22.05.27:428][114]LogFbx: 	Total Deformer Count 537325024.
+[2018.04.06-22.05.27:428][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.27:428][114]LogFbx: =================================================
+[2018.04.06-22.05.27:428][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.27:428][114]LogFbx: 		[Node Attribute Child 1] H_DDS_HighRes (Type Mesh).
+[2018.04.06-22.05.27:428][114]LogFbx: Dumping Node END [H_DDS_HighRes]
+[2018.04.06-22.05.27:429][114]LogFbx: =================================================
+[2018.04.06-22.05.27:429][114]LogFbx: Dumping Node START [h_TeethDown] 
+[2018.04.06-22.05.27:429][114]LogFbx: 	Total Deformer Count 496928832.
+[2018.04.06-22.05.27:429][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.27:429][114]LogFbx: =================================================
+[2018.04.06-22.05.27:429][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.27:429][114]LogFbx: 		[Node Attribute Child 1] h_TeethDown (Type Mesh).
+[2018.04.06-22.05.27:429][114]LogFbx: Dumping Node END [h_TeethDown]
+[2018.04.06-22.05.27:429][114]LogFbx: =================================================
+[2018.04.06-22.05.27:429][114]LogFbx: Dumping Node START [h_TeethUp] 
+[2018.04.06-22.05.27:429][114]LogFbx: 	Total Deformer Count 496928832.
+[2018.04.06-22.05.27:429][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.27:429][114]LogFbx: =================================================
+[2018.04.06-22.05.27:429][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.27:429][114]LogFbx: 		[Node Attribute Child 1] h_TeethUp (Type Mesh).
+[2018.04.06-22.05.27:429][114]LogFbx: Dumping Node END [h_TeethUp]
+[2018.04.06-22.05.27:429][114]LogFbx: =================================================
+[2018.04.06-22.05.27:429][114]LogFbx: Dumping Node START [h_L_gland] 
+[2018.04.06-22.05.27:429][114]LogFbx: 	Total Deformer Count 496928832.
+[2018.04.06-22.05.27:429][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.27:429][114]LogFbx: =================================================
+[2018.04.06-22.05.27:429][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.27:429][114]LogFbx: 		[Node Attribute Child 1] h_L_gland (Type Mesh).
+[2018.04.06-22.05.27:429][114]LogFbx: Dumping Node END [h_L_gland]
+[2018.04.06-22.05.27:429][114]LogFbx: =================================================
+[2018.04.06-22.05.27:429][114]LogFbx: Dumping Node START [h_L_eye] 
+[2018.04.06-22.05.27:429][114]LogFbx: 	Total Deformer Count 395830216.
+[2018.04.06-22.05.27:429][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.27:429][114]LogFbx: =================================================
+[2018.04.06-22.05.27:429][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.27:429][114]LogFbx: 		[Node Attribute Child 1] h_L_eye (Type Mesh).
+[2018.04.06-22.05.27:429][114]LogFbx: Dumping Node END [h_L_eye]
+[2018.04.06-22.05.27:429][114]LogFbx: =================================================
+[2018.04.06-22.05.27:429][114]LogFbx: Dumping Node START [h_L_trans] 
+[2018.04.06-22.05.27:429][114]LogFbx: 	Total Deformer Count 496928832.
+[2018.04.06-22.05.27:429][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.27:429][114]LogFbx: =================================================
+[2018.04.06-22.05.27:429][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.27:429][114]LogFbx: 		[Node Attribute Child 1] h_L_trans (Type Mesh).
+[2018.04.06-22.05.27:429][114]LogFbx: Dumping Node END [h_L_trans]
+[2018.04.06-22.05.27:429][114]LogFbx: =================================================
+[2018.04.06-22.05.27:429][114]LogFbx: Dumping Node START [h_R_gland] 
+[2018.04.06-22.05.27:429][114]LogFbx: 	Total Deformer Count 496928832.
+[2018.04.06-22.05.27:429][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.27:429][114]LogFbx: =================================================
+[2018.04.06-22.05.27:429][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.27:429][114]LogFbx: 		[Node Attribute Child 1] h_R_gland (Type Mesh).
+[2018.04.06-22.05.27:429][114]LogFbx: Dumping Node END [h_R_gland]
+[2018.04.06-22.05.27:429][114]LogFbx: =================================================
+[2018.04.06-22.05.27:429][114]LogFbx: Dumping Node START [h_R_eye] 
+[2018.04.06-22.05.27:429][114]LogFbx: 	Total Deformer Count 395830216.
+[2018.04.06-22.05.27:429][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.27:429][114]LogFbx: =================================================
+[2018.04.06-22.05.27:429][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.27:429][114]LogFbx: 		[Node Attribute Child 1] h_R_eye (Type Mesh).
+[2018.04.06-22.05.27:429][114]LogFbx: Dumping Node END [h_R_eye]
+[2018.04.06-22.05.27:429][114]LogFbx: =================================================
+[2018.04.06-22.05.27:429][114]LogFbx: Dumping Node START [h_R_trans] 
+[2018.04.06-22.05.27:429][114]LogFbx: 	Total Deformer Count 496928832.
+[2018.04.06-22.05.27:429][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.27:429][114]LogFbx: =================================================
+[2018.04.06-22.05.27:429][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.27:429][114]LogFbx: 		[Node Attribute Child 1] h_R_trans (Type Mesh).
+[2018.04.06-22.05.27:429][114]LogFbx: Dumping Node END [h_R_trans]
+[2018.04.06-22.05.27:429][114]LogFbx: =================================================
+[2018.04.06-22.05.27:429][114]LogFbx: Dumping Node START [H_DDS_HighRes] 
+[2018.04.06-22.05.27:429][114]LogFbx: 	Total Deformer Count 537322384.
+[2018.04.06-22.05.27:429][114]LogFbx: 		[Node 1]  (Type Skin).
+[2018.04.06-22.05.27:429][114]LogFbx: =================================================
+[2018.04.06-22.05.27:429][114]LogFbx: 	Attribute () Type (4).
+[2018.04.06-22.05.27:429][114]LogFbx: 		[Node Attribute Child 1] H_DDS_HighRes (Type Mesh).
+[2018.04.06-22.05.27:429][114]LogFbx: Dumping Node END [H_DDS_HighRes]
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(0) master
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(1) Reference
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(2) Hips
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(3) Spine
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(4) Spine1
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(5) Spine2
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(6) Neck
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(7) Head
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(8) HeadEnd
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(9) RightEye
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(10) LeftEye
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(11) RightShoulder
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(12) RightArm
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(13) RightForeArm
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(14) RightHand
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(15) RightFingerBase
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(16) RightHandThumb1
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(17) RightHandThumb2
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(18) RightHandThumb3
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(19) RightHandThumb4
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(20) RightHandIndex0
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(21) RightHandIndex1
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(22) RightHandIndex2
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(23) RightHandIndex3
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(24) RightHandIndex4
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(25) RightHandMiddle1
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(26) RightHandMiddle2
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(27) RightHandMiddle3
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(28) RightHandMiddle4
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(29) RightHandRing1
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(30) RightHandRing2
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(31) RightHandRing3
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(32) RightHandRing4
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(33) RightHandPinky0
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(34) RightHandPinky1
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(35) RightHandPinky2
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(36) RightHandPinky3
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(37) RightHandPinky4
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(38) LeftShoulder
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(39) LeftArm
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(40) LeftForeArm
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(41) LeftHand
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(42) LeftFingerBase
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(43) LeftHandThumb1
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(44) LeftHandThumb2
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(45) LeftHandThumb3
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(46) LeftHandThumb4
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(47) LeftHandIndex0
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(48) LeftHandIndex1
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(49) LeftHandIndex2
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(50) LeftHandIndex3
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(51) LeftHandIndex4
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(52) LeftHandMiddle1
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(53) LeftHandMiddle2
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(54) LeftHandMiddle3
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(55) LeftHandMiddle4
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(56) LeftHandRing1
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(57) LeftHandRing2
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(58) LeftHandRing3
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(59) LeftHandRing4
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(60) LeftHandPinky0
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(61) LeftHandPinky1
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(62) LeftHandPinky2
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(63) LeftHandPinky3
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(64) LeftHandPinky4
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(65) RightUpLeg
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(66) RightLeg
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(67) RightFoot
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(68) RightToeBase
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(69) RightToeEnd
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(70) LeftUpLeg
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(71) LeftLeg
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(72) LeftFoot
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(73) LeftToeBase
+[2018.04.06-22.05.27:431][114]LogFbx: SortedLinks :(74) LeftToeEnd
+[2018.04.06-22.05.27:431][114]LogFbx: Parsing AnimStack Take 001
+[2018.04.06-22.05.27:431][114]LogLinker: Can't find file '/Game/MyContent/Character/Electra__Anim'
+[2018.04.06-22.05.27:431][114]LogLinker: Can't find file '/Game/MyContent/Character/Electra__Anim'
+[2018.04.06-22.05.27:999][114]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/MyContent/Character/Electra__Anim.Electra__Anim
+[2018.04.06-22.05.28:013][114]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.04.06-22.05.28:013][114]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+HeadEnd  
+RightHandThumb4  
+RightHandIndex4  
+RightHandMiddle4  
+RightHandRing4  
+RightHandPinky4  
+LeftHandThumb4  
+LeftHandIndex4  
+LeftHandMiddle4  
+LeftHandRing4  
+LeftHandPinky4  
+RightToeEnd  
+LeftToeEnd  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2018.04.06-22.06.42:007][279]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Electra_)
+[2018.04.06-22.07.18:316][597]LogSlate: Took 0.004522 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.06-22.07.37:985][ 13]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/kevin/Downloads/Electra/Electra_.fbm/Electra__color.jpg)
+[2018.04.06-22.07.38:121][ 13]LogTexture:Display: Building textures: Electra__color (AutoDXT, 2048X2048)
+[2018.04.06-22.07.39:392][ 13]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/kevin/Downloads/Electra/Electra_.fbm/Electra__high_nm.jpg)
+[2018.04.06-22.07.39:501][ 13]LogTexture:Display: Building textures: Electra__high_nm (BC5, 2048X2048)
+[2018.04.06-22.07.39:816][ 13]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.06-22.08.02:293][513]LogMaterial: Missing cached shader map for material Electra__color_Mat, compiling. 
+[2018.04.06-22.08.08:820][203]LogMaterial:Warning: Material /Game/MyContent/Character/Electra__color_Mat.Electra__color_Mat needed to have new flag set bUsedWithSkeletalMesh !
+[2018.04.06-22.08.08:822][203]LogMaterial: Missing cached shader map for material Electra__color_Mat, compiling. 
+[2018.04.06-22.08.16:478][907]Cmd: SELECT NONE
+[2018.04.06-22.08.21:081][431]LogMaterial: Missing cached shader map for material Electra__color_Mat, compiling. 
+[2018.04.06-22.08.21:208][431]LogMaterial: Missing cached shader map for material Electra__color_Mat, compiling. 
+[2018.04.06-22.08.21:236][431]LogMaterial: Missing cached shader map for material Electra__color_Mat, compiling. 
+[2018.04.06-22.08.21:284][431]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.06-22.08.21:303][431]LogSlate: Took 0.006044 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.06-22.08.23:889][575]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.04.06-22.08.23:889][575]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.06-22.08.23:889][575]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.04.06-22.08.23:889][575]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.06-22.08.33:989][630]LogMaterial: Missing cached shader map for material Electra__color_Mat, compiling. 
+[2018.04.06-22.08.34:043][630]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.06-22.08.34:048][630]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.04.06-22.08.36:630][784]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.04.06-22.08.36:630][784]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.06-22.08.36:630][784]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.04.06-22.08.36:630][784]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.06-22.08.38:839][  9]LogMaterial: Missing cached shader map for material Electra__color_Mat, compiling. 
+[2018.04.06-22.08.38:871][  9]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.04.06-22.08.41:777][195]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.04.06-22.08.41:777][195]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.06-22.08.41:777][195]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.04.06-22.08.41:777][195]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.06-22.08.46:061][585]LogMaterial: Missing cached shader map for material Electra__color_Mat, compiling. 
+[2018.04.06-22.08.46:087][585]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.04.06-22.08.48:770][744]MaterialEditorStats: Info Base pass shader: 87 instructions
+[2018.04.06-22.08.48:770][744]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.06-22.08.48:770][744]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.06-22.08.48:770][744]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.06-22.08.52:481][ 71]LogMaterialEditor: Applying material Electra__color_Mat
+[2018.04.06-22.08.53:019][ 71]LogMaterial: Missing cached shader map for material Electra__color_Mat, compiling. 
+[2018.04.06-22.08.53:077][ 71]LogMaterial: Missing cached shader map for material Electra__color_Mat, compiling. 
+[2018.04.06-22.08.53:123][ 71]LogMaterial: Missing cached shader map for material Electra__color_Mat, compiling. 
+[2018.04.06-22.08.53:222][ 71]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Electra__color_Mat, compiling. 
+[2018.04.06-22.08.55:156][ 71]TextureStreamingBuild:Display: Compiling optional shaders took 1.941 seconds.
+[2018.04.06-22.09.16:779][324]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.04.06-22.09.16:950][324]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.06-22.09.17:016][324]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.04.06-22.09.17:330][324]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2018.04.06-22.09.17:335][324]LogRenderer: Reallocating scene render targets to support 1208x888 NumSamples 1 (Frame:1).
+[2018.04.06-22.10.00:959][307]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Character/Electra__3dsMax" FILE="../../../../../../Users/kevin/Desktop/handin/Content/MyContent/Character/Electra__3dsMax.uasset" SILENT=true
+[2018.04.06-22.10.01:041][307]LogSavePackage: Save=80.15ms
+[2018.04.06-22.10.01:042][307]LogSavePackage: Moving '../../../../../../Users/kevin/Desktop/handin/Saved/Electra__3dsMaxDE31B496484B528F071501A5AEB5837F.tmp' to '../../../../../../Users/kevin/Desktop/handin/Content/MyContent/Character/Electra__3dsMax.uasset'
+[2018.04.06-22.10.01:047][307]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kevin/Desktop/handin/Content/MyContent/Character/Electra__3dsMax.uasset
+[2018.04.06-22.10.04:939][715]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Electra_)
+[2018.04.06-22.10.06:322][873]Cmd: DELETE
+[2018.04.06-22.10.06:322][873]Cmd: ACTOR DELETE
+[2018.04.06-22.10.06:331][873]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2018.04.06-22.10.06:342][873]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2018.04.06-22.10.29:548][ 58]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Electra__3dsMax_Anim)
+[2018.04.06-22.10.33:868][538]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (StopAndGoBack_Anim)
+[2018.04.06-22.10.43:695][701]LogTemp: Repeting last play command: Simulate
+[2018.04.06-22.10.43:749][701]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.06-22.10.43:751][701]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.06-22.10.43:755][701]PIE: New page: SIE session: Minimal_Default (7 Apr 2018 00:10:43)
+[2018.04.06-22.10.43:756][701]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.04.06-22.10.43:881][701]LogPlayLevel: PIE: StaticDuplicateObject took: (0.125418s)
+[2018.04.06-22.10.43:882][701]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.04.06-22.10.43:882][701]LogPlayLevel: PIE: World Init took: (0.000499s)
+[2018.04.06-22.10.43:884][701]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.127863s)
+[2018.04.06-22.10.43:915][701]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.06-22.10.43:922][701]LogInit: FAudioDevice initialized.
+[2018.04.06-22.10.43:971][701]LogLoad: Game class is 'GameMode'
+[2018.04.06-22.10.44:023][701]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.04.06-23.10.44
+[2018.04.06-22.10.44:027][701]LogWorld: Bringing up level for play took: 0.053428
+[2018.04.06-22.10.44:032][701]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.06-22.10.44:077][701]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2018.04.06-22.10.44:078][701]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.06-22.10.44:086][701]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.06-22.10.44:086][701]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.044
+[2018.04.06-22.10.44:124][701]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.06-22.10.49:046][929]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Electra__3dsMax_Anim)
+[2018.04.06-22.11.23:382][117]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Electra__3dsMax_Anim)
+[2018.04.06-22.11.47:305][937]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.06-22.11.47:369][937]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.06-22.11.54:915][827]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (StopAndGoBack_Anim)
+[2018.04.06-22.12.22:738][927]LogTemp: Repeting last play command: Simulate
+[2018.04.06-22.12.22:755][927]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.06-22.12.22:755][927]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.06-22.12.22:755][927]PIE: New page: SIE session: Minimal_Default (7 Apr 2018 00:12:22)
+[2018.04.06-22.12.22:755][927]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.04.06-22.12.22:874][927]LogPlayLevel: PIE: StaticDuplicateObject took: (0.118829s)
+[2018.04.06-22.12.22:874][927]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.04.06-22.12.22:875][927]LogPlayLevel: PIE: World Init took: (0.000767s)
+[2018.04.06-22.12.22:875][927]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.120258s)
+[2018.04.06-22.12.22:890][927]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.06-22.12.22:895][927]LogInit: FAudioDevice initialized.
+[2018.04.06-22.12.22:935][927]LogLoad: Game class is 'GameMode'
+[2018.04.06-22.12.22:986][927]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.04.06-23.12.22
+[2018.04.06-22.12.22:988][927]LogWorld: Bringing up level for play took: 0.051873
+[2018.04.06-22.12.22:988][927]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.06-22.12.22:989][927]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.06-22.12.22:990][927]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.06-22.12.22:991][927]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.948
+[2018.04.06-22.12.23:011][927]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.06-22.12.37:331][527]LogEditorViewport: Clicking on Actor (context menu): SkeletalMeshActor (StopAndGoBack_Anim)
+[2018.04.06-22.12.44:252][238]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.06-22.12.44:314][238]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.06-22.12.47:074][547]Cmd: SELECT NONE
+[2018.04.06-22.12.48:482][715]LogTemp: Repeting last play command: Simulate
+[2018.04.06-22.12.48:498][715]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.06-22.12.48:499][715]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.06-22.12.48:499][715]PIE: New page: SIE session: Minimal_Default (7 Apr 2018 00:12:48)
+[2018.04.06-22.12.48:499][715]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.04.06-22.12.48:618][715]LogPlayLevel: PIE: StaticDuplicateObject took: (0.119324s)
+[2018.04.06-22.12.48:619][715]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.04.06-22.12.48:619][715]LogPlayLevel: PIE: World Init took: (0.000744s)
+[2018.04.06-22.12.48:619][715]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.120943s)
+[2018.04.06-22.12.48:634][715]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.06-22.12.48:639][715]LogInit: FAudioDevice initialized.
+[2018.04.06-22.12.48:670][715]LogLoad: Game class is 'GameMode'
+[2018.04.06-22.12.48:725][715]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.04.06-23.12.48
+[2018.04.06-22.12.48:728][715]LogWorld: Bringing up level for play took: 0.056194
+[2018.04.06-22.12.48:728][715]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.06-22.12.48:728][715]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.06-22.12.48:730][715]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.06-22.12.48:731][715]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.688
+[2018.04.06-22.12.48:734][715]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.06-22.13.10:219][763]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.06-22.13.10:272][763]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.04.06-22.13.10:434][764]Cmd: QUIT_EDITOR
+[2018.04.06-22.13.11:285][764]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.04.06-22.13.11:300][764]LogExit: Preparing to exit.
+[2018.04.06-22.13.12:521][764]LogDirectoryWatcher: A directory notification for 'C:/Users/kevin/Desktop/handin/Content/' was aborted.
+[2018.04.06-22.13.12:569][764]LogExit: Editor shut down
+[2018.04.06-22.13.12:576][764]LogExit: Transaction tracking system shut down
+[2018.04.06-22.13.12:650][764]LogObj: Freed 0b from 0 cluster array pools.
+[2018.04.06-22.13.12:651][764]LogExit: Object subsystem successfully closed.
+[2018.04.06-22.13.12:680][764]LogD3D11RHI: Shutdown
+[2018.04.06-22.13.12:680][764]LogD3D11RHI: CleanupD3DDevice
+[2018.04.06-22.13.12:777][764]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.06-22.13.12:790][764]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2018.04.06-22.13.12:790][764]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (532)
+[2018.04.06-22.13.12:790][764]LogModuleManager: Shutting down and abandoning module SkeletonEditor (530)
+[2018.04.06-22.13.12:790][764]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (528)
+[2018.04.06-22.13.12:790][764]LogModuleManager: Shutting down and abandoning module MaterialEditor (526)
+[2018.04.06-22.13.12:790][764]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2018.04.06-22.13.12:790][764]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2018.04.06-22.13.12:790][764]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.04.06-22.13.12:790][764]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.04.06-22.13.12:793][764]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.04.06-22.13.12:794][764]LogDirectoryWatcher: A directory notification for 'C:/Users/kevin/Desktop/handin/Content/Collections/' was aborted.
+[2018.04.06-22.13.12:794][764]LogDirectoryWatcher: A directory notification for 'C:/Users/kevin/Desktop/handin/Content/Developers/kevin/Collections/' was aborted.
+[2018.04.06-22.13.12:794][764]LogDirectoryWatcher: A directory notification for 'C:/Users/kevin/Desktop/handin/Saved/Collections/' was aborted.
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.04.06-22.13.12:794][764]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.04.06-22.13.12:795][764]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.04.06-22.13.12:795][764]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.04.06-22.13.12:795][764]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.04.06-22.13.12:795][764]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.04.06-22.13.12:795][764]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.04.06-22.13.12:795][764]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.04.06-22.13.13:394][764]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.04.06-22.13.13:394][764]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.04.06-22.13.13:394][764]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.04.06-22.13.13:394][764]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.04.06-22.13.13:394][764]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.04.06-22.13.13:395][764]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.04.06-22.13.13:395][764]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.04.06-22.13.13:395][764]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.04.06-22.13.13:395][764]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.04.06-22.13.13:395][764]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.04.06-22.13.13:395][764]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.04.06-22.13.13:395][764]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.04.06-22.13.13:395][764]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.04.06-22.13.13:395][764]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.04.06-22.13.13:395][764]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.04.06-22.13.13:395][764]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.04.06-22.13.13:395][764]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.04.06-22.13.13:396][764]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.04.06-22.13.13:396][764]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.04.06-22.13.13:396][764]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.04.06-22.13.13:396][764]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.04.06-22.13.13:396][764]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.04.06-22.13.13:396][764]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.04.06-22.13.13:396][764]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.04.06-22.13.13:460][764]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.04.06-22.13.13:460][764]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.04.06-22.13.13:460][764]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.04.06-22.13.13:460][764]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.04.06-22.13.13:460][764]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.04.06-22.13.13:460][764]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.04.06-22.13.13:463][764]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.04.06-22.13.13:463][764]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.04.06-22.13.13:463][764]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.04.06-22.13.13:463][764]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.04.06-22.13.13:465][764]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.04.06-22.13.13:465][764]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.04.06-22.13.13:465][764]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.04.06-22.13.13:465][764]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.04.06-22.13.13:465][764]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.04.06-22.13.13:465][764]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.04.06-22.13.13:465][764]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.04.06-22.13.13:465][764]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.04.06-22.13.13:465][764]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.04.06-22.13.13:465][764]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.04.06-22.13.13:465][764]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.04.06-22.13.13:465][764]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.04.06-22.13.13:465][764]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.04.06-22.13.13:465][764]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.04.06-22.13.13:465][764]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.04.06-22.13.13:465][764]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.04.06-22.13.13:465][764]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.04.06-22.13.13:465][764]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.04.06-22.13.13:466][764]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.04.06-22.13.13:466][764]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.04.06-22.13.13:548][764]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.04.06-22.13.13:548][764]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.04.06-22.13.13:549][764]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.04.06-22.13.13:549][764]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.04.06-22.13.13:549][764]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.04.06-22.13.13:549][764]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.04.06-22.13.13:549][764]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.04.06-22.13.13:549][764]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.04.06-22.13.13:549][764]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.04.06-22.13.13:549][764]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.04.06-22.13.13:549][764]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.04.06-22.13.13:549][764]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.04.06-22.13.13:549][764]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.04.06-22.13.13:549][764]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.04.06-22.13.13:549][764]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.04.06-22.13.13:549][764]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.04.06-22.13.13:549][764]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.04.06-22.13.13:549][764]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.04.06-22.13.13:549][764]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.04.06-22.13.13:549][764]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.04.06-22.13.13:549][764]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.04.06-22.13.13:549][764]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.04.06-22.13.13:549][764]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.04.06-22.13.13:549][764]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.04.06-22.13.13:549][764]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.04.06-22.13.13:550][764]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.04.06-22.13.13:550][764]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.04.06-22.13.13:550][764]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.04.06-22.13.13:550][764]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.04.06-22.13.13:550][764]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.04.06-22.13.13:550][764]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.04.06-22.13.13:550][764]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.04.06-22.13.13:550][764]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.04.06-22.13.13:550][764]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.04.06-22.13.13:550][764]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.04.06-22.13.13:550][764]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.04.06-22.13.13:552][764]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.04.06-22.13.13:552][764]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.04.06-22.13.13:552][764]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.04.06-22.13.13:554][764]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.04.06-22.13.13:554][764]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.04.06-22.13.13:554][764]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.04.06-22.13.13:554][764]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.04.06-22.13.13:554][764]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.04.06-22.13.13:554][764]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.04.06-22.13.13:655][764]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.04.06-22.13.13:755][764]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.04.06-22.13.13:755][764]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.04.06-22.13.13:755][764]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.04.06-22.13.13:755][764]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.04.06-22.13.13:755][764]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.04.06-22.13.13:755][764]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.04.06-22.13.13:758][764]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.04.06-22.13.13:758][764]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.04.06-22.13.13:758][764]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.04.06-22.13.13:758][764]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.04.06-22.13.13:776][764]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.04.06-22.13.13:776][764]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.04.06-22.13.13:776][764]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.04.06-22.13.13:776][764]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.04.06-22.13.13:776][764]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.04.06-22.13.13:776][764]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.04.06-22.13.13:776][764]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.04.06-22.13.13:776][764]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.04.06-22.13.13:777][764]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.04.06-22.13.13:777][764]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.04.06-22.13.13:777][764]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.04.06-22.13.13:777][764]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.04.06-22.13.13:777][764]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.04.06-22.13.13:777][764]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.04.06-22.13.13:777][764]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.04.06-22.13.13:777][764]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.04.06-22.13.13:777][764]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.04.06-22.13.13:778][764]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.04.06-22.13.13:778][764]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.04.06-22.13.13:786][764]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.04.06-22.13.13:786][764]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.04.06-22.13.13:786][764]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.04.06-22.13.13:786][764]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.04.06-22.13.13:786][764]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.04.06-22.13.13:786][764]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.04.06-22.13.13:935][764]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.04.06-22.13.13:936][764]LogDirectoryWatcher: A directory notification for '../../../../../../Users/kevin/Desktop/handin/Content/' was aborted.
+[2018.04.06-22.13.13:936][764]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.04.06-22.13.13:936][764]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.04.06-22.13.13:940][764]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.04.06-22.13.13:942][764]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.04.06-22.13.13:942][764]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.04.06-22.13.13:942][764]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.04.06-22.13.13:942][764]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.04.06-22.13.13:942][764]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.04.06-22.13.13:942][764]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.04.06-22.13.13:942][764]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.04.06-22.13.13:942][764]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.04.06-22.13.14:028][764]LogDerivedDataCache: Shutdown
+[2018.04.06-22.13.14:028][764]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.04.06-22.13.14:029][764]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.04.06-22.13.14:029][764]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.04.06-22.13.14:029][764]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.04.06-22.13.14:029][764]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.04.06-22.13.14:029][764]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.04.06-22.13.14:029][764]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.04.06-22.13.14:029][764]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.04.06-22.13.14:029][764]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.04.06-22.13.14:029][764]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.04.06-22.13.14:029][764]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.04.06-22.13.14:029][764]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.04.06-22.13.14:029][764]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.04.06-22.13.14:029][764]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.04.06-22.13.14:029][764]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.04.06-22.13.14:029][764]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.04.06-22.13.14:029][764]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.04.06-22.13.14:029][764]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.04.06-22.13.14:029][764]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.04.06-22.13.14:029][764]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.04.06-22.13.14:029][764]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.04.06-22.13.14:029][764]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.04.06-22.13.14:029][764]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.04.06-22.13.14:029][764]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.04.06-22.13.14:029][764]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.04.06-22.13.14:029][764]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.04.06-22.13.14:029][764]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.04.06-22.13.14:029][764]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.04.06-22.13.14:030][764]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.04.06-22.13.14:030][764]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.04.06-22.13.14:030][764]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.04.06-22.13.14:030][764]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.04.06-22.13.14:030][764]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.04.06-22.13.14:030][764]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.04.06-22.13.14:030][764]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.04.06-22.13.14:030][764]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.04.06-22.13.14:030][764]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.04.06-22.13.14:030][764]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.04.06-22.13.14:030][764]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.04.06-22.13.14:030][764]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.04.06-22.13.14:030][764]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.04.06-22.13.14:030][764]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.04.06-22.13.14:030][764]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.04.06-22.13.14:030][764]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.04.06-22.13.14:030][764]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.04.06-22.13.14:030][764]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.04.06-22.13.14:030][764]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.04.06-22.13.14:030][764]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.04.06-22.13.14:030][764]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.04.06-22.13.14:030][764]LogOnline:Display: Unloading online subsystem: NULL
+[2018.04.06-22.13.14:030][764]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.04.06-22.13.14:030][764]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.04.06-22.13.14:030][764]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.04.06-22.13.14:030][764]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B66B464CD-42DB-924D-04BF-55ADA231CC66%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=3f1a9c384db009b6db80a39700eff03a%7C8cb704cd04904cdc94f617e02f3648f8%7Cd3d05314-9db0-48ee-a213-f2087e431ebc&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.06-22.13.14:057][764]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.04.06-22.13.14:062][764]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.04.06-22.13.14:062][764]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.04.06-22.13.14:062][764]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.04.06-22.13.14:062][764]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.04.06-22.13.14:062][764]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.04.06-22.13.14:062][764]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.04.06-22.13.14:062][764]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.04.06-22.13.14:062][764]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.04.06-22.13.14:065][764]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.04.06-22.13.14:065][764]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.04.06-22.13.14:065][764]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.04.06-22.13.14:065][764]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.04.06-22.13.14:065][764]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.04.06-22.13.14:065][764]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.04.06-22.13.14:065][764]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.04.06-22.13.14:065][764]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.06-22.13.14:065][764]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.06-22.13.14:065][764]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.06-22.13.14:071][764]LogExit: Exiting.
+[2018.04.06-22.13.14:112][764]Log file closed, 04/06/18 23:13:14
