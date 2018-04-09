@@ -1,0 +1,1507 @@
+﻿Log file open, 04/07/18 20:09:49
+LogInit:Display: Running engine for game: handin
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-2091590447) SRandInit(-2091590447).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.088676
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.07-19.09.49:633][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.07-19.09.49:633][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.07-19.09.49:660][  0]LogInit: Computer: OFFICE
+[2018.04.07-19.09.49:660][  0]LogInit: User: kevin
+[2018.04.07-19.09.49:660][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.07-19.09.49:660][  0]LogInit: High frequency timer resolution =3.415987 MHz
+[2018.04.07-19.09.49:660][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.04.07-19.09.49:660][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.07-19.09.49:660][  0]LogMemory: Process Physical Memory: 276.41 MB used, 276.41 MB peak
+[2018.04.07-19.09.49:660][  0]LogMemory: Process Virtual Memory: 260.96 MB used, 260.96 MB peak
+[2018.04.07-19.09.49:660][  0]LogMemory: Physical Memory: 4309.39 MB used,  12009.30 MB free, 16318.69 MB total
+[2018.04.07-19.09.49:660][  0]LogMemory: Virtual Memory: 676.92 MB used,  12009.30 MB free, 134217728.00 MB total
+[2018.04.07-19.09.49:725][  0]LogInit: Using OS detected language (en-GB).
+[2018.04.07-19.09.49:725][  0]LogInit: Using OS detected locale (en-GB).
+[2018.04.07-19.09.49:727][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.04.07-19.09.50:567][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.07-19.09.50:633][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
+[2018.04.07-19.09.50:633][  0]LogD3D11RHI:       11132/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.04.07-19.09.50:634][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.07-19.09.50:634][  0]LogD3D11RHI:       0/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.07-19.09.50:634][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.07-19.09.50:639][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.07-19.09.50:639][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.07-19.09.50:639][  0]LogWindows: EnumDisplayDevices:
+[2018.04.07-19.09.50:639][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
+[2018.04.07-19.09.50:640][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
+[2018.04.07-19.09.50:640][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2018.04.07-19.09.50:640][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2018.04.07-19.09.50:640][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.07-19.09.50:640][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
+[2018.04.07-19.09.50:640][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.07-19.09.50:640][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.07-19.09.50:640][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.04.07-19.09.50:665][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.07-19.09.50:674][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.04.07-19.09.50:765][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (../../../../../../Users/kevin/Desktop/handin/Intermediate/Shaders/WorkingDirectory/2672/).
+[2018.04.07-19.09.50:765][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kevin/AppData/Local/Temp/UnrealShaderWorkingDir/FD47AF424B50AEA3148F9191F768669E/'.
+[2018.04.07-19.09.50:765][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.04.07-19.09.51:706][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.07-19.09.51:749][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.04.07-19.09.51:794][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.07-19.09.51:838][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.04.07-19.09.51:883][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.04.07-19.09.51:928][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.07-19.09.51:974][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.07-19.09.52:019][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.07-19.09.52:058][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.04.07-19.09.52:099][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.04.07-19.09.52:140][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.07-19.09.52:180][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.07-19.09.52:222][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.07-19.09.52:266][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.07-19.09.52:312][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.07-19.09.52:402][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.07-19.09.52:402][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.07-19.09.52:436][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.04.07-19.09.52:523][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.04.07-19.09.52:551][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.04.07-19.09.52:597][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.07-19.09.52:641][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.07-19.09.52:686][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.07-19.09.52:731][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.04.07-19.09.52:731][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.04.07-19.09.53:179][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.04.07-19.09.53:255][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/kevin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.04.07-19.09.53:255][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/kevin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.04.07-19.09.53:255][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/kevin/Desktop/handin/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.07-19.09.53:255][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.07-19.09.53:255][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/kevin/Desktop/handin/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.07-19.09.53:255][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.07-19.09.53:271][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.07-19.09.53:283][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kevin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.07-19.09.53:292][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.07-19.09.53:292][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.07-19.09.53:293][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.07-19.09.53:293][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.07-19.09.53:573][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.07-19.09.53:628][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.04.07-19.09.53:765][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.07-19.09.53:802][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.07-19.09.53:842][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.07-19.09.53:842][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.04.07-19.09.53:842][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.04.07-19.09.54:321][  0]LogNetVersion: handin , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2351120416)
+[2018.04.07-19.09.54:378][  0]LogAssetRegistry: FAssetRegistry took 0.0249 seconds to start up
+[2018.04.07-19.09.54:442][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.042320 seconds
+[2018.04.07-19.09.54:447][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.04.07-19.09.54:447][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.04.07-19.09.54:447][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.07-19.09.54:500][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.07-19.09.56:536][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.07-19.09.56:571][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.07-19.09.57:016][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.07-19.09.57:346][  0]SourceControl: Info Source control is disabled
+[2018.04.07-19.09.57:347][  0]SourceControl: Info Source control is disabled
+[2018.04.07-19.09.57:387][  0]SourceControl: Info Source control is disabled
+[2018.04.07-19.09.57:425][  0]SourceControl: Info Source control is disabled
+[2018.04.07-19.09.58:019][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.07-19.09.58:517][  0]LogEngine: Initializing Engine...
+[2018.04.07-19.09.58:518][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.07-19.09.58:685][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.07-19.09.58:685][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.07-19.09.58:809][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.07-19.09.58:816][  0]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.07-19.09.58:825][  0]LogInit: FAudioDevice initialized.
+[2018.04.07-19.09.58:871][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/kevin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.04.07-19.09.58:879][  0]LogInit: Texture streaming: Enabled
+[2018.04.07-19.09.58:959][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.07-19.09.59:146][  0]LogInit: Transaction tracking system initialized
+[2018.04.07-19.09.59:402][  0]BlueprintLog: New page: Editor Load
+[2018.04.07-19.10.00:215][  0]LocalizationService: Info Localization service is disabled
+[2018.04.07-19.10.00:857][  0]LogConsoleResponse:Display: 
+[2018.04.07-19.10.00:983][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.07-19.10.00:983][  0]LogCook:Display: Mobile HDR setting 1
+[2018.04.07-19.10.01:813][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Desktop/handin/Content/' took 0.02s
+[2018.04.07-19.10.01:853][  0]SourceControl: Info Source control is disabled
+[2018.04.07-19.10.01:853][  0]Cmd: MAP LOAD FILE="../../../../../../Users/kevin/Desktop/handin/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.07-19.10.01:859][  0]LightingResults: New page: Lighting Build
+[2018.04.07-19.10.01:895][  0]MapCheck: New page: Map Check
+[2018.04.07-19.10.01:895][  0]LightingResults: New page: Lighting Build
+[2018.04.07-19.10.04:061][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.04.07-19.10.04:765][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.07-19.10.04:799][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.07-19.10.04:852][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.04ms to complete.
+[2018.04.07-19.10.04:852][  0]LogFileHelpers: Loading map 'Minimal_Default' took 3.000
+[2018.04.07-19.10.05:130][  0]LogCollectionManager: Loaded 0 collections in 0.001805 seconds
+[2018.04.07-19.10.05:218][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Desktop/handin/Saved/Collections/' took 0.01s
+[2018.04.07-19.10.05:218][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Desktop/handin/Content/Developers/kevin/Collections/' took 0.01s
+[2018.04.07-19.10.05:218][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kevin/Desktop/handin/Content/Collections/' took 0.01s
+[2018.04.07-19.10.05:218][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.04.07-19.10.05:230][  0]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2329 classes and 491 folders.
+[2018.04.07-19.10.05:288][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.04.07-19.10.05:608][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.04.07-19.10.05:654][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.04.07-19.10.05:730][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.04.07-19.10.05:739][  0]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.07-19.10.05:741][  0]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.07-19.10.05:753][  0]LogSlate: Took 0.006946 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.07-19.10.05:901][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2018.04.07-19.10.06:037][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.04.07-19.10.06:096][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.04.07-19.10.06:096][  0]LogLoad: (Engine Initialization) Total time: 17.89 seconds
+[2018.04.07-19.10.06:096][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
+[2018.04.07-19.10.06:096][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.04.07-19.10.06:107][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.04.07-19.10.06:108][  0]LogOcInput: OculusInput pre-init called
+[2018.04.07-19.10.06:108][  0]LogHMD: Starting GearVRController plugin
+[2018.04.07-19.10.06:128][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.07-19.10.06:189][  0]LogSlate: Took 0.005249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.07-19.10.06:248][  1]LogAssetRegistry: Asset discovery search completed in 11.8913 seconds
+[2018.04.07-19.10.06:250][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.04.07-19.10.06:250][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2018.04.07-19.10.17:006][193]Cmd: SELECT NONE
+[2018.04.07-19.10.28:389][514]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (TreeOne11)
+[2018.04.07-19.10.28:571][514]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (TreeOne11)
+[2018.04.07-19.10.28:770][525]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (TreeOne11)
+[2018.04.07-19.10.28:800][525]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (TreeOne11)
+[2018.04.07-19.10.28:829][525]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (TreeOne11)
+[2018.04.07-19.10.29:654][618]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (TreeOne11)
+[2018.04.07-19.10.31:003][775]Cmd: SELECT NONE
+[2018.04.07-19.11.02:163][498]Cmd: SELECT NONE
+[2018.04.07-19.12.50:328][415]LogEditorViewport: Clicking on Actor (LMB): Rail_C (Rail)
+[2018.04.07-19.13.01:882][738]LogEditorViewport: Clicking on Actor (LMB): Rail_C (Rail)
+[2018.04.07-19.13.08:264][493]LogEditorViewport: Clicking on Actor (LMB): Rail_C (Rail)
+[2018.04.07-19.13.27:053][687]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu
+[2018.04.07-19.13.38:659][581]LogEditorViewport: Clicking on Actor (LMB): Rail_C (Rail)
+[2018.04.07-19.13.39:996][735]Cmd: DELETE
+[2018.04.07-19.13.39:996][735]Cmd: ACTOR DELETE
+[2018.04.07-19.13.40:003][735]LogEditorActor: Deleted Actor: Rail_C
+[2018.04.07-19.13.40:017][735]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2018.04.07-19.14.26:723][227]Cmd: SELECT NONE
+[2018.04.07-19.14.31:253][745]LogEditorViewport: Clicking on Actor (LMB): Rail_C (Rail)
+[2018.04.07-19.14.54:999][534]LogEditorViewport: Clicking on Actor (LMB): Rail_C (Rail)
+[2018.04.07-19.15.08:269][112]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.04.07-19.15.17:003][103]LogEditorViewport: Clicking on Actor (LMB): Rail_C (Rail)
+[2018.04.07-19.16.03:516][627]LogEditorViewport: Clicking on Actor (context menu): InstancedFoliageActor (InstancedFoliageActor)
+[2018.04.07-19.16.09:017][242]LogEditorViewport: Clicking on Actor (LMB): Rail_C (Rail)
+[2018.04.07-19.16.15:838][ 31]LogEditorViewport: Clicking on Actor (context menu): InstancedFoliageActor (InstancedFoliageActor)
+[2018.04.07-19.16.17:201][187]LogEditorViewport: Clicking on Actor (LMB): Rail_C (Rail)
+[2018.04.07-19.16.26:105][238]LogEditorViewport: Clicking on Actor (context menu): InstancedFoliageActor (InstancedFoliageActor)
+[2018.04.07-19.16.27:739][419]LogEditorViewport: Clicking on Actor (LMB): Rail_C (Rail)
+[2018.04.07-19.16.38:736][714]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2018.04.07-19.16.39:377][787]LogEditorViewport: Clicking on Actor (context menu): InstancedFoliageActor (InstancedFoliageActor)
+[2018.04.07-19.16.39:404][787]LogEditorViewport: Clicking on Actor (context menu): InstancedFoliageActor (InstancedFoliageActor)
+[2018.04.07-19.16.41:074][984]LogEditorViewport: Clicking on Actor (LMB): Rail_C (Rail)
+[2018.04.07-19.17.38:204][716]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2018.04.07-19.17.41:484][104]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2018.04.07-19.17.42:835][263]Cmd: SELECT NONE
+[2018.04.07-19.17.44:163][416]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2018.04.07-19.17.45:891][619]Cmd: DELETE
+[2018.04.07-19.17.45:891][619]Cmd: ACTOR DELETE
+[2018.04.07-19.17.45:898][619]LogEditorActor: Deleted Actor: InstancedFoliageActor
+[2018.04.07-19.17.45:927][619]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2018.04.07-19.18.03:749][662]LogEditorViewport: Clicking on Actor (LMB): Rail_C (Rail)
+[2018.04.07-19.18.29:989][764]Cmd: TRANSACTION UNDO
+[2018.04.07-19.18.29:989][764]LogEditorTransaction: Undo Move Actors
+[2018.04.07-19.18.30:001][764]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.07-19.18.30:649][830]Cmd: TRANSACTION UNDO
+[2018.04.07-19.18.30:649][830]LogEditorTransaction: Undo Move Actors
+[2018.04.07-19.18.36:019][455]Cmd: TRANSACTION UNDO
+[2018.04.07-19.18.36:019][455]LogEditorTransaction: Undo Move Actors
+[2018.04.07-19.18.44:292][428]Cmd: SELECT NONE
+[2018.04.07-19.18.50:195][117]LogEditorViewport: Clicking on Actor (LMB): Rail_C (Rail)
+[2018.04.07-19.19.19:217][544]LogEditorViewport: Clicking on Actor (LMB): Rail_C (Rail)
+[2018.04.07-19.19.19:941][628]LogEditorViewport: Clicking on Actor (LMB): Rail_C (Rail)
+[2018.04.07-19.19.20:531][696]LogEditorViewport: Clicking on Actor (LMB): Rail_C (Rail)
+[2018.04.07-19.19.22:248][899]LogEditorViewport: Clicking on Actor (LMB): Rail_C (Rail)
+[2018.04.07-19.19.46:621][775]LogEditorViewport: Clicking on Actor (LMB): Rail_C (Rail)
+[2018.04.07-19.19.47:897][923]LogEditorViewport: Clicking on Actor (LMB): Rail_C (Rail)
+[2018.04.07-19.19.56:380][929]Cmd: SELECT NONE
+[2018.04.07-19.20.12:093][798]LogEditorViewport: Clicking on Actor (LMB): Rail_C (Rail)
+[2018.04.07-19.20.24:200][157]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2018.04.07-19.21.11:357][570]Cmd: SELECT NONE
+[2018.04.07-19.21.18:275][397]MapCheck: New page: Map Check
+[2018.04.07-19.21.18:292][397]Cmd: MAP REBUILD ALLVISIBLE
+[2018.04.07-19.21.18:299][397]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.04.07-19.21.18:748][397]LightingResults: New page: Lighting Build - 7 Apr 2018 21:21:18
+[2018.04.07-19.21.18:838][397]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.04.07-19.21.18:882][397]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.04.07-19.21.18:895][397]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.04.07-19.21.19:961][397]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.04.07-19.21.19:961][397]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2672
+[2018.04.07-19.21.22:351][397]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2018.04.07-19.21.22:352][397]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.04.07-19.21.22:352][397]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.04.07-19.21.22:352][397]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.04.07-19.21.22:352][397]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.04.07-19.21.22:352][397]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.04.07-19.21.23:095][397]LogEditorBuildUtils: Build time 0:04
+[2018.04.07-19.21.23:217][400]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Walnut, compiling. 
+[2018.04.07-19.21.23:226][400]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Walnut, compiling. 
+[2018.04.07-19.21.23:263][401]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer TreeOne_Branches_Mat, compiling. 
+[2018.04.07-19.21.23:269][401]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer TreeOne_Branches_Mat, compiling. 
+[2018.04.07-19.21.23:308][402]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer TreeOne_Branches_2_Mat, compiling. 
+[2018.04.07-19.21.23:315][402]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer TreeOne_Branches_2_Mat, compiling. 
+[2018.04.07-19.21.23:329][403]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer TreeOne_Fronds_Mat, compiling. 
+[2018.04.07-19.21.23:335][403]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer TreeOne_Fronds_Mat, compiling. 
+[2018.04.07-19.21.23:342][403]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer TreeOne_Fronds_Mat, compiling. 
+[2018.04.07-19.21.23:358][404]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer TreeOne_Leaves_Mat, compiling. 
+[2018.04.07-19.21.23:365][404]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer TreeOne_Leaves_Mat, compiling. 
+[2018.04.07-19.21.23:370][404]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer TreeOne_Leaves_Mat, compiling. 
+[2018.04.07-19.21.23:385][405]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Bush, compiling. 
+[2018.04.07-19.21.23:390][405]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Bush, compiling. 
+[2018.04.07-19.21.23:395][405]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Bush, compiling. 
+[2018.04.07-19.21.23:408][406]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer FindKey, compiling. 
+[2018.04.07-19.21.23:414][406]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer FindKey, compiling. 
+[2018.04.07-19.21.23:430][407]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer RedBrick, compiling. 
+[2018.04.07-19.21.23:438][407]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer RedBrick, compiling. 
+[2018.04.07-19.21.51:090][849]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere4)
+[2018.04.07-19.21.51:904][884]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TreeOne11)
+[2018.04.07-19.21.56:294][141]Cmd: SELECT NONE
+[2018.04.07-19.21.59:049][388]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.21.59:049][388]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.21.59:412][423]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.21.59:412][423]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.21.59:793][460]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.21.59:793][460]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.22.01:752][592]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.22.01:752][592]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.22.03:954][729]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.22.03:954][729]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.22.04:355][750]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.22.04:355][750]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.22.04:718][768]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.22.04:718][768]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.22.05:734][820]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.22.05:734][820]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.22.06:158][843]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.22.06:158][843]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.22.06:611][866]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.22.06:611][866]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.22.12:861][263]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.22.12:861][263]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.22.13:174][282]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.22.13:174][282]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.22.13:317][290]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.22.13:317][290]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.22.14:626][364]LogMaterial: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2018.04.07-19.22.14:670][364]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2018.04.07-19.22.14:714][364]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2018.04.07-19.22.14:772][364]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2018.04.07-19.22.14:827][364]LogMaterial: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2018.04.07-19.22.14:913][364]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.04.07-19.22.14:942][364]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.04.07-19.22.14:977][364]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.04.07-19.22.15:013][364]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.04.07-19.22.15:057][364]LogMaterial: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2018.04.07-19.22.15:092][364]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.04.07-19.22.15:128][364]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2018.04.07-19.22.15:197][364]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128)
+[2018.04.07-19.22.21:609][764]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.22.21:609][764]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.22.21:661][768]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.22.21:661][768]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.22.21:842][780]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.22.21:842][780]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.22.21:923][786]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.22.21:923][786]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.22.22:136][799]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.22.22:136][799]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.22.24:174][937]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.22.24:174][937]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.22.27:113][106]Job is a success!
+[2018.04.07-19.22.27:162][107]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.07-19.22.29:213][107]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2018.04.07-19.22.29:213][107]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.04.07-19.22.29:213][107]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.04.07-19.22.29:213][107]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512)
+[2018.04.07-19.22.29:213][107]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2018.04.07-19.22.29:213][107]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2018.04.07-19.22.29:213][107]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT, 256X128)
+[2018.04.07-19.22.29:213][107]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 256X256)
+[2018.04.07-19.22.29:213][107]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 256X256)
+[2018.04.07-19.22.29:213][107]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT, 256X128)
+[2018.04.07-19.22.29:213][107]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 256X256)
+[2018.04.07-19.22.29:213][107]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1, 256X256)
+[2018.04.07-19.22.29:213][107]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT, 256X128)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 256X256)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1, 256X256)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT, 256X128)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 256X256)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1, 256X256)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: SkyOcclusion1_7 (AutoDXT, 256X128)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 256X256)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1, 256X256)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: SkyOcclusion1_8 (AutoDXT, 256X128)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT, 256X256)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1, 256X256)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: SkyOcclusion1_9 (AutoDXT, 256X128)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT, 256X256)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1, 256X256)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: SkyOcclusion1_10 (AutoDXT, 256X128)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT, 256X256)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1, 256X256)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: SkyOcclusion1_11 (AutoDXT, 256X128)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT, 256X256)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1, 256X256)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: SkyOcclusion1_12 (AutoDXT, 256X128)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT, 256X256)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1, 256X256)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: SkyOcclusion1_13 (AutoDXT, 256X128)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT, 256X256)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1, 256X256)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: SkyOcclusion1_14 (AutoDXT, 256X128)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT, 256X256)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1, 256X256)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: SkyOcclusion1_15 (AutoDXT, 256X128)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT, 256X256)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1, 256X256)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: SkyOcclusion1_16 (AutoDXT, 128X64)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT, 128X128)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1, 128X128)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: SkyOcclusion1_17 (AutoDXT, 64X32)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT, 64X64)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1, 64X64)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: SkyOcclusion0_18 (AutoDXT, 64X32)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 64X64)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1, 64X64)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: SkyOcclusion0_19 (AutoDXT, 64X32)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT, 64X64)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1, 64X64)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: SkyOcclusion0_20 (AutoDXT, 64X32)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT, 64X64)
+[2018.04.07-19.22.29:214][107]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1, 64X64)
+[2018.04.07-19.22.29:414][107]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 256X64)
+[2018.04.07-19.22.29:414][107]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 256X64)
+[2018.04.07-19.22.29:414][107]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8, 256X64)
+[2018.04.07-19.22.29:414][107]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 256X64)
+[2018.04.07-19.22.29:414][107]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8, 256X64)
+[2018.04.07-19.22.29:414][107]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8, 256X64)
+[2018.04.07-19.22.29:414][107]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8, 256X64)
+[2018.04.07-19.22.29:414][107]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8, 256X64)
+[2018.04.07-19.22.29:414][107]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8, 256X64)
+[2018.04.07-19.22.29:414][107]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 256X512)
+[2018.04.07-19.22.29:414][107]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8, 256X64)
+[2018.04.07-19.22.29:414][107]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (G8, 256X64)
+[2018.04.07-19.22.29:414][107]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (G8, 256X64)
+[2018.04.07-19.22.29:414][107]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (G8, 128X64)
+[2018.04.07-19.22.29:414][107]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (G8, 256X64)
+[2018.04.07-19.22.29:414][107]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (G8, 32X32)
+[2018.04.07-19.22.29:414][107]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (G8, 32X32)
+[2018.04.07-19.22.29:414][107]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (G8, 32X32)
+[2018.04.07-19.22.29:414][107]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (G8, 32X32)
+[2018.04.07-19.22.29:414][107]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 1024X512)
+[2018.04.07-19.22.29:498][107]Lightmass on OFFICE: 1:02 min total, 859 ms importing, 1.23 sec setup, 4.28 sec photons, 56.5 sec processing, 0 ms extra exporting [789/789 mappings]. Threads: 6:35 min total, 5:17 min processing.
+[2018.04.07-19.22.29:633][107]LogStaticLightingSystem: Illumination: 1:10 min (1.60 sec encoding lightmaps, 212 ms encoding shadowmaps)
+[2018.04.07-19.22.29:633][107]LogStaticLightingSystem: Lightmap texture memory:  7.5 MB (4.8 MB streaming, 2.7 MB non-streaming), 40 textures
+[2018.04.07-19.22.29:633][107]LogStaticLightingSystem: Shadowmap texture memory: 3.6 MB (3.0 MB streaming, 0.7 MB non-streaming), 20 textures
+[2018.04.07-19.22.30:392][107]DumpUnbuiltLightIteractions
+[2018.04.07-19.22.30:392][107]Lights with unbuilt interactions: 0
+[2018.04.07-19.22.30:392][107]
+[2018.04.07-19.22.30:392][107]Primitives with unbuilt interactions: 0
+[2018.04.07-19.22.30:436][108]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.04.07-19.22.30:436][108]MapCheck: New page: Minimal_Default - 7 Apr 2018 21:22:30
+[2018.04.07-19.22.30:440][108]MapCheck:Warning: Performance Warning StopAndGoBack_5 SkeletalMeshActor 'No_SkeletalMesh' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
+[2018.04.07-19.22.30:440][108]MapCheck:Warning: Warning StopAndGoBack_5 Skeletal mesh actor has NULL SkeletalMesh property 
+[2018.04.07-19.22.30:444][108]MapCheck:Warning: Warning Basket Static mesh actor has NULL StaticMesh property 
+[2018.04.07-19.22.30:444][108]MapCheck:Warning: Warning Basket Static mesh actor has NULL StaticMesh property 
+[2018.04.07-19.22.30:447][108]MapCheck:Error: Error Cube41_2 Cube41_2 : Invalid DrawScale/DrawScale3D 
+[2018.04.07-19.22.30:447][108]MapCheck:Error: Error Cube42 Cube42 : Invalid DrawScale/DrawScale3D 
+[2018.04.07-19.22.30:447][108]MapCheck:Error: Error Cube43 Cube43 : Invalid DrawScale/DrawScale3D 
+[2018.04.07-19.22.30:465][108]MapCheck:Warning: Warning StaticMesh_67 Static mesh actor has NULL StaticMesh property 
+[2018.04.07-19.22.30:465][108]MapCheck:Warning: Warning StaticMesh_67 Static mesh actor has NULL StaticMesh property 
+[2018.04.07-19.22.30:465][108]MapCheck:Warning: Warning trilho_Cube_004_8 Static mesh actor has NULL StaticMesh property 
+[2018.04.07-19.22.30:465][108]MapCheck:Warning: Warning trilho_Cube_004_8 Static mesh actor has NULL StaticMesh property 
+[2018.04.07-19.22.30:465][108]MapCheck:Warning: Warning trilho_Cube_11 Static mesh actor has NULL StaticMesh property 
+[2018.04.07-19.22.30:465][108]MapCheck:Warning: Warning trilho_Cube_11 Static mesh actor has NULL StaticMesh property 
+[2018.04.07-19.22.30:559][108]MapCheck: Info Map check complete: 3 Error(s), 10 Warning(s), took 123.435ms to complete.
+[2018.04.07-19.22.55:009][833]LogActorFactory: Actor Factory created SM_Bush
+[2018.04.07-19.23.16:460][344]Cmd: EDCALLBACK SURFPROPS
+[2018.04.07-19.23.19:472][703]Cmd: SELECT NONE
+[2018.04.07-19.23.43:250][545]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2018.04.07-19.24.21:550][ 15]Cmd: TRANSACTION UNDO
+[2018.04.07-19.24.21:550][ 15]LogEditorTransaction: Undo Foliage Editing
+[2018.04.07-19.24.22:061][ 55]Cmd: TRANSACTION UNDO
+[2018.04.07-19.24.22:061][ 55]LogEditorTransaction: Undo Foliage Editing
+[2018.04.07-19.24.22:447][ 89]Cmd: TRANSACTION UNDO
+[2018.04.07-19.24.22:447][ 89]LogEditorTransaction: Undo Foliage Editing
+[2018.04.07-19.24.22:854][126]Cmd: TRANSACTION UNDO
+[2018.04.07-19.24.22:854][126]LogEditorTransaction: Undo Foliage Editing
+[2018.04.07-19.24.23:252][162]Cmd: TRANSACTION UNDO
+[2018.04.07-19.24.23:252][162]LogEditorTransaction: Undo Foliage Editing
+[2018.04.07-19.24.23:679][201]Cmd: TRANSACTION UNDO
+[2018.04.07-19.24.23:679][201]LogEditorTransaction: Undo Select Surfaces
+[2018.04.07-19.24.24:113][236]Cmd: TRANSACTION UNDO
+[2018.04.07-19.24.24:113][236]LogEditorTransaction: Undo Select Surfaces
+[2018.04.07-19.24.24:571][272]Cmd: TRANSACTION UNDO
+[2018.04.07-19.24.24:571][272]LogEditorTransaction: Undo Select Surfaces
+[2018.04.07-19.24.26:084][437]Cmd: SELECT NONE
+[2018.04.07-19.24.27:170][566]LogEditorViewport: Clicking on Actor (context menu): InstancedFoliageActor (InstancedFoliageActor)
+[2018.04.07-19.24.31:009][ 19]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2018.04.07-19.24.31:959][128]Cmd: DELETE
+[2018.04.07-19.24.31:959][128]Cmd: ACTOR DELETE
+[2018.04.07-19.24.31:966][128]LogEditorActor: Deleted Actor: InstancedFoliageActor
+[2018.04.07-19.24.31:976][128]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2018.04.07-19.25.09:138][543]Cmd: TRANSACTION UNDO
+[2018.04.07-19.25.09:138][543]LogEditorTransaction: Undo Foliage Editing
+[2018.04.07-19.25.12:322][913]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (parviflora2)
+[2018.04.07-19.25.13:363][ 27]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (parviflora2)
+[2018.04.07-19.25.39:864][307]LogStaticMesh: Building static mesh pumpkin...
+[2018.04.07-19.25.39:875][307]LogStaticMesh: Built static mesh [0.01s] /Game/MyContent/Meshes/pumpkin.pumpkin
+[2018.04.07-19.25.42:811][614]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (parviflora)
+[2018.04.07-19.25.44:816][834]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (parviflora)
+[2018.04.07-19.25.45:573][917]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (parviflora)
+[2018.04.07-19.26.00:657][165]LogStaticMesh: Building static mesh Forna...
+[2018.04.07-19.26.00:663][165]LogStaticMesh: Built static mesh [0.01s] /Game/MyContent/Meshes/Forna.Forna
+[2018.04.07-19.26.04:846][618]LogActorFactory: Actor Factory created pumpkin
+[2018.04.07-19.26.16:970][998]LogMaterial:Warning: Material /Game/MyContent/Material/leaf.leaf needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2018.04.07-19.26.16:972][998]LogMaterial: Missing cached shader map for material leaf, compiling. 
+[2018.04.07-19.27.14:699][708]LogEditorViewport: Clicking on Actor (context menu): InstancedFoliageActor (InstancedFoliageActor1)
+[2018.04.07-19.28.05:263][684]Cmd: SELECT NONE
+[2018.04.07-19.28.13:559][647]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.04.07-19.28.14:764][790]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (parviflora6)
+[2018.04.07-19.28.15:855][914]Cmd: DELETE
+[2018.04.07-19.28.15:855][914]Cmd: ACTOR DELETE
+[2018.04.07-19.28.15:862][914]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.07-19.28.15:873][914]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2018.04.07-19.28.16:212][952]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bush)
+[2018.04.07-19.28.16:392][967]Cmd: DELETE
+[2018.04.07-19.28.16:392][967]Cmd: ACTOR DELETE
+[2018.04.07-19.28.16:398][967]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.07-19.28.16:409][967]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2018.04.07-19.28.17:158][ 47]Cmd: DELETE
+[2018.04.07-19.28.17:158][ 47]Cmd: ACTOR DELETE
+[2018.04.07-19.28.17:166][ 47]LogEditorActor: Deleted Actor: Brush
+[2018.04.07-19.28.17:209][ 47]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2018.04.07-19.28.19:729][342]Cmd: TRANSACTION UNDO
+[2018.04.07-19.28.19:729][342]LogEditorTransaction: Undo Delete Actors
+[2018.04.07-19.28.19:752][342]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush37.BrushComponent0) Component already registered.
+[2018.04.07-19.28.19:753][342]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush51.BrushComponent0) Component already registered.
+[2018.04.07-19.28.19:755][342]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush6_12.BrushComponent0) Component already registered.
+[2018.04.07-19.28.19:761][342]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush22.BrushComponent0) Component already registered.
+[2018.04.07-19.28.19:762][342]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush88.BrushComponent0) Component already registered.
+[2018.04.07-19.28.19:763][342]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush102.BrushComponent0) Component already registered.
+[2018.04.07-19.28.22:217][609]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (parviflora2)
+[2018.04.07-19.28.23:363][738]Cmd: DELETE
+[2018.04.07-19.28.23:363][738]Cmd: ACTOR DELETE
+[2018.04.07-19.28.23:369][738]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.07-19.28.23:380][738]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2018.04.07-19.28.24:134][826]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (parviflora9)
+[2018.04.07-19.28.24:623][877]Cmd: DELETE
+[2018.04.07-19.28.24:623][877]Cmd: ACTOR DELETE
+[2018.04.07-19.28.24:629][877]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.07-19.28.24:639][877]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2018.04.07-19.28.25:049][924]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (parviflora)
+[2018.04.07-19.28.25:418][961]Cmd: DELETE
+[2018.04.07-19.28.25:419][961]Cmd: ACTOR DELETE
+[2018.04.07-19.28.25:424][961]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.07-19.28.25:434][961]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2018.04.07-19.28.26:357][ 61]Cmd: DELETE
+[2018.04.07-19.28.26:357][ 61]Cmd: ACTOR DELETE
+[2018.04.07-19.28.26:364][ 61]LogEditorActor: Deleted Actor: Brush
+[2018.04.07-19.28.26:407][ 61]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2018.04.07-19.28.32:583][741]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere4)
+[2018.04.07-19.28.33:738][858]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.04.07-19.28.34:739][939]Cmd: TRANSACTION UNDO
+[2018.04.07-19.28.34:739][939]LogEditorTransaction: Undo Clicking on Actors
+[2018.04.07-19.28.35:402][985]Cmd: TRANSACTION UNDO
+[2018.04.07-19.28.35:402][985]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2018.04.07-19.28.36:991][128]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2018.04.07-19.28.37:361][163]Cmd: TRANSACTION UNDO
+[2018.04.07-19.28.37:361][163]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2018.04.07-19.28.37:758][204]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.04.07-19.28.38:413][276]Cmd: TRANSACTION UNDO
+[2018.04.07-19.28.38:413][276]LogEditorTransaction: Undo Clicking on Actors
+[2018.04.07-19.28.39:146][357]Cmd: TRANSACTION UNDO
+[2018.04.07-19.28.39:146][357]LogEditorTransaction: Undo Delete Actors
+[2018.04.07-19.28.39:167][357]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush37.BrushComponent0) Component already registered.
+[2018.04.07-19.28.39:168][357]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush51.BrushComponent0) Component already registered.
+[2018.04.07-19.28.39:169][357]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush6_12.BrushComponent0) Component already registered.
+[2018.04.07-19.28.39:175][357]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush22.BrushComponent0) Component already registered.
+[2018.04.07-19.28.39:177][357]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush88.BrushComponent0) Component already registered.
+[2018.04.07-19.28.39:178][357]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush102.BrushComponent0) Component already registered.
+[2018.04.07-19.28.41:030][565]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (parviflora14)
+[2018.04.07-19.28.42:558][739]Cmd: DELETE
+[2018.04.07-19.28.42:558][739]Cmd: ACTOR DELETE
+[2018.04.07-19.28.42:566][739]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.07-19.28.42:578][739]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2018.04.07-19.28.43:400][835]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (parviflora4)
+[2018.04.07-19.28.43:862][883]Cmd: DELETE
+[2018.04.07-19.28.43:862][883]Cmd: ACTOR DELETE
+[2018.04.07-19.28.43:868][883]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.07-19.28.43:879][883]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2018.04.07-19.28.44:685][977]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (parviflora10)
+[2018.04.07-19.28.45:234][ 36]Cmd: DELETE
+[2018.04.07-19.28.45:234][ 36]Cmd: ACTOR DELETE
+[2018.04.07-19.28.45:239][ 36]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.07-19.28.45:249][ 36]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2018.04.07-19.28.45:786][ 98]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (parviflora3)
+[2018.04.07-19.28.46:137][133]Cmd: DELETE
+[2018.04.07-19.28.46:137][133]Cmd: ACTOR DELETE
+[2018.04.07-19.28.46:142][133]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.07-19.28.46:154][133]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2018.04.07-19.28.46:716][198]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (parviflora7)
+[2018.04.07-19.28.47:164][245]Cmd: DELETE
+[2018.04.07-19.28.47:164][245]Cmd: ACTOR DELETE
+[2018.04.07-19.28.47:169][245]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.07-19.28.47:181][245]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2018.04.07-19.28.47:618][295]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (parviflora11)
+[2018.04.07-19.28.47:952][328]Cmd: DELETE
+[2018.04.07-19.28.47:952][328]Cmd: ACTOR DELETE
+[2018.04.07-19.28.47:958][328]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.07-19.28.47:970][328]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2018.04.07-19.28.48:524][392]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (parviflora8)
+[2018.04.07-19.28.48:778][416]Cmd: DELETE
+[2018.04.07-19.28.48:778][416]Cmd: ACTOR DELETE
+[2018.04.07-19.28.48:784][416]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.07-19.28.48:794][416]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2018.04.07-19.28.49:441][491]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (parviflora12)
+[2018.04.07-19.28.49:700][515]Cmd: DELETE
+[2018.04.07-19.28.49:700][515]Cmd: ACTOR DELETE
+[2018.04.07-19.28.49:706][515]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.07-19.28.49:717][515]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2018.04.07-19.28.50:530][610]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (parviflora13)
+[2018.04.07-19.28.51:089][670]Cmd: DELETE
+[2018.04.07-19.28.51:089][670]Cmd: ACTOR DELETE
+[2018.04.07-19.28.51:095][670]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.07-19.28.51:108][670]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2018.04.07-19.28.51:960][762]Cmd: DELETE
+[2018.04.07-19.28.51:960][762]Cmd: ACTOR DELETE
+[2018.04.07-19.28.51:966][762]LogEditorActor: Deleted Actor: Brush
+[2018.04.07-19.28.52:013][762]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2018.04.07-19.28.53:498][932]Cmd: TRANSACTION UNDO
+[2018.04.07-19.28.53:498][932]LogEditorTransaction: Undo Delete Actors
+[2018.04.07-19.28.53:520][932]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush37.BrushComponent0) Component already registered.
+[2018.04.07-19.28.53:520][932]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush51.BrushComponent0) Component already registered.
+[2018.04.07-19.28.53:522][932]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush6_12.BrushComponent0) Component already registered.
+[2018.04.07-19.28.53:528][932]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush22.BrushComponent0) Component already registered.
+[2018.04.07-19.28.53:529][932]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush88.BrushComponent0) Component already registered.
+[2018.04.07-19.28.53:530][932]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.BoxBrush102.BrushComponent0) Component already registered.
+[2018.04.07-19.28.54:554][ 33]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (parviflora5)
+[2018.04.07-19.28.55:570][146]Cmd: DELETE
+[2018.04.07-19.28.55:570][146]Cmd: ACTOR DELETE
+[2018.04.07-19.28.55:576][146]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.07-19.28.55:587][146]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2018.04.07-19.29.45:468][707]Cmd: SELECT NONE
+[2018.04.07-19.32.08:114][375]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.04.07-19.34.50:797][463]Cmd: SELECT NONE
+[2018.04.07-19.42.45:352][495]Cmd: SELECT NONE
+[2018.04.07-19.42.50:862][ 47]MapCheck: New page: Map Check
+[2018.04.07-19.42.50:872][ 47]Cmd: MAP REBUILD ALLVISIBLE
+[2018.04.07-19.42.50:876][ 47]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.04.07-19.42.51:289][ 47]LightingResults: New page: Lighting Build - 7 Apr 2018 21:42:51
+[2018.04.07-19.42.51:346][ 47]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.04.07-19.42.51:349][ 47]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.04.07-19.42.51:349][ 47]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.04.07-19.42.51:350][ 47]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.04.07-19.42.51:350][ 47]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2672
+[2018.04.07-19.42.55:876][ 47]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2018.04.07-19.42.55:877][ 47]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.04.07-19.42.55:877][ 47]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.04.07-19.42.55:877][ 47]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.04.07-19.42.55:877][ 47]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.04.07-19.42.55:877][ 47]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.04.07-19.42.56:038][ 47]LogEditorBuildUtils: Build time 0:05
+[2018.04.07-19.42.56:124][ 49]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer key, compiling. 
+[2018.04.07-19.42.56:131][ 49]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer key, compiling. 
+[2018.04.07-19.42.56:137][ 49]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer key, compiling. 
+[2018.04.07-19.43.17:950][135]LogMaterial: Missing cached shader map for material GroundFloorBricks, compiling. 
+[2018.04.07-19.43.18:122][135]LogMaterial: Missing cached shader map for material GroundFloorBricks, compiling. 
+[2018.04.07-19.43.18:146][135]LogMaterial: Missing cached shader map for material GroundFloorBricks, compiling. 
+[2018.04.07-19.43.18:209][135]LogSlate: Took 0.007829 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.07-19.43.36:802][ 36]LogMaterial: Missing cached shader map for material GroundFloorBricks, compiling. 
+[2018.04.07-19.43.36:985][ 37]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2018.04.07-19.43.38:693][112]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.04.07-19.43.38:693][112]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.04.07-19.43.38:693][112]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.04.07-19.43.40:055][178]LogMaterial: Missing cached shader map for material GroundFloorBricks, compiling. 
+[2018.04.07-19.43.44:693][396]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.43.44:713][397]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.43.52:884][833]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.43.52:884][833]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.43.53:025][840]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.43.53:025][840]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.43.53:085][843]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.43.53:085][843]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.43.53:166][847]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.43.53:166][847]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.43.53:217][850]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.43.53:217][850]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.43.53:318][855]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.43.53:318][855]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.43.53:338][856]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.43.53:338][856]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.43.53:380][858]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.43.53:380][858]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.43.53:481][863]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.43.53:481][863]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.43.53:522][865]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.43.53:522][865]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.43.53:543][866]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.43.53:543][866]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.43.53:624][870]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.43.53:624][870]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.43.54:116][895]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.43.54:116][895]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.43.54:156][897]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.43.54:156][897]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.43.54:197][899]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.43.54:197][899]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.43.54:197][899]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.43.54:197][899]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.43.54:197][899]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.43.54:197][899]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.43.54:679][923]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-19.43.54:679][923]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-19.43.56:193][  1]Job is a success!
+[2018.04.07-19.43.59:413][362]LogMaterial: Missing cached shader map for material GroundFloorBricks, compiling. 
+[2018.04.07-19.44.00:194][397]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.04.07-19.44.00:194][397]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.04.07-19.44.00:194][397]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.04.07-19.44.12:885][700]LogMaterial: Missing cached shader map for material GroundFloorBricks, compiling. 
+[2018.04.07-19.44.13:675][741]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.04.07-19.44.13:675][741]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.04.07-19.44.13:675][741]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.04.07-19.45.01:111][826]LogMaterial: Missing cached shader map for material GroundFloorBricks, compiling. 
+[2018.04.07-19.45.02:120][885]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.04.07-19.45.02:120][885]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.04.07-19.45.02:120][885]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.04.07-19.45.18:373][182]LogMaterial: Missing cached shader map for material GroundFloorBricks, compiling. 
+[2018.04.07-19.45.19:145][225]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.04.07-19.45.19:145][225]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.04.07-19.45.19:145][225]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.04.07-19.47.41:507][717]MapCheck: New page: Map Check
+[2018.04.07-19.47.41:522][717]Cmd: MAP REBUILD ALLVISIBLE
+[2018.04.07-19.47.41:522][717]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.04.07-19.47.41:977][717]LogEditorBuildUtils: Build time 0:00
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 256X256)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 256X128)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 256X256)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 256X128)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 256X256)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 256X256)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT, 256X128)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 256X256)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 256X256)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT, 256X128)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 256X256)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 256X256)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT, 256X128)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 256X256)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1, 256X256)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT, 256X128)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 256X256)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1, 256X256)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT, 256X128)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 256X256)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1, 256X256)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: SkyOcclusion0_9 (AutoDXT, 256X128)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 256X256)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1, 256X256)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: SkyOcclusion0_10 (AutoDXT, 256X128)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 256X256)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1, 256X256)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: SkyOcclusion0_11 (AutoDXT, 1024X512)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 1024X1024)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1, 1024X1024)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: SkyOcclusion0_12 (AutoDXT, 256X128)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 256X256)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1, 256X256)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: SkyOcclusion0_13 (AutoDXT, 128X64)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 128X128)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1, 128X128)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: SkyOcclusion0_14 (AutoDXT, 128X64)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 128X128)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1, 128X128)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: SkyOcclusion0_15 (AutoDXT, 128X64)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 128X128)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1, 128X128)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: SkyOcclusion0_16 (AutoDXT, 128X64)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 128X128)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1, 128X128)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: SkyOcclusion0_17 (AutoDXT, 256X128)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 256X256)
+[2018.04.07-19.47.54:239][970]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1, 256X256)
+[2018.04.07-19.47.54:439][970]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (G8, 256X64)
+[2018.04.07-19.47.54:439][970]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (G8, 256X64)
+[2018.04.07-19.47.54:439][970]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (G8, 256X64)
+[2018.04.07-19.47.54:439][970]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (G8, 256X64)
+[2018.04.07-19.47.54:439][970]LogTexture:Display: Building textures: ShadowMapTexture2D_26 (G8, 256X64)
+[2018.04.07-19.47.54:439][970]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (G8, 256X64)
+[2018.04.07-19.47.54:439][970]LogTexture:Display: Building textures: ShadowMapTexture2D_27 (G8, 256X64)
+[2018.04.07-19.47.54:439][970]LogTexture:Display: Building textures: ShadowMapTexture2D_28 (G8, 256X64)
+[2018.04.07-19.47.54:439][970]LogTexture:Display: Building textures: ShadowMapTexture2D_29 (G8, 256X64)
+[2018.04.07-19.47.54:439][970]LogTexture:Display: Building textures: ShadowMapTexture2D_30 (G8, 256X64)
+[2018.04.07-19.47.54:439][970]LogTexture:Display: Building textures: ShadowMapTexture2D_31 (G8, 256X64)
+[2018.04.07-19.47.54:439][970]LogTexture:Display: Building textures: ShadowMapTexture2D_32 (G8, 128X64)
+[2018.04.07-19.47.54:439][970]LogTexture:Display: Building textures: ShadowMapTexture2D_33 (G8, 128X64)
+[2018.04.07-19.47.54:439][970]LogTexture:Display: Building textures: ShadowMapTexture2D_35 (G8, 64X64)
+[2018.04.07-19.47.54:439][970]LogTexture:Display: Building textures: ShadowMapTexture2D_34 (G8, 256X64)
+[2018.04.07-19.47.54:439][970]LogTexture:Display: Building textures: ShadowMapTexture2D_36 (G8, 128X64)
+[2018.04.07-19.47.54:439][970]LogTexture:Display: Building textures: ShadowMapTexture2D_37 (G8, 256X64)
+[2018.04.07-19.47.54:542][970]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (BGRA8, 1024X1024)
+[2018.04.07-19.47.54:563][970]Lightmass on OFFICE: 4:56 min total, 535 ms importing, 1.28 sec setup, 4.51 sec photons, 4:50 min processing, 0 ms extra exporting [921/921 mappings]. Threads: 33:53 min total, 5:08 min processing.
+[2018.04.07-19.47.54:665][970]LogStaticLightingSystem: Illumination: 1:07 min (1.36 sec encoding lightmaps, 301 ms encoding shadowmaps)
+[2018.04.07-19.47.54:665][970]LogStaticLightingSystem: Lightmap texture memory:  7.2 MB (7.2 MB streaming, 0.0 MB non-streaming), 34 textures
+[2018.04.07-19.47.54:665][970]LogStaticLightingSystem: Shadowmap texture memory: 5.6 MB (5.6 MB streaming, 0.0 MB non-streaming), 18 textures
+[2018.04.07-19.47.55:013][970]DumpUnbuiltLightIteractions
+[2018.04.07-19.47.55:013][970]Lights with unbuilt interactions: 9
+[2018.04.07-19.47.55:014][970]    Light PointLight3_5
+[2018.04.07-19.47.55:014][970]    Light PointLight5_7
+[2018.04.07-19.47.55:014][970]    Light SpotLight_1
+[2018.04.07-19.47.55:014][970]    Light LightSource
+[2018.04.07-19.47.55:014][970]    Light SpotLight2_4
+[2018.04.07-19.47.55:014][970]    Light PointLight_1
+[2018.04.07-19.47.55:014][970]    Light PointLight6_3
+[2018.04.07-19.47.55:014][970]    Light PointLight2
+[2018.04.07-19.47.55:014][970]    Light PointLight4_5
+[2018.04.07-19.47.55:014][970]
+[2018.04.07-19.47.55:014][970]Primitives with unbuilt interactions: 51
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler24.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler23.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler22.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler21.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler17.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler18.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler33.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler30.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler29.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler90.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler89.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler82.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler81.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cylinder3_6.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cylinder_2.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Cylinder2.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive ModelComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.ModelComponent_148
+[2018.04.07-19.47.55:014][970]    Primitive ModelComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.ModelComponent_154
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler15.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler16.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler9.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler28.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler27.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler26.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler25.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler10.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler13.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler14.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive ModelComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.ModelComponent_150
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler56.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive ModelComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.ModelComponent_149
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler20.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler19.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler32.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler31.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler8.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler7.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler6.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler4.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler3.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler_61.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler2.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive FoliageInstancedStaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.InstancedFoliageActor_1.FoliageInstancedStaticMeshComponent_3
+[2018.04.07-19.47.55:014][970]    Primitive FoliageInstancedStaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.InstancedFoliageActor_1.FoliageInstancedStaticMeshComponent_2
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler92.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler91.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler88.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler87.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler86.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler85.StaticMeshComponent0
+[2018.04.07-19.47.55:014][970]    Primitive StaticMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.COmpler84.StaticMeshComponent0
+[2018.04.07-19.47.55:035][971]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.04.07-19.47.55:035][971]MapCheck: New page: Minimal_Default - 7 Apr 2018 21:47:55
+[2018.04.07-19.47.55:036][971]MapCheck:Warning: Performance Warning StopAndGoBack_5 SkeletalMeshActor 'No_SkeletalMesh' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
+[2018.04.07-19.47.55:036][971]MapCheck:Warning: Warning StopAndGoBack_5 Skeletal mesh actor has NULL SkeletalMesh property 
+[2018.04.07-19.47.55:039][971]MapCheck:Warning: Warning Basket Static mesh actor has NULL StaticMesh property 
+[2018.04.07-19.47.55:039][971]MapCheck:Warning: Warning Basket Static mesh actor has NULL StaticMesh property 
+[2018.04.07-19.47.55:040][971]MapCheck:Error: Error Cube41_2 Cube41_2 : Invalid DrawScale/DrawScale3D 
+[2018.04.07-19.47.55:040][971]MapCheck:Error: Error Cube42 Cube42 : Invalid DrawScale/DrawScale3D 
+[2018.04.07-19.47.55:040][971]MapCheck:Error: Error Cube43 Cube43 : Invalid DrawScale/DrawScale3D 
+[2018.04.07-19.47.55:054][971]MapCheck:Warning: Warning StaticMesh_67 Static mesh actor has NULL StaticMesh property 
+[2018.04.07-19.47.55:054][971]MapCheck:Warning: Warning StaticMesh_67 Static mesh actor has NULL StaticMesh property 
+[2018.04.07-19.47.55:054][971]MapCheck:Warning: Warning trilho_Cube_004_8 Static mesh actor has NULL StaticMesh property 
+[2018.04.07-19.47.55:054][971]MapCheck:Warning: Warning trilho_Cube_004_8 Static mesh actor has NULL StaticMesh property 
+[2018.04.07-19.47.55:054][971]MapCheck:Warning: Warning trilho_Cube_11 Static mesh actor has NULL StaticMesh property 
+[2018.04.07-19.47.55:054][971]MapCheck:Warning: Warning trilho_Cube_11 Static mesh actor has NULL StaticMesh property 
+[2018.04.07-19.47.55:056][971]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2018.04.07-19.47.55:125][971]MapCheck: Info Map check complete: 4 Error(s), 10 Warning(s), took 90.345ms to complete.
+[2018.04.07-19.48.52:095][924]LogMaterial: Missing cached shader map for material GroundFloorBricks, compiling. 
+[2018.04.07-19.48.52:148][924]LogMaterial: Missing cached shader map for material GroundFloorBricks, compiling. 
+[2018.04.07-19.48.52:159][924]LogMaterial: Missing cached shader map for material GroundFloorBricks, compiling. 
+[2018.04.07-19.48.54:509][116]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.04.07-19.48.54:509][116]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.04.07-19.48.54:509][116]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.04.07-19.49.01:313][639]LogMaterial: Missing cached shader map for material GroundFloorBricks, compiling. 
+[2018.04.07-19.49.01:373][640]LogSlate: Took 0.005727 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.07-19.49.02:105][690]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.04.07-19.49.02:105][690]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.04.07-19.49.02:105][690]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.04.07-19.49.53:779][154]LogMaterial: Missing cached shader map for material GroundFloorBricks, compiling. 
+[2018.04.07-19.49.53:789][154]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSpriteTextureSampler_0, compiling. 
+[2018.04.07-19.49.55:132][246]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.04.07-19.49.55:132][246]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.04.07-19.49.55:132][246]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.04.07-19.50.03:786][647]LogMaterial: Missing cached shader map for material GroundFloorBricks, compiling. 
+[2018.04.07-19.50.04:544][693]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.04.07-19.50.04:544][693]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.04.07-19.50.04:544][693]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.04.07-19.50.16:164][909]LogMaterial: Missing cached shader map for material GroundFloorBricks, compiling. 
+[2018.04.07-19.50.16:174][909]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.04.07-19.50.16:947][950]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.04.07-19.50.16:947][950]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.04.07-19.50.16:947][950]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.04.07-19.50.25:152][360]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.04.07-19.51.58:244][722]LogMaterial: Missing cached shader map for material GroundFloorBricks, compiling. 
+[2018.04.07-19.51.58:254][722]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2018.04.07-19.51.59:417][792]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.04.07-19.51.59:417][792]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.04.07-19.51.59:417][792]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.04.07-19.52.13:932][229]LogMaterial: Missing cached shader map for material GroundFloorBricks, compiling. 
+[2018.04.07-19.52.13:941][229]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2018.04.07-19.52.14:719][272]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.04.07-19.52.14:719][272]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.04.07-19.52.14:719][272]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.04.07-19.52.16:979][469]LogMaterial: Missing cached shader map for material GroundFloorBricks, compiling. 
+[2018.04.07-19.52.17:719][511]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.04.07-19.52.17:719][511]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.04.07-19.52.17:719][511]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.04.07-19.53.34:044][335]Cmd: SELECT NONE
+[2018.04.07-20.00.33:201][463]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.07-20.00.33:252][463]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.07-20.00.33:264][463]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.07-20.00.34:327][524]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.04.07-20.00.34:327][524]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.04.07-20.00.34:327][524]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.04.07-20.00.42:858][411]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.07-20.00.42:867][411]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.07-20.00.44:132][503]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.04.07-20.00.44:132][503]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.04.07-20.00.44:132][503]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.04.07-20.00.45:867][672]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.07-20.00.45:867][672]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.07-20.00.45:867][672]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.04.07-20.00.45:877][672]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.07-20.00.45:900][672]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2018.04.07-20.00.48:353][890]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.07-20.00.48:353][890]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.07-20.00.48:353][890]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.04.07-20.00.48:381][890]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.07-20.00.48:382][890]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.04.07-20.00.52:062][238]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.07-20.00.52:063][238]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.07-20.00.52:063][238]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.04.07-20.00.52:068][238]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.04.07-20.00.56:662][605]LogTexture:Display: Building textures: brick2 (AutoDXT, 2000X2000)
+[2018.04.07-20.01.01:838][605]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.07-20.01.01:839][605]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.07-20.01.01:839][605]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.04.07-20.01.01:843][605]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.07-20.01.11:748][495]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.07-20.01.11:748][495]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.07-20.01.11:748][495]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.04.07-20.01.11:753][495]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.07-20.01.20:049][228]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.07-20.01.20:066][228]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.04.07-20.01.21:020][280]MaterialEditorStats: Info Base pass shader: 87 instructions
+[2018.04.07-20.01.21:020][280]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.07-20.01.21:020][280]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.07-20.01.21:020][280]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.07-20.01.38:833][850]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.07-20.01.39:638][898]MaterialEditorStats: Info Base pass shader: 87 instructions
+[2018.04.07-20.01.39:638][898]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.07-20.01.39:638][898]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.07-20.01.39:638][898]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.07-20.01.41:710][111]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.07-20.01.42:529][161]MaterialEditorStats: Info Base pass shader: 87 instructions
+[2018.04.07-20.01.42:529][161]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.07-20.01.42:529][161]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.07-20.01.42:529][161]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.07-20.01.45:734][455]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.07-20.01.46:541][505]MaterialEditorStats: Info Base pass shader: 87 instructions
+[2018.04.07-20.01.46:541][505]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.07-20.01.46:541][505]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.07-20.01.46:541][505]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.07-20.01.54:547][157]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.07-20.01.55:365][209]MaterialEditorStats: Info Base pass shader: 87 instructions
+[2018.04.07-20.01.55:365][209]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.07-20.01.55:365][209]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.07-20.01.55:365][209]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.07-20.02.04:734][938]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.07-20.02.05:569][988]MaterialEditorStats: Info Base pass shader: 87 instructions
+[2018.04.07-20.02.05:569][988]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.07-20.02.05:569][988]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.07-20.02.05:569][988]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.07-20.02.08:474][283]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.07-20.02.09:308][333]MaterialEditorStats: Info Base pass shader: 92 instructions
+[2018.04.07-20.02.09:308][333]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.07-20.02.09:308][333]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.07-20.02.09:308][333]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.07-20.02.24:063][486]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.07-20.02.24:878][534]MaterialEditorStats: Info Base pass shader: 92 instructions
+[2018.04.07-20.02.24:878][534]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.07-20.02.24:879][534]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.07-20.02.24:879][534]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.07-20.02.37:675][271]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.07-20.02.38:501][317]MaterialEditorStats: Info Base pass shader: 92 instructions
+[2018.04.07-20.02.38:501][317]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.07-20.02.38:501][317]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.07-20.02.38:502][317]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.07-20.02.40:096][466]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.07-20.02.40:943][515]MaterialEditorStats: Info Base pass shader: 89 instructions
+[2018.04.07-20.02.40:943][515]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.07-20.02.40:943][515]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.04.07-20.02.40:943][515]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.07-20.02.41:959][608]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.07-20.02.41:976][608]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.07-20.02.43:086][683]MaterialEditorStats: Info Base pass shader: 92 instructions
+[2018.04.07-20.02.43:086][683]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.07-20.02.43:086][683]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.07-20.02.43:086][683]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.07-20.02.47:265][ 90]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.07-20.02.48:140][141]MaterialEditorStats: Info Base pass shader: 92 instructions
+[2018.04.07-20.02.48:140][141]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2018.04.07-20.02.48:140][141]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.07-20.02.48:140][141]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.07-20.02.56:753][879]LogMaterialEditor: Applying material GroundFloorBricks
+[2018.04.07-20.02.57:294][879]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.07-20.02.57:344][879]LogMaterial: Missing cached shader map for material GroundFloorBricks, compiling. 
+[2018.04.07-20.02.57:366][879]LogMaterial: Missing cached shader map for material GroundFloorBricks, compiling. 
+[2018.04.07-20.02.57:455][879]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GroundFloorBricks, compiling. 
+[2018.04.07-20.02.58:052][879]TextureStreamingBuild:Display: Compiling optional shaders took 0.607 seconds.
+[2018.04.07-20.02.59:540][980]MaterialEditorStats: Info Base pass shader: 92 instructions
+[2018.04.07-20.02.59:540][980]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2018.04.07-20.02.59:540][980]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.04.07-20.02.59:540][980]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.07-20.03.15:988][650]Cmd: SELECT NONE
+[2018.04.07-20.04.19:990][325]Cmd: SELECT NONE
+[2018.04.07-20.05.20:220][952]MapCheck: New page: Map Check
+[2018.04.07-20.05.20:232][952]Cmd: MAP REBUILD ALLVISIBLE
+[2018.04.07-20.05.20:233][952]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.04.07-20.05.20:658][952]LightingResults: New page: Lighting Build - 7 Apr 2018 22:05:20
+[2018.04.07-20.05.20:718][952]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.04.07-20.05.20:722][952]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.04.07-20.05.20:722][952]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.04.07-20.05.20:723][952]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.04.07-20.05.20:723][952]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2672
+[2018.04.07-20.05.25:248][952]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2018.04.07-20.05.25:252][952]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.04.07-20.05.25:252][952]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.04.07-20.05.25:252][952]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.04.07-20.05.25:252][952]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.04.07-20.05.25:252][952]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.04.07-20.05.25:520][952]LogEditorBuildUtils: Build time 0:05
+[2018.04.07-20.05.25:599][954]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer GroundFloorBricks, compiling. 
+[2018.04.07-20.05.25:606][954]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer GroundFloorBricks, compiling. 
+[2018.04.07-20.06.10:210][290]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-20.06.10:210][290]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-20.06.17:975][850]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-20.06.17:975][850]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-20.06.18:097][860]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-20.06.18:097][860]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-20.06.18:148][865]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-20.06.18:148][865]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-20.06.18:309][879]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-20.06.18:309][879]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-20.06.18:309][879]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-20.06.18:309][879]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-20.06.18:400][887]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-20.06.18:400][887]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-20.06.18:411][888]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-20.06.18:411][888]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-20.06.18:452][892]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-20.06.18:452][892]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-20.06.18:614][906]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-20.06.18:614][906]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-20.06.18:614][906]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-20.06.18:614][906]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-20.06.18:634][907]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-20.06.18:634][907]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-20.06.18:706][914]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-20.06.18:716][915]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-20.06.19:240][958]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-20.06.19:240][958]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-20.06.19:260][959]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-20.06.19:260][959]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-20.06.19:301][962]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-20.06.19:301][962]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-20.06.19:332][964]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-20.06.19:332][964]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-20.06.19:352][966]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-20.06.19:352][966]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-20.06.19:846][  3]LightingResults:Warning: Warning wroughtiron_01 Object has overlapping UVs.
+[2018.04.07-20.06.19:846][  3]LightingResults: Info wroughtiron_01 Lightmap UV are overlapping by 76.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.04.07-20.06.21:718][ 59]Job is a success!
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT, 256X128)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 256X256)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 256X256)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT, 256X128)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 256X256)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1, 256X256)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT, 256X128)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 256X256)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1, 256X256)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT, 256X128)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 256X256)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1, 256X256)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: SkyOcclusion1_7 (AutoDXT, 128X64)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 128X128)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1, 128X128)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: SkyOcclusion1_8 (AutoDXT, 256X128)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT, 256X256)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1, 256X256)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: SkyOcclusion1_9 (AutoDXT, 256X128)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT, 256X256)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1, 256X256)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: SkyOcclusion1_10 (AutoDXT, 512X256)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT, 512X512)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1, 512X512)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: SkyOcclusion1_11 (AutoDXT, 256X128)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT, 256X256)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1, 256X256)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: SkyOcclusion1_12 (AutoDXT, 256X128)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT, 256X256)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1, 256X256)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: SkyOcclusion1_13 (AutoDXT, 256X128)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT, 256X256)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1, 256X256)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: SkyOcclusion1_14 (AutoDXT, 256X128)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT, 256X256)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1, 256X256)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: SkyOcclusion1_15 (AutoDXT, 256X128)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT, 256X256)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1, 256X256)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: SkyOcclusion1_16 (AutoDXT, 256X128)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT, 256X256)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1, 256X256)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: SkyOcclusion1_17 (AutoDXT, 512X256)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT, 512X512)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1, 512X512)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: SkyOcclusion0_18 (AutoDXT, 256X128)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 256X256)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1, 256X256)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: SkyOcclusion0_19 (AutoDXT, 64X32)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT, 64X64)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1, 64X64)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: SkyOcclusion0_20 (AutoDXT, 64X32)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT, 64X64)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1, 64X64)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: SkyOcclusion0_21 (AutoDXT, 64X32)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT, 64X64)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1, 64X64)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: SkyOcclusion0_22 (AutoDXT, 64X32)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT, 64X64)
+[2018.04.07-20.06.24:150][ 60]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1, 64X64)
+[2018.04.07-20.06.24:350][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_40 (G8, 256X64)
+[2018.04.07-20.06.24:350][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_41 (G8, 256X64)
+[2018.04.07-20.06.24:350][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_42 (G8, 256X64)
+[2018.04.07-20.06.24:350][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_39 (BGRA8, 256X512)
+[2018.04.07-20.06.24:350][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_44 (G8, 256X64)
+[2018.04.07-20.06.24:350][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_43 (G8, 256X64)
+[2018.04.07-20.06.24:350][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_45 (G8, 256X64)
+[2018.04.07-20.06.24:350][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_46 (G8, 256X64)
+[2018.04.07-20.06.24:350][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_47 (G8, 256X64)
+[2018.04.07-20.06.24:350][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_48 (G8, 256X64)
+[2018.04.07-20.06.24:350][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_49 (G8, 256X64)
+[2018.04.07-20.06.24:350][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_51 (G8, 256X64)
+[2018.04.07-20.06.24:350][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_50 (G8, 256X64)
+[2018.04.07-20.06.24:350][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_53 (G8, 64X64)
+[2018.04.07-20.06.24:350][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_55 (G8, 32X32)
+[2018.04.07-20.06.24:350][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_52 (G8, 256X64)
+[2018.04.07-20.06.24:350][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_56 (G8, 32X32)
+[2018.04.07-20.06.24:350][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_54 (G8, 128X64)
+[2018.04.07-20.06.24:350][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_57 (G8, 32X32)
+[2018.04.07-20.06.24:350][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_58 (G8, 32X32)
+[2018.04.07-20.06.24:453][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_38 (BGRA8, 1024X1024)
+[2018.04.07-20.06.24:474][ 60]Lightmass on OFFICE: 57.4 sec total, 546 ms importing, 1.22 sec setup, 4.62 sec photons, 51.0 sec processing, 0 ms extra exporting [921/921 mappings]. Threads: 5:57 min total, 4:43 min processing.
+[2018.04.07-20.06.24:534][ 60]LogMaterial:Warning: Material /Game/MyContent/Material/GroundFloorBricks.GroundFloorBricks needed to have new flag set bUsedWithStaticLighting !
+[2018.04.07-20.06.24:538][ 60]LogMaterial: Missing cached shader map for material GroundFloorBricks, compiling. 
+[2018.04.07-20.06.24:597][ 60]LogStaticLightingSystem: Illumination: 1:03 min (1.64 sec encoding lightmaps, 301 ms encoding shadowmaps)
+[2018.04.07-20.06.24:597][ 60]LogStaticLightingSystem: Lightmap texture memory:  8.8 MB (6.1 MB streaming, 2.7 MB non-streaming), 44 textures
+[2018.04.07-20.06.24:597][ 60]LogStaticLightingSystem: Shadowmap texture memory: 6.3 MB (5.6 MB streaming, 0.7 MB non-streaming), 21 textures
+[2018.04.07-20.06.25:293][ 60]DumpUnbuiltLightIteractions
+[2018.04.07-20.06.25:293][ 60]Lights with unbuilt interactions: 0
+[2018.04.07-20.06.25:293][ 60]
+[2018.04.07-20.06.25:293][ 60]Primitives with unbuilt interactions: 0
+[2018.04.07-20.06.25:318][ 61]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.04.07-20.06.25:319][ 61]MapCheck: New page: Minimal_Default - 7 Apr 2018 22:06:25
+[2018.04.07-20.06.25:321][ 61]MapCheck:Warning: Performance Warning StopAndGoBack_5 SkeletalMeshActor 'No_SkeletalMesh' casts shadow but has no PhysicsAsset assigned.  The shadow will be low res and inefficient 
+[2018.04.07-20.06.25:321][ 61]MapCheck:Warning: Warning StopAndGoBack_5 Skeletal mesh actor has NULL SkeletalMesh property 
+[2018.04.07-20.06.25:321][ 61]MapCheck:Warning: Warning Basket Static mesh actor has NULL StaticMesh property 
+[2018.04.07-20.06.25:321][ 61]MapCheck:Warning: Warning Basket Static mesh actor has NULL StaticMesh property 
+[2018.04.07-20.06.25:322][ 61]MapCheck:Error: Error Cube41_2 Cube41_2 : Invalid DrawScale/DrawScale3D 
+[2018.04.07-20.06.25:323][ 61]MapCheck:Error: Error Cube42 Cube42 : Invalid DrawScale/DrawScale3D 
+[2018.04.07-20.06.25:323][ 61]MapCheck:Error: Error Cube43 Cube43 : Invalid DrawScale/DrawScale3D 
+[2018.04.07-20.06.25:340][ 61]MapCheck:Warning: Warning StaticMesh_67 Static mesh actor has NULL StaticMesh property 
+[2018.04.07-20.06.25:340][ 61]MapCheck:Warning: Warning StaticMesh_67 Static mesh actor has NULL StaticMesh property 
+[2018.04.07-20.06.25:340][ 61]MapCheck:Warning: Warning trilho_Cube_004_8 Static mesh actor has NULL StaticMesh property 
+[2018.04.07-20.06.25:340][ 61]MapCheck:Warning: Warning trilho_Cube_004_8 Static mesh actor has NULL StaticMesh property 
+[2018.04.07-20.06.25:340][ 61]MapCheck:Warning: Warning trilho_Cube_11 Static mesh actor has NULL StaticMesh property 
+[2018.04.07-20.06.25:340][ 61]MapCheck:Warning: Warning trilho_Cube_11 Static mesh actor has NULL StaticMesh property 
+[2018.04.07-20.06.25:430][ 61]MapCheck: Info Map check complete: 3 Error(s), 10 Warning(s), took 110.976ms to complete.
+[2018.04.07-20.06.34:409][594]Cmd: SELECT NONE
+[2018.04.07-20.06.47:141][918]Cmd: ACTOR SELECT ALL
+[2018.04.07-20.06.48:625][985]Cmd: SELECT NONE
+[2018.04.07-20.07.19:661][400]LogEditorViewport: Clicking Background
+[2018.04.07-20.07.57:360][ 21]LogSavePackage: Save=2969.02ms
+[2018.04.07-20.07.57:360][ 21]LogSavePackage: Moving '../../../../../../Users/kevin/Desktop/handin/Saved/Minimal_Default3E1EFE3C456E91607794959C18C62C0E.tmp' to '../../../../../../Users/kevin/Desktop/handin/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.04.07-20.07.57:368][ 21]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kevin/Desktop/handin/Content/StarterContent/Maps/Minimal_Default.umap
+[2018.04.07-20.07.57:407][ 21]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.07-20.07.58:157][ 21]LogSavePackage: Save=526.75ms
+[2018.04.07-20.07.58:157][ 21]LogSavePackage: Moving '../../../../../../Users/kevin/Desktop/handin/Saved/Minimal_Default_BuiltData10848F0145381739D978E281A6E0D1F7.tmp' to '../../../../../../Users/kevin/Desktop/handin/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2018.04.07-20.07.58:164][ 21]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kevin/Desktop/handin/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2018.04.07-20.08.22:948][873]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.04.07-20.09.28:458][653]Cmd: SELECT NONE
+[2018.04.07-20.09.37:634][602]Cmd: SELECT NONE
+[2018.04.07-20.09.45:829][545]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (lift)
+[2018.04.07-20.09.53:696][446]Cmd: SELECT NONE
+[2018.04.07-20.10.03:218][530]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (lift)
+[2018.04.07-20.10.10:189][353]Cmd: SELECT NONE
+[2018.04.07-20.10.25:232][ 96]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (COmpler9)
+[2018.04.07-20.11.03:901][894]LogStaticMesh: Building static mesh SM_MERGED_BoxBrush_1...
+[2018.04.07-20.11.03:954][894]LogStaticMesh: Built static mesh [0.05s] /Game/MyContent/SM_MERGED_BoxBrush_1.SM_MERGED_BoxBrush_1
+[2018.04.07-20.11.15:822][239]LogActorFactory: Actor Factory created SM_MERGED_BoxBrush_1
+[2018.04.07-20.11.17:229][362]LogActorFactory: Actor Factory created SM_MERGED_BoxBrush_1
+[2018.04.07-20.11.19:433][577]Cmd: DELETE
+[2018.04.07-20.11.19:433][577]Cmd: ACTOR DELETE
+[2018.04.07-20.11.19:439][577]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.07-20.11.19:451][577]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2018.04.07-20.11.34:871][960]Cmd: TRANSACTION UNDO
+[2018.04.07-20.11.34:871][960]LogEditorTransaction: Undo Select Brush Surface
+[2018.04.07-20.11.44:827][950]Cmd: QUIT_EDITOR
+[2018.04.07-20.11.44:839][950]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.04.07-20.11.44:849][950]LogExit: Preparing to exit.
+[2018.04.07-20.11.45:619][950]LogDirectoryWatcher: A directory notification for 'C:/Users/kevin/Desktop/handin/Content/' was aborted.
+[2018.04.07-20.11.45:662][950]LogExit: Editor shut down
+[2018.04.07-20.11.45:664][950]LogExit: Transaction tracking system shut down
+[2018.04.07-20.11.45:785][950]LogObj: Freed 0b from 0 cluster array pools.
+[2018.04.07-20.11.45:785][950]LogExit: Object subsystem successfully closed.
+[2018.04.07-20.11.45:804][950]LogD3D11RHI: Shutdown
+[2018.04.07-20.11.45:804][950]LogD3D11RHI: CleanupD3DDevice
+[2018.04.07-20.11.45:885][950]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.07-20.11.45:897][950]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (528)
+[2018.04.07-20.11.45:897][950]LogModuleManager: Shutting down and abandoning module MaterialEditor (526)
+[2018.04.07-20.11.45:897][950]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2018.04.07-20.11.45:897][950]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2018.04.07-20.11.45:897][950]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.04.07-20.11.45:897][950]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.04.07-20.11.45:900][950]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.04.07-20.11.45:901][950]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.04.07-20.11.45:901][950]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.04.07-20.11.45:901][950]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.04.07-20.11.45:901][950]LogDirectoryWatcher: A directory notification for 'C:/Users/kevin/Desktop/handin/Content/Collections/' was aborted.
+[2018.04.07-20.11.45:901][950]LogDirectoryWatcher: A directory notification for 'C:/Users/kevin/Desktop/handin/Content/Developers/kevin/Collections/' was aborted.
+[2018.04.07-20.11.45:901][950]LogDirectoryWatcher: A directory notification for 'C:/Users/kevin/Desktop/handin/Saved/Collections/' was aborted.
+[2018.04.07-20.11.45:901][950]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.04.07-20.11.45:901][950]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.04.07-20.11.45:901][950]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.04.07-20.11.45:901][950]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.04.07-20.11.45:901][950]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.04.07-20.11.45:901][950]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.04.07-20.11.45:901][950]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.04.07-20.11.45:901][950]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.04.07-20.11.45:901][950]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.04.07-20.11.45:901][950]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.04.07-20.11.45:901][950]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.04.07-20.11.45:901][950]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.04.07-20.11.45:901][950]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.04.07-20.11.45:901][950]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.04.07-20.11.45:901][950]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.04.07-20.11.45:901][950]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.04.07-20.11.45:901][950]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.04.07-20.11.45:901][950]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.04.07-20.11.45:901][950]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.04.07-20.11.45:901][950]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.04.07-20.11.45:901][950]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.04.07-20.11.45:901][950]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.04.07-20.11.45:901][950]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.04.07-20.11.45:901][950]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.04.07-20.11.45:901][950]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.04.07-20.11.45:901][950]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.04.07-20.11.45:901][950]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.04.07-20.11.45:901][950]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.04.07-20.11.45:902][950]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.04.07-20.11.45:902][950]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.04.07-20.11.45:902][950]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.04.07-20.11.45:902][950]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.04.07-20.11.45:902][950]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.04.07-20.11.45:902][950]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.04.07-20.11.45:902][950]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.04.07-20.11.45:902][950]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.04.07-20.11.45:902][950]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.04.07-20.11.45:902][950]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.04.07-20.11.46:547][950]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.04.07-20.11.46:547][950]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.04.07-20.11.46:547][950]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.04.07-20.11.46:547][950]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.04.07-20.11.46:553][950]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.04.07-20.11.46:553][950]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.04.07-20.11.46:553][950]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.04.07-20.11.46:553][950]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.04.07-20.11.46:553][950]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.04.07-20.11.46:553][950]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.04.07-20.11.46:553][950]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.04.07-20.11.46:553][950]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.04.07-20.11.46:553][950]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.04.07-20.11.46:553][950]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.04.07-20.11.46:553][950]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.04.07-20.11.46:553][950]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.04.07-20.11.46:553][950]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.04.07-20.11.46:554][950]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.04.07-20.11.46:554][950]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.04.07-20.11.46:554][950]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.04.07-20.11.46:554][950]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.04.07-20.11.46:554][950]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.04.07-20.11.46:554][950]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.04.07-20.11.46:554][950]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.04.07-20.11.46:618][950]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.04.07-20.11.46:618][950]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.04.07-20.11.46:618][950]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.04.07-20.11.46:618][950]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.04.07-20.11.46:618][950]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.04.07-20.11.46:618][950]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.04.07-20.11.46:618][950]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.04.07-20.11.46:618][950]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.04.07-20.11.46:618][950]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.04.07-20.11.46:618][950]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.04.07-20.11.46:619][950]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.04.07-20.11.46:619][950]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.04.07-20.11.46:619][950]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.04.07-20.11.46:619][950]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.04.07-20.11.46:619][950]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.04.07-20.11.46:619][950]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.04.07-20.11.46:619][950]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.04.07-20.11.46:619][950]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.04.07-20.11.46:619][950]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.04.07-20.11.46:619][950]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.04.07-20.11.46:619][950]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.04.07-20.11.46:619][950]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.04.07-20.11.46:619][950]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.04.07-20.11.46:619][950]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.04.07-20.11.46:619][950]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.04.07-20.11.46:620][950]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.04.07-20.11.46:620][950]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.04.07-20.11.46:620][950]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.04.07-20.11.46:620][950]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.04.07-20.11.46:620][950]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.04.07-20.11.46:688][950]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.04.07-20.11.46:688][950]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.04.07-20.11.46:688][950]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.04.07-20.11.46:688][950]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.04.07-20.11.46:688][950]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.04.07-20.11.46:688][950]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.04.07-20.11.46:688][950]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.04.07-20.11.46:688][950]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.04.07-20.11.46:688][950]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.04.07-20.11.46:688][950]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.04.07-20.11.46:688][950]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.04.07-20.11.46:688][950]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.04.07-20.11.46:688][950]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.04.07-20.11.46:688][950]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.04.07-20.11.46:688][950]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.04.07-20.11.46:688][950]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.04.07-20.11.46:688][950]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.04.07-20.11.46:688][950]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.04.07-20.11.46:688][950]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.04.07-20.11.46:688][950]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.04.07-20.11.46:688][950]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.04.07-20.11.46:688][950]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.04.07-20.11.46:688][950]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.04.07-20.11.46:688][950]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.04.07-20.11.46:688][950]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.04.07-20.11.46:688][950]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.04.07-20.11.46:688][950]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.04.07-20.11.46:688][950]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.04.07-20.11.46:688][950]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.04.07-20.11.46:688][950]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.04.07-20.11.46:689][950]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.04.07-20.11.46:689][950]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.04.07-20.11.46:689][950]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.04.07-20.11.46:689][950]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.04.07-20.11.46:689][950]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.04.07-20.11.46:689][950]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.04.07-20.11.46:690][950]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.04.07-20.11.46:690][950]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.04.07-20.11.46:690][950]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.04.07-20.11.46:691][950]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.04.07-20.11.46:691][950]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.04.07-20.11.46:691][950]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.04.07-20.11.46:691][950]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.04.07-20.11.46:691][950]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.04.07-20.11.46:691][950]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.04.07-20.11.46:792][950]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.04.07-20.11.46:892][950]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.04.07-20.11.46:892][950]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.04.07-20.11.46:892][950]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.04.07-20.11.46:892][950]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.04.07-20.11.46:892][950]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.04.07-20.11.46:892][950]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.04.07-20.11.46:894][950]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.04.07-20.11.46:894][950]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.04.07-20.11.46:894][950]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.04.07-20.11.46:894][950]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.04.07-20.11.46:898][950]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.04.07-20.11.46:898][950]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.04.07-20.11.46:898][950]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.04.07-20.11.46:898][950]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.04.07-20.11.46:898][950]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.04.07-20.11.46:899][950]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.04.07-20.11.46:899][950]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.04.07-20.11.46:899][950]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.04.07-20.11.46:899][950]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.04.07-20.11.46:899][950]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.04.07-20.11.46:899][950]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.04.07-20.11.46:899][950]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.04.07-20.11.46:899][950]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.04.07-20.11.46:899][950]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.04.07-20.11.46:899][950]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.04.07-20.11.46:899][950]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.04.07-20.11.46:899][950]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.04.07-20.11.46:899][950]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.04.07-20.11.46:899][950]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.04.07-20.11.46:904][950]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.04.07-20.11.46:904][950]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.04.07-20.11.46:904][950]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.04.07-20.11.46:904][950]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.04.07-20.11.46:904][950]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.04.07-20.11.46:904][950]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.04.07-20.11.47:048][950]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.04.07-20.11.47:048][950]LogDirectoryWatcher: A directory notification for '../../../../../../Users/kevin/Desktop/handin/Content/' was aborted.
+[2018.04.07-20.11.47:048][950]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.04.07-20.11.47:048][950]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.04.07-20.11.47:051][950]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.04.07-20.11.47:051][950]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.04.07-20.11.47:051][950]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.04.07-20.11.47:051][950]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.04.07-20.11.47:052][950]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.04.07-20.11.47:052][950]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.04.07-20.11.47:052][950]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.04.07-20.11.47:052][950]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.04.07-20.11.47:052][950]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.04.07-20.11.47:132][950]LogDerivedDataCache: Shutdown
+[2018.04.07-20.11.47:132][950]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.04.07-20.11.47:132][950]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.04.07-20.11.47:132][950]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.04.07-20.11.47:132][950]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.04.07-20.11.47:132][950]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.04.07-20.11.47:132][950]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.04.07-20.11.47:132][950]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.04.07-20.11.47:132][950]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.04.07-20.11.47:132][950]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.04.07-20.11.47:132][950]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.04.07-20.11.47:133][950]LogOnline:Display: Unloading online subsystem: NULL
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.04.07-20.11.47:133][950]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.04.07-20.11.47:133][950]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.04.07-20.11.47:133][950]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC1CC3D4E-4F60-E487-B973-09BC7811CF3D%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=3f1a9c384db009b6db80a39700eff03a%7C8cb704cd04904cdc94f617e02f3648f8%7Cd3d05314-9db0-48ee-a213-f2087e431ebc&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.07-20.11.47:139][950]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.04.07-20.11.47:141][950]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.04.07-20.11.47:141][950]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.04.07-20.11.47:141][950]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.04.07-20.11.47:141][950]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.04.07-20.11.47:141][950]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.04.07-20.11.47:141][950]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.04.07-20.11.47:141][950]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.04.07-20.11.47:141][950]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.04.07-20.11.47:143][950]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.04.07-20.11.47:143][950]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.04.07-20.11.47:143][950]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.04.07-20.11.47:143][950]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.04.07-20.11.47:143][950]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.04.07-20.11.47:143][950]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.04.07-20.11.47:143][950]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.04.07-20.11.47:143][950]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.07-20.11.47:143][950]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.07-20.11.47:143][950]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.07-20.11.47:145][950]LogExit: Exiting.
+[2018.04.07-20.11.47:168][950]Log file closed, 04/07/18 21:11:47
