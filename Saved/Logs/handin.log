@@ -373,3 +373,572 @@ LogInit: Object subsystem initialized
 [2018.04.10-19.22.45:004][902]Cmd: SELECT NONE
 [2018.04.10-19.23.14:125][396]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/Actors/Triggers/index.html?utm_source=editor&utm_medium=docs&utm_campaign=doc_anchors
 [2018.04.10-20.48.28:715][602]LogDirectoryWatcher: A directory notification failed for 'F:/Unreal/UnrealProject/UnrealProject/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2018.04.10-21.03.56:572][968]LogRenderer: Reallocating scene render targets to support 1432x924 NumSamples 1 (Frame:1).
+[2018.04.10-21.04.20:987][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Meshes/House" FILE="F:/Unreal/UnrealProject/UnrealProject/Content/MyContent/Meshes/House.uasset" SILENT=true
+[2018.04.10-21.04.21:059][634]LogSavePackage: Save=51.32ms
+[2018.04.10-21.04.21:059][634]LogSavePackage: Moving 'F:/Unreal/UnrealProject/UnrealProject/Saved/House1D6B0B5B45F497C17D8E569ED975428D.tmp' to 'F:/Unreal/UnrealProject/UnrealProject/Content/MyContent/Meshes/House.uasset'
+[2018.04.10-21.04.21:067][634]LogSavePackage:Display: Finished SavePackage F:/Unreal/UnrealProject/UnrealProject/Content/MyContent/Meshes/House.uasset
+[2018.04.10-21.04.26:345][242]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.10-21.04.26:387][242]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Textures.Textures:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Textures.Textures:PersistentLevel.Textures' with GeneratedClass '/Game/Maps/Textures.Textures_C' with ClassGeneratedBy '/Game/Maps/Textures.Textures:PersistentLevel.Textures'
+[2018.04.10-21.04.26:388][242]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.10-21.04.26:393][242]PIE: New page: PIE session: Textures (10 Apr 2018 23:04:26)
+[2018.04.10-21.04.26:394][242]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Textures
+[2018.04.10-21.04.26:434][242]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040756s)
+[2018.04.10-21.04.26:435][242]LogAIModule: Creating AISystem for world Textures
+[2018.04.10-21.04.26:435][242]LogPlayLevel: PIE: World Init took: (0.000613s)
+[2018.04.10-21.04.26:436][242]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Textures.Textures to /Game/Maps/UEDPIE_0_Textures.Textures (0.042575s)
+[2018.04.10-21.04.26:452][242]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.10-21.04.26:458][242]LogInit: FAudioDevice initialized.
+[2018.04.10-21.04.26:526][242]LogLoad: Game class is 'GameMode'
+[2018.04.10-21.04.26:559][242]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Textures.Textures up for play (max tick rate 0) at 2018.04.10-22.04.26
+[2018.04.10-21.04.26:563][242]LogWorld: Bringing up level for play took: 0.017868
+[2018.04.10-21.04.26:620][242]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2018.04.10-21.04.26:621][242]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.10-21.04.26:621][242]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.10-21.04.26:621][242]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.04.10-21.04.26:629][242]LogScript:Warning: Accessed None trying to read property None_ExecuteUbergraph_Textures_RefProperty
+	Textures_C /Game/Maps/UEDPIE_0_Textures.Textures:PersistentLevel.Textures_C_0
+	Function /Game/Maps/Textures.Textures_C:ExecuteUbergraph_Textures:0017
+[2018.04.10-21.04.26:629][242]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Textures_RefProperty from function: 'ExecuteUbergraph_Textures' from node: Play in graph: EventGraph in object: Textures with description: Accessed None trying to read property None_ExecuteUbergraph_Textures_RefProperty
+[2018.04.10-21.04.26:629][242]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.04.10-21.04.26:630][242]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Textures 0.423
+[2018.04.10-21.04.26:630][242]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Textures.Textures:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Textures.Textures:PersistentLevel.Textures' with GeneratedClass '/Game/Maps/Textures.Textures_C' with ClassGeneratedBy '/Game/Maps/Textures.Textures:PersistentLevel.Textures'
+[2018.04.10-21.07.23:664][477]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Textures.Textures:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Textures.Textures:PersistentLevel.Textures' with GeneratedClass '/Game/Maps/Textures.Textures_C' with ClassGeneratedBy '/Game/Maps/Textures.Textures:PersistentLevel.Textures'
+[2018.04.10-21.07.23:703][477]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Textures.Textures:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Textures.Textures:PersistentLevel.Textures' with GeneratedClass '/Game/Maps/Textures.Textures_C' with ClassGeneratedBy '/Game/Maps/Textures.Textures:PersistentLevel.Textures'
+[2018.04.10-21.07.29:186][108]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.07.29:303][108]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.07.29:320][108]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.07.29:365][108]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, compiling. 
+[2018.04.10-21.07.29:368][108]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.10-21.07.29:372][108]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.04.10-21.07.29:376][108]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.04.10-21.07.29:379][108]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.04.10-21.07.29:383][108]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2018.04.10-21.07.29:386][108]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2018.04.10-21.07.29:390][108]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_1, compiling. 
+[2018.04.10-21.07.29:416][108]LogSlate: Took 0.008010 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.10-21.07.30:699][175]MaterialEditorStats: Info Base pass shader: 77 instructions
+[2018.04.10-21.07.30:699][175]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.10-21.07.30:699][175]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.10-21.07.30:699][175]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.10-21.07.38:774][907]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.10-21.07.43:044][275]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.07.43:054][275]LogMaterial:Warning: FMaterialUniformExpressionTexture had invalid TextureIndex! (6 / 6)
+[2018.04.10-21.07.43:063][275]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.10-21.07.44:102][336]MaterialEditorStats: Info Base pass shader: 77 instructions
+[2018.04.10-21.07.44:102][336]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.10-21.07.44:102][336]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.10-21.07.44:102][336]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.10-21.07.51:253][977]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.07.51:267][977]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.04.10-21.07.52:289][ 36]MaterialEditorStats: Info Base pass shader: 77 instructions
+[2018.04.10-21.07.52:289][ 36]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.10-21.07.52:289][ 36]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.10-21.07.52:289][ 36]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.10-21.07.58:083][528]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.07.58:095][528]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.04.10-21.07.59:137][586]MaterialEditorStats: Info Base pass shader: 77 instructions
+[2018.04.10-21.07.59:137][586]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.10-21.07.59:137][586]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.10-21.07.59:137][586]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.10-21.08.04:034][ 15]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.08.04:046][ 15]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2018.04.10-21.08.05:075][ 76]MaterialEditorStats: Info Base pass shader: 77 instructions
+[2018.04.10-21.08.05:075][ 76]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.10-21.08.05:075][ 76]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.10-21.08.05:075][ 76]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.10-21.08.07:234][281]LogMaterialEditor: Applying material Landscape
+[2018.04.10-21.08.07:797][281]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.08.07:843][281]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.08.07:886][281]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.08.07:913][281]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.08.08:007][281]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Landscape, compiling. 
+[2018.04.10-21.08.08:677][281]TextureStreamingBuild:Display: Compiling optional shaders took 0.678 seconds.
+[2018.04.10-21.08.10:447][382]LogMaterialEditor: Saving and Compiling material Landscape
+[2018.04.10-21.08.11:129][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Material/Landscape" FILE="F:/Unreal/UnrealProject/UnrealProject/Content/MyContent/Material/Landscape.uasset" SILENT=true
+[2018.04.10-21.08.11:160][382]LogSavePackage: Save=23.76ms
+[2018.04.10-21.08.11:160][382]LogSavePackage: Moving 'F:/Unreal/UnrealProject/UnrealProject/Saved/Landscape8A44328C413930139C605C88586EC51E.tmp' to 'F:/Unreal/UnrealProject/UnrealProject/Content/MyContent/Material/Landscape.uasset'
+[2018.04.10-21.08.11:162][382]LogSavePackage:Display: Finished SavePackage F:/Unreal/UnrealProject/UnrealProject/Content/MyContent/Material/Landscape.uasset
+[2018.04.10-21.08.11:168][382]MaterialEditorStats: Info Base pass shader: 77 instructions
+[2018.04.10-21.08.11:168][382]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.10-21.08.11:168][382]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.10-21.08.11:168][382]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.10-21.08.32:683][781]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere4)
+[2018.04.10-21.08.33:728][897]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere4)
+[2018.04.10-21.08.49:051][704]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (House39)
+[2018.04.10-21.08.51:693][964]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.10-21.08.51:706][964]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Textures.Textures:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Textures.Textures:PersistentLevel.Textures' with GeneratedClass '/Game/Maps/Textures.Textures_C' with ClassGeneratedBy '/Game/Maps/Textures.Textures:PersistentLevel.Textures'
+[2018.04.10-21.08.51:706][964]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.10-21.08.51:706][964]PIE: New page: PIE session: Textures (10 Apr 2018 23:08:51)
+[2018.04.10-21.08.51:706][964]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Textures
+[2018.04.10-21.08.51:744][964]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037904s)
+[2018.04.10-21.08.51:745][964]LogAIModule: Creating AISystem for world Textures
+[2018.04.10-21.08.51:745][964]LogPlayLevel: PIE: World Init took: (0.000728s)
+[2018.04.10-21.08.51:745][964]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Textures.Textures to /Game/Maps/UEDPIE_0_Textures.Textures (0.038846s)
+[2018.04.10-21.08.51:762][964]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.10-21.08.51:768][964]LogInit: FAudioDevice initialized.
+[2018.04.10-21.08.51:797][964]LogLoad: Game class is 'GameMode'
+[2018.04.10-21.08.51:803][964]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Textures.Textures up for play (max tick rate 0) at 2018.04.10-22.08.51
+[2018.04.10-21.08.51:803][964]LogWorld: Bringing up level for play took: 0.004758
+[2018.04.10-21.08.51:804][964]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.10-21.08.51:804][964]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.04.10-21.08.51:804][964]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.04.10-21.08.51:804][964]LogScript:Warning: Accessed None trying to read property None_ExecuteUbergraph_Textures_RefProperty
+	Textures_C /Game/Maps/UEDPIE_0_Textures.Textures:PersistentLevel.Textures_C_0
+	Function /Game/Maps/Textures.Textures_C:ExecuteUbergraph_Textures:0017
+[2018.04.10-21.08.51:804][964]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property None_ExecuteUbergraph_Textures_RefProperty from function: 'ExecuteUbergraph_Textures' from node: Play in graph: EventGraph in object: Textures with description: Accessed None trying to read property None_ExecuteUbergraph_Textures_RefProperty
+[2018.04.10-21.08.51:804][964]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.04.10-21.08.51:804][964]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Textures -0.402
+[2018.04.10-21.08.51:805][964]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Textures.Textures:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Textures.Textures:PersistentLevel.Textures' with GeneratedClass '/Game/Maps/Textures.Textures_C' with ClassGeneratedBy '/Game/Maps/Textures.Textures:PersistentLevel.Textures'
+[2018.04.10-21.09.07:049][789]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Textures.Textures:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Textures.Textures:PersistentLevel.Textures' with GeneratedClass '/Game/Maps/Textures.Textures_C' with ClassGeneratedBy '/Game/Maps/Textures.Textures:PersistentLevel.Textures'
+[2018.04.10-21.09.07:096][789]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Textures.Textures:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Textures.Textures:PersistentLevel.Textures' with GeneratedClass '/Game/Maps/Textures.Textures_C' with ClassGeneratedBy '/Game/Maps/Textures.Textures:PersistentLevel.Textures'
+[2018.04.10-21.09.24:449][804]Cmd: SELECT NONE
+[2018.04.10-21.09.53:839][285]Cmd: SELECT NONE
+[2018.04.10-21.10.52:953][938]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.10.52:967][938]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.10-21.10.54:249][ 15]MaterialEditorStats: Info Base pass shader: 77 instructions
+[2018.04.10-21.10.54:249][ 15]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.10-21.10.54:249][ 15]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.10-21.10.54:249][ 15]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.10-21.11.14:127][656]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.11.14:143][656]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.04.10-21.11.15:234][714]MaterialEditorStats: Info Base pass shader: 77 instructions
+[2018.04.10-21.11.15:234][714]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.10-21.11.15:234][714]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.10-21.11.15:234][714]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.10-21.11.16:988][863]LogMaterialEditor: Applying material Landscape
+[2018.04.10-21.11.17:536][863]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.11.17:575][863]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.11.17:612][863]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.11.17:637][863]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.11.17:718][863]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Landscape, compiling. 
+[2018.04.10-21.11.18:416][863]TextureStreamingBuild:Display: Compiling optional shaders took 0.703 seconds.
+[2018.04.10-21.11.19:680][930]LogMaterialEditor: Saving and Compiling material Landscape
+[2018.04.10-21.11.20:755][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Material/Landscape" FILE="F:/Unreal/UnrealProject/UnrealProject/Content/MyContent/Material/Landscape.uasset" SILENT=true
+[2018.04.10-21.11.20:784][930]LogSavePackage: Save=26.04ms
+[2018.04.10-21.11.20:784][930]LogSavePackage: Moving 'F:/Unreal/UnrealProject/UnrealProject/Saved/LandscapeA9FD23DD4A34E4727704759185F16FC2.tmp' to 'F:/Unreal/UnrealProject/UnrealProject/Content/MyContent/Material/Landscape.uasset'
+[2018.04.10-21.11.20:787][930]LogSavePackage:Display: Finished SavePackage F:/Unreal/UnrealProject/UnrealProject/Content/MyContent/Material/Landscape.uasset
+[2018.04.10-21.11.20:793][930]MaterialEditorStats: Info Base pass shader: 77 instructions
+[2018.04.10-21.11.20:793][930]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.10-21.11.20:793][930]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.10-21.11.20:793][930]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.10-21.11.38:323][689]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.11.38:332][689]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.11.38:363][689]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.11.38:398][689]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.11.38:446][689]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128)
+[2018.04.10-21.12.36:326][385]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2018.04.10-21.13.17:386][750]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.13.17:421][750]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.13.29:960][810]LogTexture:Display: Building textures: Texture2D_13 (BGRA8, 64X64)
+[2018.04.10-21.13.36:006][418]LogTexture:Display: Building textures: Texture2D_14 (BGRA8, 64X64)
+[2018.04.10-21.13.47:269][549]LogTexture:Display: Building textures: Texture2D_15 (BGRA8, 64X64)
+[2018.04.10-21.13.57:766][613]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2018.04.10-21.13.57:788][613]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2018.04.10-21.14.07:571][551]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2018.04.10-21.14.10:271][790]LogTexture:Display: Building textures: Texture2D_16 (BGRA8, 64X64)
+[2018.04.10-21.14.10:379][798]LogTexture:Display: Building textures: Texture2D_17 (BGRA8, 64X64)
+[2018.04.10-21.14.16:620][451]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2018.04.10-21.14.30:665][899]LogTexture:Display: Building textures: Texture2D_18 (BGRA8, 64X64)
+[2018.04.10-21.14.35:525][404]LogTexture:Display: Building textures: Texture2D_19 (BGRA8, 64X64)
+[2018.04.10-21.14.36:364][485]LogTexture:Display: Building textures: Texture2D_20 (BGRA8, 64X64)
+[2018.04.10-21.14.45:365][421]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2018.04.10-21.15.34:341][378]Cmd: TRANSACTION UNDO
+[2018.04.10-21.15.34:341][378]LogEditorTransaction: Undo Landscape Editing: Paint
+[2018.04.10-21.15.34:367][378]LogTexture:Display: Building textures: Texture2D_5 (BGRA8, 64X64)
+[2018.04.10-21.15.34:388][378]LogTexture:Display: Building textures: Texture2D_20 (BGRA8, 64X64)
+[2018.04.10-21.15.34:410][378]LogTexture:Display: Building textures: Texture2D_14 (BGRA8, 64X64)
+[2018.04.10-21.15.34:431][378]LogTexture:Display: Building textures: Texture2D_13 (BGRA8, 64X64)
+[2018.04.10-21.15.34:453][378]LogTexture:Display: Building textures: Texture2D_7 (BGRA8, 64X64)
+[2018.04.10-21.15.34:584][378]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.15.34:790][383]Cmd: TRANSACTION UNDO
+[2018.04.10-21.15.34:790][383]LogEditorTransaction: Undo Landscape Editing: Paint
+[2018.04.10-21.15.34:821][383]LogTexture:Display: Building textures: Texture2D_5 (BGRA8, 64X64)
+[2018.04.10-21.15.34:849][383]LogTexture:Display: Building textures: Texture2D_20 (BGRA8, 64X64)
+[2018.04.10-21.15.34:878][383]LogTexture:Display: Building textures: Texture2D_7 (BGRA8, 64X64)
+[2018.04.10-21.15.34:913][383]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 64X64)
+[2018.04.10-21.15.34:952][383]LogTexture:Display: Building textures: Texture2D_13 (BGRA8, 64X64)
+[2018.04.10-21.15.34:992][383]LogTexture:Display: Building textures: Texture2D_14 (BGRA8, 64X64)
+[2018.04.10-21.15.35:173][383]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.15.36:253][457]MaterialEditorStats: Info Base pass shader: 77 instructions
+[2018.04.10-21.15.36:253][457]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.10-21.15.36:253][457]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.10-21.15.36:253][457]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.10-21.16.43:746][448]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Textures" FILE="F:/Unreal/UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/Textures_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.04.10-21.16.43:757][448]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 64X64)
+[2018.04.10-21.16.43:757][448]LogTexture:Display: Building textures: Texture2D_10 (BGRA8, 64X64)
+[2018.04.10-21.16.43:758][448]LogTexture:Display: Building textures: Texture2D_11 (BGRA8, 64X64)
+[2018.04.10-21.16.43:758][448]LogTexture:Display: Building textures: Texture2D_12 (BGRA8, 64X64)
+[2018.04.10-21.16.43:758][448]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 64X64)
+[2018.04.10-21.16.43:759][448]LogTexture:Display: Building textures: Texture2D_3 (BGRA8, 64X64)
+[2018.04.10-21.16.43:759][448]LogTexture:Display: Building textures: Texture2D_4 (BGRA8, 64X64)
+[2018.04.10-21.16.43:760][448]LogTexture:Display: Building textures: Texture2D_47 (BGRA8, 512X512)
+[2018.04.10-21.16.43:771][448]LogTexture:Display: Building textures: Texture2D_5 (BGRA8, 64X64)
+[2018.04.10-21.16.43:772][448]LogTexture:Display: Building textures: Texture2D_6 (BGRA8, 64X64)
+[2018.04.10-21.16.43:773][448]LogTexture:Display: Building textures: Texture2D_7 (BGRA8, 64X64)
+[2018.04.10-21.16.43:773][448]LogTexture:Display: Building textures: Texture2D_8 (BGRA8, 64X64)
+[2018.04.10-21.16.43:774][448]LogTexture:Display: Building textures: Texture2D_9 (BGRA8, 64X64)
+[2018.04.10-21.16.43:778][448]LogBlueprint:Warning: [Compiler PersistentLevel.Textures] Warning Node  Unknown  is not referencing a valid level actor
+[2018.04.10-21.16.43:779][448]LogBlueprint:Warning: [Compiler PersistentLevel.Textures] Warning [7438.53] Compile of PersistentLevel.Textures successful, but with 1 Warning(s) [in 23 ms] (/Game/Maps/Textures.Textures:PersistentLevel.Textures)
+[2018.04.10-21.16.43:779][448]LogBlueprint:Warning: [Compiler PersistentLevel.Textures] Warning [7438.53] Compile of PersistentLevel.Textures successful, but with 2 Warning(s) [in 0 ms] (/Game/Maps/Textures.Textures:PersistentLevel.Textures)
+[2018.04.10-21.16.43:779][448]LogBlueprint:Warning: [Compiler PersistentLevel.Textures] Warning [7438.53] Compile of PersistentLevel.Textures successful, but with 3 Warning(s) [in 0 ms] (/Game/Maps/Textures.Textures:PersistentLevel.Textures)
+[2018.04.10-21.16.43:840][448]LogBlueprint:Warning: [Compiler PersistentLevel.Textures] Warning [7438.60] Compile of PersistentLevel.Textures successful, but with 4 Warning(s) [in 60 ms] (/Game/Maps/Textures.Textures:PersistentLevel.Textures)
+[2018.04.10-21.16.43:840][448]LogBlueprint:Warning: [Compiler PersistentLevel.Textures] Warning [7438.60] Compile of PersistentLevel.Textures successful, but with 5 Warning(s) [in 0 ms] (/Game/Maps/Textures.Textures:PersistentLevel.Textures)
+[2018.04.10-21.16.43:840][448]LogBlueprint:Warning: [Compiler PersistentLevel.Textures] Warning [7438.60] Compile of PersistentLevel.Textures successful, but with 6 Warning(s) [in 0 ms] (/Game/Maps/Textures.Textures:PersistentLevel.Textures)
+[2018.04.10-21.16.43:961][448]LogTexture:Display: Building textures: Texture2D_15 (BGRA8, 64X64)
+[2018.04.10-21.16.43:965][448]LogTexture:Display: Building textures: Texture2D_14 (BGRA8, 64X64)
+[2018.04.10-21.16.43:966][448]LogTexture:Display: Building textures: Texture2D_13 (BGRA8, 64X64)
+[2018.04.10-21.16.43:967][448]LogTexture:Display: Building textures: Texture2D_20 (BGRA8, 64X64)
+[2018.04.10-21.16.43:967][448]LogTexture:Display: Building textures: Texture2D_18 (BGRA8, 64X64)
+[2018.04.10-21.16.43:968][448]LogTexture:Display: Building textures: Texture2D_16 (BGRA8, 64X64)
+[2018.04.10-21.16.43:968][448]LogTexture:Display: Building textures: Texture2D_19 (BGRA8, 64X64)
+[2018.04.10-21.16.43:969][448]LogTexture:Display: Building textures: Texture2D_17 (BGRA8, 64X64)
+[2018.04.10-21.16.44:578][448]LogSavePackage: Save=823.33ms
+[2018.04.10-21.16.44:578][448]LogSavePackage: Moving 'F:/Unreal/UnrealProject/UnrealProject/Saved/Textures_Auto12AF81EF941CEC0A6C1B8A1B1A280485A.tmp' to 'F:/Unreal/UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/Textures_Auto1.umap'
+[2018.04.10-21.16.44:578][448]LogSavePackage:Display: Finished SavePackage F:/Unreal/UnrealProject/UnrealProject/Saved/Autosaves/Game/Maps/Textures_Auto1.umap
+[2018.04.10-21.16.44:585][448]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Textures' took 0.856
+[2018.04.10-21.16.44:585][448]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.856
+[2018.04.10-21.17.08:388][728]MapCheck: New page: Map Check
+[2018.04.10-21.17.08:405][728]Cmd: MAP REBUILD ALLVISIBLE
+[2018.04.10-21.17.08:408][728]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.04.10-21.17.09:506][728]LightingResults: New page: Lighting Build - 10 Apr 2018 23:17:09
+[2018.04.10-21.17.09:602][728]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.04.10-21.17.09:639][728]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.04.10-21.17.09:656][728]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.04.10-21.17.10:256][728]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.04.10-21.17.10:256][728]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11328
+[2018.04.10-21.17.15:269][728]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2018.04.10-21.17.15:271][728]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.04.10-21.17.15:271][728]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.04.10-21.17.15:271][728]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.04.10-21.17.15:271][728]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.04.10-21.17.15:271][728]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.04.10-21.17.16:117][728]LogEditorBuildUtils: Build time 0:07
+[2018.04.10-21.17.16:168][729]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1076, compiling. 
+[2018.04.10-21.17.16:175][729]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1076, compiling. 
+[2018.04.10-21.17.16:258][732]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1083, compiling. 
+[2018.04.10-21.17.16:264][732]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1083, compiling. 
+[2018.04.10-21.17.16:843][753]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material__32, compiling. 
+[2018.04.10-21.17.16:852][753]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material__32, compiling. 
+[2018.04.10-21.17.16:891][754]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Floor_Walnut_Polished, compiling. 
+[2018.04.10-21.17.16:899][754]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Floor_Walnut_Polished, compiling. 
+[2018.04.10-21.17.16:951][755]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Brick_Clay_Old_Inst, compiling. 
+[2018.04.10-21.17.16:959][755]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Brick_Clay_Old_Inst, compiling. 
+[2018.04.10-21.17.17:021][756]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer SlateRoof, compiling. 
+[2018.04.10-21.17.17:031][756]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer SlateRoof, compiling. 
+[2018.04.10-21.17.17:054][757]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Chrome, compiling. 
+[2018.04.10-21.17.17:062][757]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Chrome, compiling. 
+[2018.04.10-21.17.18:499][759]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere4)
+[2018.04.10-21.18.04:892][380]Job is a success!
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 256X128)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT, 256X128)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 256X256)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 256X256)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT, 256X128)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 256X256)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1, 256X256)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT, 256X128)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 256X256)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1, 256X256)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT, 256X128)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 256X256)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1, 256X256)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: SkyOcclusion1_7 (AutoDXT, 256X128)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 256X256)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1, 256X256)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: SkyOcclusion1_8 (AutoDXT, 256X128)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT, 256X256)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1, 256X256)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: SkyOcclusion1_9 (AutoDXT, 256X128)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT, 256X256)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1, 256X256)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: SkyOcclusion1_10 (AutoDXT, 256X128)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT, 256X256)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1, 256X256)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: SkyOcclusion1_11 (AutoDXT, 256X128)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT, 256X256)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1, 256X256)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: SkyOcclusion1_12 (AutoDXT, 256X128)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT, 256X256)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1, 256X256)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: SkyOcclusion1_13 (AutoDXT, 256X128)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT, 256X256)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1, 256X256)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: SkyOcclusion1_14 (AutoDXT, 256X128)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT, 256X256)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1, 256X256)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: SkyOcclusion1_15 (AutoDXT, 256X128)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT, 256X256)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1, 256X256)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: SkyOcclusion1_16 (AutoDXT, 256X128)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT, 256X256)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1, 256X256)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: SkyOcclusion1_17 (AutoDXT, 64X32)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT, 64X64)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1, 64X64)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: SkyOcclusion0_18 (AutoDXT, 64X32)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 64X64)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1, 64X64)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: SkyOcclusion0_19 (AutoDXT, 64X32)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT, 64X64)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1, 64X64)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: SkyOcclusion0_20 (AutoDXT, 64X32)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT, 64X64)
+[2018.04.10-21.18.05:951][381]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1, 64X64)
+[2018.04.10-21.18.06:057][381]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 256X64)
+[2018.04.10-21.18.06:057][381]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 256X64)
+[2018.04.10-21.18.06:057][381]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8, 256X64)
+[2018.04.10-21.18.06:057][381]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 512X64)
+[2018.04.10-21.18.06:057][381]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 256X64)
+[2018.04.10-21.18.06:057][381]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8, 256X64)
+[2018.04.10-21.18.06:057][381]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8, 256X64)
+[2018.04.10-21.18.06:057][381]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8, 256X64)
+[2018.04.10-21.18.06:057][381]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8, 512X64)
+[2018.04.10-21.18.06:057][381]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8, 256X64)
+[2018.04.10-21.18.06:057][381]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8, 256X64)
+[2018.04.10-21.18.06:057][381]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (G8, 256X64)
+[2018.04.10-21.18.06:057][381]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (G8, 256X64)
+[2018.04.10-21.18.06:057][381]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (G8, 256X64)
+[2018.04.10-21.18.06:057][381]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (G8, 64X32)
+[2018.04.10-21.18.06:057][381]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (G8, 32X32)
+[2018.04.10-21.18.06:057][381]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (G8, 256X64)
+[2018.04.10-21.18.06:057][381]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (G8, 32X32)
+[2018.04.10-21.18.06:057][381]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (G8, 32X32)
+[2018.04.10-21.18.06:057][381]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 512X512)
+[2018.04.10-21.18.06:111][381]Lightmass on OFFICE: 44.5 sec total, 5.03 sec importing, 6.47 sec setup, 3.15 sec photons, 29.8 sec processing, 0 ms extra exporting [1147/1147 mappings]. Threads: 3:28 min total, 2:41 min processing.
+[2018.04.10-21.18.06:172][381]LogStaticLightingSystem: Illumination: 56.6 sec (758 ms encoding lightmaps, 101 ms encoding shadowmaps)
+[2018.04.10-21.18.06:172][381]LogStaticLightingSystem: Lightmap texture memory:  5.1 MB (2.5 MB streaming, 2.7 MB non-streaming), 40 textures
+[2018.04.10-21.18.06:172][381]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.4 MB streaming, 0.3 MB non-streaming), 20 textures
+[2018.04.10-21.18.06:295][381]DumpUnbuiltLightIteractions
+[2018.04.10-21.18.06:296][381]Lights with unbuilt interactions: 0
+[2018.04.10-21.18.06:296][381]
+[2018.04.10-21.18.06:296][381]Primitives with unbuilt interactions: 0
+[2018.04.10-21.18.06:307][382]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.04.10-21.18.06:307][382]MapCheck: New page: Textures - 10 Apr 2018 23:18:06
+[2018.04.10-21.18.06:310][382]MapCheck:Warning: Warning 039_Window_low_poly_23 Static mesh actor has NULL StaticMesh property 
+[2018.04.10-21.18.06:310][382]MapCheck:Warning: Warning 039_Window_low_poly_23 Static mesh actor has NULL StaticMesh property 
+[2018.04.10-21.18.06:380][382]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 72.665ms to complete.
+[2018.04.10-21.18.37:746][901]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.18.38:941][965]MaterialEditorStats: Info Base pass shader: 77 instructions
+[2018.04.10-21.18.38:941][965]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.10-21.18.38:941][965]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.10-21.18.38:941][965]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.10-21.18.46:547][568]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.18.47:484][617]MaterialEditorStats: Info Base pass shader: 77 instructions
+[2018.04.10-21.18.47:484][617]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.10-21.18.47:484][617]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.10-21.18.47:484][617]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.10-21.18.58:181][464]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.18.59:125][513]MaterialEditorStats: Info Base pass shader: 77 instructions
+[2018.04.10-21.18.59:125][513]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.10-21.18.59:125][513]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.10-21.18.59:125][513]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.10-21.19.12:946][616]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.19.13:906][666]MaterialEditorStats: Info Base pass shader: 77 instructions
+[2018.04.10-21.19.13:906][666]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.10-21.19.13:906][666]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.10-21.19.13:906][666]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.10-21.19.32:803][159]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.19.32:839][159]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.04.10-21.19.32:843][159]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2018.04.10-21.19.33:833][207]MaterialEditorStats: Info Base pass shader: 77 instructions
+[2018.04.10-21.19.33:833][207]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.10-21.19.33:833][207]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.10-21.19.33:833][207]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.10-21.19.49:321][460]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.19.49:335][460]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, compiling. 
+[2018.04.10-21.19.49:364][460]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2018.04.10-21.19.50:350][507]MaterialEditorStats: Info Base pass shader: 77 instructions
+[2018.04.10-21.19.50:350][507]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.10-21.19.50:350][507]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.10-21.19.50:350][507]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.10-21.20.13:989][372]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.20.15:201][435]MaterialEditorStats: Info Base pass shader: 77 instructions
+[2018.04.10-21.20.15:201][435]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.10-21.20.15:201][435]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.10-21.20.15:201][435]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.10-21.20.17:802][632]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.20.17:818][632]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2018.04.10-21.20.18:843][680]MaterialEditorStats: Info Base pass shader: 77 instructions
+[2018.04.10-21.20.18:843][680]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.10-21.20.18:843][680]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.10-21.20.18:843][680]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.10-21.20.19:797][751]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.20.19:813][751]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2018.04.10-21.20.20:817][799]MaterialEditorStats: Info Base pass shader: 77 instructions
+[2018.04.10-21.20.20:817][799]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.10-21.20.20:817][799]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.10-21.20.20:817][799]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.10-21.20.28:994][409]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.20.29:013][409]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2018.04.10-21.20.30:014][458]MaterialEditorStats: Info Base pass shader: 77 instructions
+[2018.04.10-21.20.30:014][458]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.10-21.20.30:014][458]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.10-21.20.30:014][458]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.10-21.20.39:568][190]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.20.40:536][237]MaterialEditorStats: Info Base pass shader: 77 instructions
+[2018.04.10-21.20.40:536][237]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.10-21.20.40:536][237]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.10-21.20.40:536][237]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.10-21.20.50:146][  0]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.20.51:099][ 49]MaterialEditorStats: Info Base pass shader: 77 instructions
+[2018.04.10-21.20.51:099][ 49]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.10-21.20.51:099][ 49]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.10-21.20.51:099][ 49]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.10-21.20.52:821][181]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.20.53:793][229]MaterialEditorStats: Info Base pass shader: 77 instructions
+[2018.04.10-21.20.53:793][229]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.10-21.20.53:793][229]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.10-21.20.53:793][229]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.10-21.21.01:353][830]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.21.01:390][830]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2018.04.10-21.21.01:394][830]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2018.04.10-21.21.02:349][875]MaterialEditorStats: Info Base pass shader: 77 instructions
+[2018.04.10-21.21.02:349][875]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.10-21.21.02:349][875]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.10-21.21.02:349][875]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.10-21.21.11:431][583]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.21.11:445][583]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_1, compiling. 
+[2018.04.10-21.21.11:474][583]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2018.04.10-21.21.12:446][631]MaterialEditorStats: Info Base pass shader: 77 instructions
+[2018.04.10-21.21.12:446][631]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.10-21.21.12:446][631]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.10-21.21.12:446][631]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.10-21.21.14:506][788]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.21.14:522][788]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2018.04.10-21.21.15:501][836]MaterialEditorStats: Info Base pass shader: 77 instructions
+[2018.04.10-21.21.15:501][836]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.10-21.21.15:501][836]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.10-21.21.15:501][836]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.10-21.21.17:558][993]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.21.17:572][993]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2018.04.10-21.21.18:541][ 42]MaterialEditorStats: Info Base pass shader: 77 instructions
+[2018.04.10-21.21.18:541][ 42]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.10-21.21.18:541][ 42]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.10-21.21.18:541][ 42]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.10-21.21.25:238][557]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.21.25:251][557]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2018.04.10-21.21.26:257][608]MaterialEditorStats: Info Base pass shader: 77 instructions
+[2018.04.10-21.21.26:257][608]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.10-21.21.26:257][608]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.10-21.21.26:257][608]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.10-21.21.28:389][779]LogMaterialEditor: Applying material Landscape
+[2018.04.10-21.21.28:940][779]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.21.28:980][779]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.21.29:016][779]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.21.29:044][779]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.21.29:094][779]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.21.29:163][779]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Landscape, compiling. 
+[2018.04.10-21.21.29:852][779]TextureStreamingBuild:Display: Compiling optional shaders took 0.697 seconds.
+[2018.04.10-21.21.32:255][901]MaterialEditorStats: Info Base pass shader: 77 instructions
+[2018.04.10-21.21.32:255][901]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.04.10-21.21.32:255][901]MaterialEditorStats: Info Texture samplers: 3/16
+[2018.04.10-21.21.32:255][901]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.10-21.21.36:192][109]LogMaterialEditor: Saving and Compiling material Landscape
+[2018.04.10-21.21.36:227][109]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Material/Landscape" FILE="F:/Unreal/UnrealProject/UnrealProject/Content/MyContent/Material/Landscape.uasset" SILENT=true
+[2018.04.10-21.21.36:261][109]LogSavePackage: Save=25.24ms
+[2018.04.10-21.21.36:261][109]LogSavePackage: Moving 'F:/Unreal/UnrealProject/UnrealProject/Saved/Landscape8DB31BB3469DD406852CD5B3A1FD188F.tmp' to 'F:/Unreal/UnrealProject/UnrealProject/Content/MyContent/Material/Landscape.uasset'
+[2018.04.10-21.21.36:263][109]LogSavePackage:Display: Finished SavePackage F:/Unreal/UnrealProject/UnrealProject/Content/MyContent/Material/Landscape.uasset
+[2018.04.10-21.21.55:479][262]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.21.55:488][262]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.21.55:511][262]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.21.55:541][262]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.22.09:028][585]LogMaterialEditor: Saving and Compiling material Landscape
+[2018.04.10-21.22.09:039][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyContent/Material/Landscape" FILE="F:/Unreal/UnrealProject/UnrealProject/Content/MyContent/Material/Landscape.uasset" SILENT=true
+[2018.04.10-21.22.09:050][585]LogSavePackage: Save=10.06ms
+[2018.04.10-21.22.09:050][585]LogSavePackage: Moving 'F:/Unreal/UnrealProject/UnrealProject/Saved/Landscape689659B74BB31F07863FDC94132CC7AF.tmp' to 'F:/Unreal/UnrealProject/UnrealProject/Content/MyContent/Material/Landscape.uasset'
+[2018.04.10-21.22.09:051][585]LogSavePackage:Display: Finished SavePackage F:/Unreal/UnrealProject/UnrealProject/Content/MyContent/Material/Landscape.uasset
+[2018.04.10-21.23.04:159][986]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2018.04.10-21.23.16:827][439]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2018.04.10-21.23.27:722][ 53]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.23.30:285][245]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.23.30:424][245]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.23.49:490][409]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2018.04.10-21.25.20:422][968]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.25.30:470][980]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2018.04.10-21.25.31:324][ 70]LogTexture:Display: Building textures: Texture2D_21 (BGRA8, 64X64)
+[2018.04.10-21.25.31:629][103]LogTexture:Display: Building textures: Texture2D_22 (BGRA8, 64X64)
+[2018.04.10-21.25.31:648][103]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.04.10-21.25.35:915][413]LogTexture:Display: Building textures: Texture2D_23 (BGRA8, 64X64)
+[2018.04.10-21.25.35:931][413]LogTexture:Display: Building textures: Texture2D_24 (BGRA8, 64X64)
+[2018.04.10-21.25.37:747][597]LogTexture:Display: Building textures: Texture2D_25 (BGRA8, 64X64)
+[2018.04.10-21.25.38:106][634]LogTexture:Display: Building textures: Texture2D_26 (BGRA8, 64X64)
+[2018.04.10-21.26.31:431][444]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'LandscapeInfo_0' or package '/Engine/Transient'.
+[2018.04.10-21.26.41:851][339]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'LandscapeInfo_0' or package '/Engine/Transient'.
+[2018.04.10-21.26.42:190][339]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.336 s
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: === Handled ensure: ===
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: 
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: Ensure condition failed: Allocation.LayerInfo [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Landscape\Private\LandscapeRender.cpp] [Line: 667]
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: 
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: Stack: 
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001955E2B6
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001930B8C2
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000019321E86
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Landscape.dll!0x000000000B35F20D
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Landscape.dll!0x000000000B2E4605
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x0000000009D6D63D
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000000FA31C74
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000000F9678EC
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000000F82B732
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000000F95D9B7
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000000FA507C1
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000000FA50394
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000000DFDA5EA
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000000DFD8C71
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000000D83BE99
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000000DAA9BF2
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000000DA25E22
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000000DA28859
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000000DAA3A75
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000000F078F57
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000000F0A5D7B
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000000EEC9E9C
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000000EE99835
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000000EF3E5E2
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000000EF2720F
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000000EF18391
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001955175B
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001953B7D1
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000195533DB
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000019537B22
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: USER32.dll!0x0000000047C0B85D
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: USER32.dll!0x0000000047C0B1EF
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000019553C49
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000000EF49A86
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000000EED3013
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000000DB34B7F
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000000DFCC735
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000000DFCBEC6
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x0000000000189D11
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000002C0883
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x0000000000295121
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000000029CFF6
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000000EEDEB50
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000000EF23D60
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000002F0BF9
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000000EEC9021
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000000EE9840E
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000000EE9A006
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000000EF255AD
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000000EF16518
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001955149C
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001953B7D1
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000195533DB
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000019537B22
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: USER32.dll!0x0000000047C0B85D
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: USER32.dll!0x0000000047C0B1EF
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000019553CE6
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor.exe!0x00000000B38BDB44
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor.exe!0x00000000B38AF0B0
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor.exe!0x00000000B38AF12A
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor.exe!0x00000000B38C0CF9
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: UE4Editor.exe!0x00000000B38C25F7
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: KERNEL32.DLL!0x00000000494E1FE4
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: ntdll.dll!0x00000000497CEF91
+[2018.04.10-21.26.42:190][339]LogOutputDevice:Error: 
+[2018.04.10-21.26.42:195][339]LogStats:                SubmitErrorReport -  0.000 s
